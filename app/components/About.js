@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const About = () => {
   return (
@@ -37,12 +38,12 @@ const About = () => {
               and the certifications to meet the most stringent demands of both
               US and foreign governments.
             </p>
-            <a
+            <Link
               href='#about'
               className='btn btn--white btn--animated'
             >
               Capabilities
-            </a>
+            </Link>
           </div>
           <div className='col-1-of-2'>
             <div className='composition'>

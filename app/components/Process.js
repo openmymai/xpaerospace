@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Process = () => {
   return (
     <div>
@@ -11,12 +13,12 @@ const Process = () => {
           <div className='container'>
             <div className='row'>
               <div className='col-md-6 offset-md-3'>
-                <a
+                <Link
                   href='#about'
                   className='btn btn--white btn--animated'
                 >
                   Why XP
-                </a>
+                </Link>
               </div>
             </div>
           </div>

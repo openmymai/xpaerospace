@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -52,23 +53,23 @@ const Footer = () => {
                   <ul>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      <a href='#about'>ABOUT</a>
+                      <Link href='#about'>ABOUT</Link>
                     </li>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      <a href='#feature'>WHY XP</a>
+                      <Link href='#feature'>WHY XP</Link>
                     </li>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      <a href='#mission'>PAST PERFORMANCE</a>
+                      <Link href='#mission'>PAST PERFORMANCE</Link>
                     </li>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      <a href='#process'>PARTNERS</a>
+                      <Link href='#process'>PARTNERS</Link>
                     </li>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      <a href='#contact'>CONTACT</a>
+                      <Link href='#contact'>CONTACT</Link>
                     </li>
                   </ul>
                 </div>

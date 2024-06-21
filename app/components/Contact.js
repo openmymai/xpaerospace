@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Contact = () => {
   return (
     <div>
@@ -15,12 +17,12 @@ const Contact = () => {
                     operators and pilots need to rise above their most complex
                     aviation challenges.
                   </h2>
-                  <a
+                  <Link
                     href='#about'
                     className='btn btn--white btn--animated'
                   >
                     Contact US
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

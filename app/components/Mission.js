@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Mission = () => {
   return (
     <div>
@@ -32,12 +34,12 @@ const Mission = () => {
                   to meet every client’s specific goals through flight testing,
                   prototype development, and aviation training.
                 </p>
-                <a
+                <Link
                   href='#about'
                   className='btn btn--white btn--animated'
                 >
                   About XP
-                </a>
+                </Link>
               </div>
             </div>
           </div>
