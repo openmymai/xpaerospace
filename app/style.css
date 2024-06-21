@@ -935,7 +935,7 @@ p {
 }
 .footer__footer-links ul i {
   padding-right: 2px;
-  color: #47b2e4;
+  color: #c30a23;
   font-size: 18px;
   line-height: 1;
 }
@@ -955,7 +955,7 @@ p {
 }
 .footer__footer-links ul a:hover {
   text-decoration: none;
-  color: #47b2e4;
+  color: #c30a23;
 }
 .footer__copyright {
   float: left;

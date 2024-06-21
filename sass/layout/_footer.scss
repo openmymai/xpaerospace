@@ -96,7 +96,7 @@
 
   &__footer-links ul i {
     padding-right: 2px;
-    color: #47b2e4;
+    color: $color-primary;
     font-size: 18px;
     line-height: 1;
   }
@@ -120,7 +120,7 @@
 
   &__footer-links ul a:hover {
     text-decoration: none;
-    color: #47b2e4;
+    color: $color-primary;
   }
 
   &__copyright {
