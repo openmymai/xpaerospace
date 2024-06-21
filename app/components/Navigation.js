@@ -13,7 +13,7 @@ const Navigation = () => {
             className='navigation__checkbox'
             id='navi-toggle'
             checked={checked}
-            onClick={() => setChecked(!checked)}
+            onChange={() => setChecked(!checked)}
           ></input>
           <label
             htmlFor='navi-toggle'
@@ -24,57 +24,47 @@ const Navigation = () => {
           <div className='navigation__background'>&nbsp;</div>
           <nav className='navigation__nav'>
             <ul className='navigation__list'>
-              <li
-                className='navigation__item'
-                onClick={() => setChecked(!checked)}
-              >
+              <li className='navigation__item'>
                 <a
                   href='#'
                   className='navigation__link'
+                  onClick={() => setChecked(!checked)}
                 >
                   ABOUT
                 </a>
               </li>
-              <li
-                className='navigation__item'
-                onClick={() => setChecked(!checked)}
-              >
+              <li className='navigation__item'>
                 <a
                   href='#'
                   className='navigation__link'
+                  onClick={() => setChecked(!checked)}
                 >
                   CAPABILITIES
                 </a>
               </li>
-              <li
-                className='navigation__item'
-                onClick={() => setChecked(!checked)}
-              >
+              <li className='navigation__item'>
                 <a
                   href='#'
                   className='navigation__link'
+                  onClick={() => setChecked(!checked)}
                 >
                   WHY XP
                 </a>
               </li>
-              <li
-                className='navigation__item'
-                onClick={() => setChecked(!checked)}
-              >
+              <li className='navigation__item'>
                 <a
                   href='#'
                   className='navigation__link'
+                  onClick={() => setChecked(!checked)}
                 >
                   PAST PERFORMANCE
                 </a>
               </li>
-              <li
-                className='navigation__item'
-                onClick={() => setChecked(!checked)}
-              >
+              <li className='navigation__item'>
                 <a
                   href='#'
                   className='navigation__link'
+                  onClick={() => setChecked(!checked)}
                 >
                   PARTNERS
                 </a>
