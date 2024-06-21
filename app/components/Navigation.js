@@ -13,7 +13,7 @@ const Navigation = () => {
             className='navigation__checkbox'
             id='navi-toggle'
             checked={checked}
-            onChange={() => setChecked(!checked)}
+            onClick={() => setChecked(!checked)}
           ></input>
           <label
             htmlFor='navi-toggle'
