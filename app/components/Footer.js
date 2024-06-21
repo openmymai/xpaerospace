@@ -49,48 +49,23 @@ const Footer = () => {
                   <ul>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      <a
-                        className='nav-link'
-                        href='#'
-                      >
-                        ABOUT
-                      </a>
+                      <a href='#'>ABOUT</a>
                     </li>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      <a
-                        className='nav-link'
-                        href='#'
-                      >
-                        WHY XP
-                      </a>
+                      <a href='#'>WHY XP</a>
                     </li>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      <a
-                        className='nav-link'
-                        href='#'
-                      >
-                        PAST PERFORMANCE
-                      </a>
+                      <a href='#'>PAST PERFORMANCE</a>
                     </li>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      <a
-                        className='nav-link'
-                        href='#'
-                      >
-                        PARTNERS
-                      </a>
+                      <a href='#'>PARTNERS</a>
                     </li>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      <a
-                        className='nav-link'
-                        href='#'
-                      >
-                        CONTACT
-                      </a>
+                      <a href='#'>CONTACT</a>
                     </li>
                   </ul>
                 </div>
