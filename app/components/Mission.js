@@ -13,6 +13,7 @@ const Mission = () => {
             autoPlay={true}
             muted
             loop
+            playsInline
           >
             <source
               src='/img/video.mp4'
