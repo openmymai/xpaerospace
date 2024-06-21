@@ -1,7 +1,10 @@
 const Contact = () => {
   return (
     <div>
-      <section className='section-contact'>
+      <section
+        id='contact'
+        className='section-contact'
+      >
         <div className='u-text-center-contact'>
           <div className='container'>
             <div className='row'>
@@ -13,7 +16,7 @@ const Contact = () => {
                     aviation challenges.
                   </h2>
                   <a
-                    href='#'
+                    href='#about'
                     className='btn btn--white btn--animated'
                   >
                     Contact US

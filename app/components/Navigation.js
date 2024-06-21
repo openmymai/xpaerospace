@@ -26,7 +26,7 @@ const Navigation = () => {
             <ul className='navigation__list'>
               <li className='navigation__item'>
                 <a
-                  href='#'
+                  href='#about'
                   className='navigation__link'
                   onClick={() => setChecked(!checked)}
                 >
@@ -35,7 +35,7 @@ const Navigation = () => {
               </li>
               <li className='navigation__item'>
                 <a
-                  href='#'
+                  href='#feature'
                   className='navigation__link'
                   onClick={() => setChecked(!checked)}
                 >
@@ -44,7 +44,7 @@ const Navigation = () => {
               </li>
               <li className='navigation__item'>
                 <a
-                  href='#'
+                  href='#mission'
                   className='navigation__link'
                   onClick={() => setChecked(!checked)}
                 >
@@ -53,7 +53,7 @@ const Navigation = () => {
               </li>
               <li className='navigation__item'>
                 <a
-                  href='#'
+                  href='#process'
                   className='navigation__link'
                   onClick={() => setChecked(!checked)}
                 >
@@ -62,7 +62,7 @@ const Navigation = () => {
               </li>
               <li className='navigation__item'>
                 <a
-                  href='#'
+                  href='#process'
                   className='navigation__link'
                   onClick={() => setChecked(!checked)}
                 >
@@ -74,7 +74,7 @@ const Navigation = () => {
                 onClick={() => setChecked(!checked)}
               >
                 <a
-                  href='#'
+                  href='#contact'
                   className='navigation__link'
                 >
                   CONTACT

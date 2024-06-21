@@ -3,7 +3,10 @@ import Image from 'next/image';
 const Footer = () => {
   return (
     <div>
-      <section className='section-footer'>
+      <section
+        id='footer'
+        className='section-footer'
+      >
         <footer className='footer'>
           <div className='footer__footer-top'>
             <div className='container'>
@@ -49,23 +52,23 @@ const Footer = () => {
                   <ul>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      <a href='#'>ABOUT</a>
+                      <a href='#about'>ABOUT</a>
                     </li>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      <a href='#'>WHY XP</a>
+                      <a href='#feature'>WHY XP</a>
                     </li>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      <a href='#'>PAST PERFORMANCE</a>
+                      <a href='#mission'>PAST PERFORMANCE</a>
                     </li>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      <a href='#'>PARTNERS</a>
+                      <a href='#process'>PARTNERS</a>
                     </li>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      <a href='#'>CONTACT</a>
+                      <a href='#contact'>CONTACT</a>
                     </li>
                   </ul>
                 </div>

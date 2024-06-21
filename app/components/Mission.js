@@ -1,7 +1,10 @@
 const Mission = () => {
   return (
     <div>
-      <section className='section-mission'>
+      <section
+        id='mission'
+        className='section-mission'
+      >
         <div className='bg-video'>
           <video
             className='bg-video__content'
@@ -30,7 +33,7 @@ const Mission = () => {
                   prototype development, and aviation training.
                 </p>
                 <a
-                  href='#'
+                  href='#about'
                   className='btn btn--white btn--animated'
                 >
                   About XP

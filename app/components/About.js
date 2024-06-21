@@ -3,7 +3,10 @@ import Image from 'next/image';
 const About = () => {
   return (
     <div>
-      <section className='section-about'>
+      <section
+        id='about'
+        className='section-about'
+      >
         <div className='u-center-text u-margin-bottom-big'>
           <h1 className='heading-secondary'>
             The complex aviation challenges you face
@@ -35,7 +38,7 @@ const About = () => {
               US and foreign governments.
             </p>
             <a
-              href='#'
+              href='#about'
               className='btn btn--white btn--animated'
             >
               Capabilities

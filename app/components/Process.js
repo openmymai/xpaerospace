@@ -1,7 +1,10 @@
 const Process = () => {
   return (
     <div>
-      <section className='section-process'>
+      <section
+        id='process'
+        className='section-process'
+      >
         <div className='u-center-text u-margin-bottom-small'>
           <h1 className='heading-secondary'>Flight Process</h1>
 
@@ -9,7 +12,7 @@ const Process = () => {
             <div className='row'>
               <div className='col-md-6 offset-md-3'>
                 <a
-                  href='#'
+                  href='#about'
                   className='btn btn--white btn--animated'
                 >
                   Why XP

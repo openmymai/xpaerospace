@@ -1,7 +1,10 @@
 const Features = () => {
   return (
     <div>
-      <section className='section-features'>
+      <section
+        id='feature'
+        className='section-features'
+      >
         <div className='u-center-text u-margin-bottom-small'>
           <h1 className='heading-secondary'>
             YOU CAN’T PREDICT TOMORROW, BUT YOU CAN BE PREPARED FOR IT.
