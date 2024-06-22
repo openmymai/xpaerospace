@@ -72,7 +72,7 @@ const Navigation = () => {
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-300 z-80'
           }
         >
-          <div className='flex py-4 pr-4 w-full items-center justify-end z-60'>
+          <div className='flex py-6 pr-6 w-full items-center justify-end z-60'>
             <div
               onClick={handleNav}
               className='cursor-pointer'
@@ -85,7 +85,7 @@ const Navigation = () => {
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='px-4 py-4 text-base cursor-pointer'
+                  className='px-4 py-4 cursor-pointer text-2xl'
                 >
                   ABOUT
                 </li>
@@ -93,7 +93,7 @@ const Navigation = () => {
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='px-4 py-4 text-base cursor-pointer'
+                  className='px-4 py-4 cursor-pointer text-2xl'
                 >
                   CAPABILITIES
                 </li>
@@ -101,7 +101,7 @@ const Navigation = () => {
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='px-4 py-4 text-base cursor-pointer'
+                  className='px-4 py-4 cursor-pointer text-2xl'
                 >
                   WHY XP
                 </li>
@@ -109,7 +109,7 @@ const Navigation = () => {
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='px-4 py-4 text-base cursor-pointer'
+                  className='px-4 py-4 cursor-pointer text-2xl'
                 >
                   PAST PERFORMANCE
                 </li>
@@ -118,7 +118,7 @@ const Navigation = () => {
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='px-4 py-4 text-base cursor-pointer'
+                  className='px-4 py-4 cursor-pointer text-2xl'
                 >
                   PARTNERS
                 </li>
@@ -126,7 +126,7 @@ const Navigation = () => {
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='px-4 py-4 text-base cursor-pointer'
+                  className='px-4 py-4 cursor-pointer text-2xl'
                 >
                   CONTACT
                 </li>
