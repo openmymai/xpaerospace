@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -24,15 +26,10 @@ const Footer = () => {
                   <h3 className='heading-tertiary u-margin-bottom-small'>
                     GLOBAL HEADQUARTERS
                   </h3>
-                  <h4>
-                    105 NW Taxiway Lane
-                    <br />
-                    Tullahoma Airport (KTHA)
-                    <br />
-                    Tullahoma, TN 37388, US
-                    <br />
-                    (931) 392-4444
-                  </h4>
+                  <h4>105 NW Taxiway Lane</h4>
+                  <h4>Tullahoma Airport (KTHA)</h4>
+                  <h4>Tullahoma, TN 37388, US</h4>
+                  <h4>(931) 392-4444</h4>
                 </div>
                 <div className='col'>
                   <h3 className='heading-tertiary u-margin-bottom-small'>

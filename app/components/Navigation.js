@@ -1,85 +1,139 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
+import { IoReorderTwoOutline, IoClose } from 'react-icons/io5';
 
 const Navigation = () => {
-  const [checked, setChecked] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleNav = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
-    <div className='navigation'>
-      <input
-        type='checkbox'
-        className='navigation__checkbox'
-        id='navi-toggle'
-        checked={checked}
-        onChange={() => setChecked(!checked)}
-      ></input>
-      <label
-        htmlFor='navi-toggle'
-        className='navigation__button'
-      >
-        <span className='navigation__icon'>&nbsp;</span>
-      </label>
-      <div className='navigation__background'>&nbsp;</div>
-      <nav className='navigation__nav'>
-        <ul className='navigation__list'>
-          <li className='navigation__item'>
-            <Link
-              href='#about'
-              className='navigation__link'
-              onClick={() => setChecked(!checked)}
-            >
-              ABOUT
+    <div>
+      <nav className='fixed bg-white/50 backdrop-blur-xl w-full h-24 shadow-xl z-50'>
+        <div className='flex justify-between items-center h-full px-4'>
+          <div>
+            <Link href='/'>
+              <Image
+                src='/img/xplogo.png'
+                alt='client1'
+                width={50}
+                height={25}
+              />
             </Link>
-          </li>
-          <li className='navigation__item'>
-            <Link
-              href='#feature'
-              className='navigation__link'
-              onClick={() => setChecked(!checked)}
-            >
-              CAPABILITIES
-            </Link>
-          </li>
-          <li className='navigation__item'>
-            <Link
-              href='#mission'
-              className='navigation__link'
-              onClick={() => setChecked(!checked)}
-            >
-              WHY XP
-            </Link>
-          </li>
-          <li className='navigation__item'>
-            <Link
-              href='#process'
-              className='navigation__link'
-              onClick={() => setChecked(!checked)}
-            >
-              PAST PERFORMANCE
-            </Link>
-          </li>
-          <li className='navigation__item'>
-            <Link
-              href='#process'
-              className='navigation__link'
-              onClick={() => setChecked(!checked)}
-            >
-              PARTNERS
-            </Link>
-          </li>
-          <li
-            className='navigation__item'
-            onClick={() => setChecked(!checked)}
+          </div>
+          <div className='hidden sm:flex'>
+            <ul className='hidden sm:flex'>
+              <Link href='/'>
+                <li className='ml-10 uppercase hover:boder-b text-xl'>ABOUT</li>
+              </Link>
+              <Link href='/'>
+                <li className='ml-10 uppercase hover:boder-b text-xl'>
+                  CAPABILITIES
+                </li>
+              </Link>
+              <Link href='/'>
+                <li className='ml-10 uppercase hover:boder-b text-xl'>
+                  WHY XP
+                </li>
+              </Link>
+              <Link href='/'>
+                <li className='ml-10 uppercase hover:boder-b text-xl'>
+                  PAST PERFORMANCE
+                </li>
+              </Link>
+              <Link href='/'>
+                <li className='ml-10 uppercase hover:boder-b text-xl'>
+                  PARTNERS
+                </li>
+              </Link>
+              <Link href='/'>
+                <li className='ml-10 uppercase hover:boder-b text-xl'>
+                  CONTACT
+                </li>
+              </Link>
+            </ul>
+          </div>
+          <div
+            onClick={handleNav}
+            className='md:hidden cursor-pointer pl-24'
           >
-            <Link
-              href='#contact'
-              className='navigation__link'
+            <IoReorderTwoOutline size={25} />
+          </div>
+        </div>
+        <div
+          className={
+            menuOpen
+              ? 'fixed left-0 top-0 w-[100%] sm:hidden h-screen bg-[#ecf0f3] p10 ease-in duration-300 z-80'
+              : 'fixed left-[-100%] top-0 p-10 ease-in duration-300 z-80'
+          }
+        >
+          <div className='flex py-4 pr-4 w-full items-center justify-end z-60'>
+            <div
+              onClick={handleNav}
+              className='cursor-pointer'
             >
-              CONTACT
-            </Link>
-          </li>
-        </ul>
+              <IoClose size={20} />
+            </div>
+          </div>
+          <div className='flex-col py-4 text-xl'>
+            <ul>
+              <Link href='/'>
+                <li
+                  onClick={() => setMenuOpen(false)}
+                  className='px-4 py-4 text-base cursor-pointer'
+                >
+                  ABOUT
+                </li>
+              </Link>
+              <Link href='/'>
+                <li
+                  onClick={() => setMenuOpen(false)}
+                  className='px-4 py-4 text-base cursor-pointer'
+                >
+                  CAPABILITIES
+                </li>
+              </Link>
+              <Link href='/'>
+                <li
+                  onClick={() => setMenuOpen(false)}
+                  className='px-4 py-4 text-base cursor-pointer'
+                >
+                  WHY XP
+                </li>
+              </Link>
+              <Link href='/'>
+                <li
+                  onClick={() => setMenuOpen(false)}
+                  className='px-4 py-4 text-base cursor-pointer'
+                >
+                  PAST PERFORMANCE
+                </li>
+              </Link>
+
+              <Link href='/'>
+                <li
+                  onClick={() => setMenuOpen(false)}
+                  className='px-4 py-4 text-base cursor-pointer'
+                >
+                  PARTNERS
+                </li>
+              </Link>
+              <Link href='/'>
+                <li
+                  onClick={() => setMenuOpen(false)}
+                  className='px-4 py-4 text-base cursor-pointer'
+                >
+                  CONTACT
+                </li>
+              </Link>
+            </ul>
+          </div>
+        </div>
       </nav>
     </div>
   );

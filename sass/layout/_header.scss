@@ -1,13 +1,13 @@
 .header {
   height: 85vh;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: linear-gradient(
       to right bottom,
       rgba($color-primary-light, 0.1),
       rgba($color-primary-dark, 0.1)
     ),
     url(/img/header-small.png);
-  background-size: cover;
-  background-position: top;
   position: relative;
 
   @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
