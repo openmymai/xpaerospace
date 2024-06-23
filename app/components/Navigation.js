@@ -83,7 +83,7 @@ const Navigation = () => {
             </div>
           </div>
           <div className='absolute flex-col py-4 text-xl'>
-            <ul classname='absolute'>
+            <ul>
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
