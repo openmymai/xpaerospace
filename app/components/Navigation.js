@@ -14,7 +14,7 @@ const Navigation = () => {
 
   return (
     <div>
-      <nav className='fixed bg-white/50 backdrop-blur-xl w-full h-24 shadow-xl z-50'>
+      <nav className='fixed relative bg-white/50 backdrop-blur-xl w-full h-24 shadow-xl z-50'>
         <div className='flex justify-between items-center h-full px-4'>
           <div>
             <Link href='/'>
@@ -67,19 +67,11 @@ const Navigation = () => {
             <IoReorderTwoOutline size={25} />
           </div>
         </div>
-        {/* smooth add w-[100%] second line
         <div
           className={
-            menuOpen
-              ? 'fixed left-0 top-0 w-[100%] sm:hidden h-screen bg-[#fff] p-8 ease-in-out duration-700 z-80'
-              : 'fixed left-[-100%] top-0 w-[100%] h-screen p-8 ease-in-out duration-700 z-80'
-          }
-        > */}
-        <div
-          className={
-            menuOpen
-              ? 'fixed right-0 top-0 h-full w-full sm:hidden h-screen bg-[#fff] p-8 ease-in-out duration-700 z-80'
-              : 'fixed right-[-100%] top-0 h-0 w-full h-screen p-8 ease-in-out duration-700 z-70'
+            !menuOpen
+              ? 'fixed right-[-100%] top-0 w-[100%] h-screen p-8 ease-in-out duration-700 z-80'
+              : 'fixed right-0 top-0 w-[100%] sm:hidden h-screen bg-[#fff] p-8 ease-in-out duration-700 z-80'
           }
         >
           <div className='flex w-full items-center justify-end z-60'>
@@ -90,8 +82,8 @@ const Navigation = () => {
               <IoClose size={20} />
             </div>
           </div>
-          <div className='flex-col py-4 text-xl'>
-            <ul>
+          <div className='absolute flex-col py-4 text-xl'>
+            <ul classname='absolute'>
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
