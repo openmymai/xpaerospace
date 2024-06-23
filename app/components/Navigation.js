@@ -53,7 +53,7 @@ const Navigation = () => {
                   PARTNERS
                 </li>
               </Link>
-              <Link href='/'>
+              <Link href='#contact'>
                 <li className='ml-10 uppercase hover:border-b text-xl'>
                   CONTACT
                 </li>
@@ -67,14 +67,22 @@ const Navigation = () => {
             <IoReorderTwoOutline size={25} />
           </div>
         </div>
+        {/* smooth add w-[100%] second line
         <div
           className={
             menuOpen
-              ? 'fixed left-0 top-0 w-[100%] sm:hidden h-screen bg-[#fff] p10 transition-all ease-in-out duration-700 z-80'
-              : 'fixed left-[-100%] top-0 h-screen p-10 transition-all ease-in-out duration-700 z-80'
+              ? 'fixed left-0 top-0 w-[100%] sm:hidden h-screen bg-[#fff] p-8 ease-in-out duration-700 z-80'
+              : 'fixed left-[-100%] top-0 w-[100%] h-screen p-8 ease-in-out duration-700 z-80'
+          }
+        > */}
+        <div
+          className={
+            menuOpen
+              ? 'fixed right-0 top-0 h-full w-full sm:hidden h-screen bg-[#fff] p-8 ease-in-out duration-700 z-80'
+              : 'fixed right-[-100%] top-0 h-0 w-full h-screen p-8 ease-in-out duration-700 z-70'
           }
         >
-          <div className='flex py-6 pr-7 w-full items-center justify-end z-60'>
+          <div className='flex w-full items-center justify-end z-60'>
             <div
               onClick={handleNav}
               className='cursor-pointer'
@@ -87,7 +95,7 @@ const Navigation = () => {
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='px-4 py-4 cursor-pointer text-2xl'
+                  className='ml-10 py-4 cursor-pointer text-2xl'
                 >
                   ABOUT
                 </li>
@@ -95,7 +103,7 @@ const Navigation = () => {
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='px-4 py-4 cursor-pointer text-2xl'
+                  className='ml-10 py-4 cursor-pointer text-2xl'
                 >
                   CAPABILITIES
                 </li>
@@ -103,7 +111,7 @@ const Navigation = () => {
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='px-4 py-4 cursor-pointer text-2xl'
+                  className='ml-10 py-4 cursor-pointer text-2xl'
                 >
                   WHY XP
                 </li>
@@ -111,7 +119,7 @@ const Navigation = () => {
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='px-4 py-4 cursor-pointer text-2xl'
+                  className='ml-10 py-4 cursor-pointer text-2xl'
                 >
                   PAST PERFORMANCE
                 </li>
@@ -120,15 +128,15 @@ const Navigation = () => {
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='px-4 py-4 cursor-pointer text-2xl'
+                  className='ml-10 py-4 cursor-pointer text-2xl'
                 >
                   PARTNERS
                 </li>
               </Link>
-              <Link href='/'>
+              <Link href='#contact'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='px-4 py-4 cursor-pointer text-2xl'
+                  className='ml-10 py-4 cursor-pointer text-2xl'
                 >
                   CONTACT
                 </li>
