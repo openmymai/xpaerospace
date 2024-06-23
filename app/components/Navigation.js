@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { IoReorderTwoOutline, IoClose } from 'react-icons/io5';
@@ -82,12 +82,12 @@ const Navigation = () => {
               <IoClose size={20} />
             </div>
           </div>
-          <div className='absolute flex-col py-4 text-xl'>
+          <div className='flex-col py-4'>
             <ul>
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='ml-10 py-4 cursor-pointer text-2xl'
+                  className='ml-10 py-4 hover:border-b cursor-pointer text-2xl'
                 >
                   ABOUT
                 </li>
@@ -95,7 +95,7 @@ const Navigation = () => {
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='ml-10 py-4 cursor-pointer text-2xl'
+                  className='ml-10 py-4 hover:border-b cursor-pointer text-2xl'
                 >
                   CAPABILITIES
                 </li>
@@ -103,7 +103,7 @@ const Navigation = () => {
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='ml-10 py-4 cursor-pointer text-2xl'
+                  className='ml-10 py-4 hover:border-b cursor-pointer text-2xl'
                 >
                   WHY XP
                 </li>
@@ -111,7 +111,7 @@ const Navigation = () => {
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='ml-10 py-4 cursor-pointer text-2xl'
+                  className='ml-10 py-4 hover:border-b cursor-pointer text-2xl'
                 >
                   PAST PERFORMANCE
                 </li>
@@ -120,7 +120,7 @@ const Navigation = () => {
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='ml-10 py-4 cursor-pointer text-2xl'
+                  className='ml-10 py-4 hover:border-b cursor-pointer text-2xl'
                 >
                   PARTNERS
                 </li>
@@ -128,7 +128,7 @@ const Navigation = () => {
               <Link href='#contact'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='ml-10 py-4 cursor-pointer text-2xl'
+                  className='ml-10 py-4 hover:border-b cursor-pointer text-2xl'
                 >
                   CONTACT
                 </li>
