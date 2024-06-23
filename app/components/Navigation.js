@@ -29,30 +29,32 @@ const Navigation = () => {
           <div className='hidden sm:flex'>
             <ul className='hidden sm:flex'>
               <Link href='/'>
-                <li className='ml-10 uppercase hover:boder-b text-xl'>ABOUT</li>
+                <li className='ml-10 uppercase hover:border-b text-xl'>
+                  ABOUT
+                </li>
               </Link>
               <Link href='/'>
-                <li className='ml-10 uppercase hover:boder-b text-xl'>
+                <li className='ml-10 uppercase hover:border-b text-xl'>
                   CAPABILITIES
                 </li>
               </Link>
               <Link href='/'>
-                <li className='ml-10 uppercase hover:boder-b text-xl'>
+                <li className='ml-10 uppercase hover:border-b text-xl'>
                   WHY XP
                 </li>
               </Link>
               <Link href='/'>
-                <li className='ml-10 uppercase hover:boder-b text-xl'>
+                <li className='ml-10 uppercase hover:border-b text-xl'>
                   PAST PERFORMANCE
                 </li>
               </Link>
               <Link href='/'>
-                <li className='ml-10 uppercase hover:boder-b text-xl'>
+                <li className='ml-10 uppercase hover:border-b text-xl'>
                   PARTNERS
                 </li>
               </Link>
               <Link href='/'>
-                <li className='ml-10 uppercase hover:boder-b text-xl'>
+                <li className='ml-10 uppercase hover:border-b text-xl'>
                   CONTACT
                 </li>
               </Link>
@@ -68,11 +70,11 @@ const Navigation = () => {
         <div
           className={
             menuOpen
-              ? 'fixed left-0 top-0 w-[100%] sm:hidden h-screen bg-[#ecf0f3] p10 ease-in duration-300 z-80'
-              : 'fixed left-[-100%] top-0 p-10 ease-in duration-300 z-80'
+              ? 'fixed left-0 top-0 w-[100%] sm:hidden h-screen bg-[#fff] p10 transition-all ease-in-out duration-700 z-80'
+              : 'fixed left-[-100%] top-0 h-screen p-10 transition-all ease-in-out duration-700 z-80'
           }
         >
-          <div className='flex py-6 pr-6 w-full items-center justify-end z-60'>
+          <div className='flex py-6 pr-7 w-full items-center justify-end z-60'>
             <div
               onClick={handleNav}
               className='cursor-pointer'
