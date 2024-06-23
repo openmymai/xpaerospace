@@ -10,6 +10,18 @@ const Features = () => {
             YOU CAN’T PREDICT TOMORROW, BUT YOU CAN BE PREPARED FOR IT.
           </h1>
         </div>
+        <div className='letters__block'>
+          <div className='letters__wrap'>
+            <div className='letters__single'>F</div>
+            <div className='letters__single'>L</div>
+            <div className='letters__single'>I</div>
+            <div className='letters__single'>G</div>
+            <div className='letters__single'>H</div>
+            <div className='letters__single'>T</div>
+          </div>
+          <div className='letters__subtitle'>Process</div>
+        </div>
+
         <div className='container'>
           <div className='row'>
             <div className='col-md-8 offset-md-2'>

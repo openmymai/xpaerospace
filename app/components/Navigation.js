@@ -14,7 +14,7 @@ const Navigation = () => {
 
   return (
     <div>
-      <nav className='fixed relative bg-white/50 backdrop-blur-xl w-full h-24 shadow-xl z-50'>
+      <nav className='fixed bg-white/50 backdrop-blur-xl w-full h-24 shadow-xl z-50'>
         <div className='flex justify-between items-center h-full px-4'>
           <div>
             <Link href='/'>

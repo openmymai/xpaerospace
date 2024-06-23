@@ -773,6 +773,78 @@ p {
   color: #c30a23;
 }
 
+.redbox__word-block {
+  margin-bottom: 25px;
+}
+.redbox__word-wrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+@media only screen and (max-width: 56.25em) {
+  .redbox__word-wrap {
+    width: 130px;
+    margin: 0 auto;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+  }
+}
+.redbox__word {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #c30a23;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.redbox__word span {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #c30a23;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.letters__block {
+  margin-bottom: 20px;
+}
+.letters__wrap {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  padding-top: 20px;
+}
+.letters__single {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: #c30a23;
+  color: #fff;
+}
+.letters__subtitle {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+
 .story {
   width: 75%;
   margin: 0 auto;

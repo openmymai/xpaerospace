@@ -1,0 +1,79 @@
+.redbox {
+  &__word-block {
+    margin-bottom: 25px;
+  }
+
+  &__word-wrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    @include respond(tab-port) {
+      width: 130px;
+      margin: 0 auto;
+      justify-content: flex-start;
+      font-size: 1.5rem;
+    }
+  }
+
+  &__word {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: $color-primary;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  &__word span {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-primary;
+    color: $color-white;
+    margin-right: 5px;
+  }
+}
+
+.letters {
+  &__block {
+    margin-bottom: 20px;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    padding-top: 20px;
+  }
+
+  &__single {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: $color-primary;
+    color: $color-white;
+  }
+
+  &__subtitle {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 5px;
+  }
+}
