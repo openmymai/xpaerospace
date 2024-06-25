@@ -12,15 +12,14 @@ const Contact = () => {
             <div className='col-md-8 offset-md-2'>
               <div className='u-margin-bottom-small'>
                 <p>
-                  With XP Services, you get the expertise and services that
-                  operators and pilots need to rise above their most complex
-                  aviation challenges.
+                  ด้วย XPAT คุณจะได้รับความเชี่ยวชาญและบริการที่ผู้ปฏิบัติงาน
+                  และนักบินต้องการเพื่อก้าวข้ามความท้าทายด้านการบินที่ซับซ้อนที่สุด
                 </p>
                 <Link
                   href='#about'
                   className='btn btn--white btn--animated'
                 >
-                  Contact US
+                  ติดต่อเรา
                 </Link>
               </div>
             </div>

@@ -24,25 +24,26 @@ const Footer = () => {
                 </div>
                 <div className='col'>
                   <h3 className='heading-tertiary u-margin-bottom-small'>
-                    GLOBAL HEADQUARTERS
+                    XP Aerospace (Thailand) Co.,Ltd.
                   </h3>
-                  <h4>105 NW Taxiway Lane</h4>
-                  <h4>Tullahoma Airport (KTHA)</h4>
-                  <h4>Tullahoma, TN 37388, US</h4>
-                  <h4>(931) 392-4444</h4>
+                  <h4>37/121 หมู่ที่ 2</h4>
+                  <h4>ถ.บางศรีเมือง ต.บางกร่าง</h4>
+                  <h4>อ.เมือง จ.นนทบุรี 11000</h4>
+                  <h4>โทร (66) 2882 8288</h4>
+                  <h4>แฟกซ์ (66) 2882 8288</h4>
                 </div>
                 <div className='col'>
                   <h3 className='heading-tertiary u-margin-bottom-small'>
                     CAPABILITIES
                   </h3>
                   <h4>
-                    Aviation Procurement
+                    การจัดซื้อจัดจ้างการบิน
                     <br />
-                    Aircraft Maintenance and Upgrades
+                    การบำรุงรักษาและการอัพเกรดเครื่องบิน
                     <br />
-                    Flight Testing and Certification
+                    การทดสอบและรับรองการบิน
                     <br />
-                    Flight and Avionics Training
+                    การฝึกอบรมการบินและการบินและการบิน
                     <br />
                   </h4>
                 </div>
@@ -50,23 +51,23 @@ const Footer = () => {
                   <ul>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      <Link href='#about'>ABOUT</Link>
+                      <Link href='#about'>เกี่ยวกับ</Link>
                     </li>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      <Link href='#feature'>WHY XP</Link>
+                      <Link href='#feature'>ทำไมต้อง XP</Link>
                     </li>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      <Link href='#mission'>PAST PERFORMANCE</Link>
+                      <Link href='#mission'>ผลงานที่ผ่านมา</Link>
                     </li>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      <Link href='#process'>PARTNERS</Link>
+                      <Link href='#process'>คู่ค้าของเรา</Link>
                     </li>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      <Link href='#contact'>CONTACT</Link>
+                      <Link href='#contact'>ติดต่อเรา</Link>
                     </li>
                   </ul>
                 </div>

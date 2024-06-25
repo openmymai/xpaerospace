@@ -8,7 +8,7 @@ const Process = () => {
         className='section-process'
       >
         <div className='u-center-text u-margin-bottom-small'>
-          <h1 className='heading-secondary'>Flight Process</h1>
+          <h1 className='heading-secondary'>กระบวนการ Flight</h1>
 
           <div className='redbox__word-block'>
             <div className='redbox__word-wrap'>
@@ -47,7 +47,7 @@ const Process = () => {
                   href='#about'
                   className='btn btn--white btn--animated'
                 >
-                  Why XP
+                  ทำไมต้อง XP
                 </Link>
               </div>
             </div>

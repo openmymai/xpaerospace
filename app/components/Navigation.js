@@ -19,10 +19,10 @@ const Navigation = () => {
           <div>
             <Link href='/'>
               <Image
-                src='/img/xplogo.png'
+                src='/img/xpatlogo.png'
                 alt='client1'
-                width={50}
-                height={25}
+                width={60}
+                height={20}
               />
             </Link>
           </div>
@@ -30,32 +30,32 @@ const Navigation = () => {
             <ul className='hidden sm:flex'>
               <Link href='/'>
                 <li className='ml-10 uppercase hover:border-b text-xl'>
-                  ABOUT
+                  เกี่ยวกับ
                 </li>
               </Link>
               <Link href='/'>
                 <li className='ml-10 uppercase hover:border-b text-xl'>
-                  CAPABILITIES
+                  ความสามารถ
                 </li>
               </Link>
               <Link href='/'>
                 <li className='ml-10 uppercase hover:border-b text-xl'>
-                  WHY XP
+                  ทำไมต้อง XP
                 </li>
               </Link>
               <Link href='/'>
                 <li className='ml-10 uppercase hover:border-b text-xl'>
-                  PAST PERFORMANCE
+                  ผลงานที่ผ่านมา
                 </li>
               </Link>
               <Link href='/'>
                 <li className='ml-10 uppercase hover:border-b text-xl'>
-                  PARTNERS
+                  คู่ค้าของเรา
                 </li>
               </Link>
               <Link href='#contact'>
                 <li className='ml-10 uppercase hover:border-b text-xl'>
-                  CONTACT
+                  ติดต่อเรา
                 </li>
               </Link>
             </ul>
@@ -89,7 +89,7 @@ const Navigation = () => {
                   onClick={() => setMenuOpen(false)}
                   className='ml-10 py-4 hover:border-b cursor-pointer text-2xl'
                 >
-                  ABOUT
+                  เกี่ยวกับ
                 </li>
               </Link>
               <Link href='/'>
@@ -97,7 +97,7 @@ const Navigation = () => {
                   onClick={() => setMenuOpen(false)}
                   className='ml-10 py-4 hover:border-b cursor-pointer text-2xl'
                 >
-                  CAPABILITIES
+                  ความสามารถ
                 </li>
               </Link>
               <Link href='/'>
@@ -105,7 +105,7 @@ const Navigation = () => {
                   onClick={() => setMenuOpen(false)}
                   className='ml-10 py-4 hover:border-b cursor-pointer text-2xl'
                 >
-                  WHY XP
+                  ทำไมต้อง XP
                 </li>
               </Link>
               <Link href='/'>
@@ -113,7 +113,7 @@ const Navigation = () => {
                   onClick={() => setMenuOpen(false)}
                   className='ml-10 py-4 hover:border-b cursor-pointer text-2xl'
                 >
-                  PAST PERFORMANCE
+                  ผลงานที่ผ่านมา
                 </li>
               </Link>
 
@@ -122,7 +122,7 @@ const Navigation = () => {
                   onClick={() => setMenuOpen(false)}
                   className='ml-10 py-4 hover:border-b cursor-pointer text-2xl'
                 >
-                  PARTNERS
+                  คู่ค้าของเรา
                 </li>
               </Link>
               <Link href='#contact'>
@@ -130,7 +130,7 @@ const Navigation = () => {
                   onClick={() => setMenuOpen(false)}
                   className='ml-10 py-4 hover:border-b cursor-pointer text-2xl'
                 >
-                  CONTACT
+                  ติดต่อเรา
                 </li>
               </Link>
             </ul>

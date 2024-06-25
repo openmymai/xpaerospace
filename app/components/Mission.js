@@ -23,23 +23,25 @@ const Mission = () => {
         </div>
         <div className='u-center-text-video u-margin-bottom-big'>
           <h2 className='heading-secondary'>
-            INSTEAD OF A MISSION STATEMENT, HERE’S OUR MISSION CRITICAL
-            STATEMENT.
+            แทนที่จะเป็นคำแถลงพันธกิจ นี่คือคำแถลงเชิงวิพากษ์ของเรา
           </h2>
 
           <div className='container'>
             <div className='row'>
               <div className='col-md-8'>
                 <p className='paragraph'>
-                  XP Services creates the most efficient and effective solutions
-                  to meet every client’s specific goals through flight testing,
-                  prototype development, and aviation training.
+                  XPAT
+                  สร้างโซลูชันที่มีประสิทธิภาพและประสิทธิผลสูงสุดเพื่อบรรลุเป้าหมายเฉพาะของลูกค้าทุกคน
+                  ผ่านการทดสอบการบิน การพัฒนาต้นแบบ และการฝึกอบรมการบิน
+                  สำหรับทุกโครงการ
+                  เรายังคงมุ่งมั่นที่จะพัฒนานักบินรุ่นต่อไปและเทคโนโลยีการบินขั้นสูงที่พวกเขาต้องพึ่งพา
+                  นี่คือสิ่งที่จำเป็นในการก้าวข้ามขีดจำกัดในโลกการบินที่มีภารกิจสำคัญ
                 </p>
                 <Link
                   href='#about'
                   className='btn btn--white btn--animated'
                 >
-                  About XP
+                  เกี่ยวกับ XP
                 </Link>
               </div>
             </div>

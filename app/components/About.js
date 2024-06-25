@@ -10,39 +10,39 @@ const About = () => {
       >
         <div className='u-center-text u-margin-bottom-big'>
           <h1 className='heading-secondary'>
-            The complex aviation challenges you face
+            ความท้าทายด้านการบินที่ซับซ้อนที่คุณต้องเผชิญ
           </h1>
         </div>
 
         <div className='row'>
           <h3 className='heading-tertiary u-margin-bottom-small'>
-            The complex aviation challenges you face are the ones we help you
-            rise above at XP Services.
+            ความท้าทายด้านการบินที่ซับซ้อนที่คุณเผชิญอยู่คือสิ่งที่เราช่วยให้คุณก้าวขึ้นมาเหนือบริการของ
+            XP
           </h3>
           <p className='paragraph'>
-            From military to commercial aircraft, our worldwide client base
-            requires the speciality capabilities we provide in procurement,
-            avionics, cockpit refurbishment, prototyping, flight testing, and
-            pilot training. What we do is proven to deliver the reliability you
-            require to rise above in the most unpredictable flight environments.
+            ตั้งแต่เครื่องบินทหารไปจนถึงเครื่องบินพาณิชย์
+            ฐานลูกค้าทั่วโลกของเราต้องการความสามารถพิเศษที่เรามอบให้ในการจัดซื้อ
+            ระบบการบิน การปรับปรุงห้องนักบิน การสร้างต้นแบบ การทดสอบการบิน
+            และการฝึกนักบิน
+            สิ่งที่เราทำได้รับการพิสูจน์แล้วว่ามอบความน่าเชื่อถือที่คุณต้องการ
+            เพื่อให้เหนือกว่าในสภาพแวดล้อมการบินที่คาดเดาไม่ได้มากที่สุด
           </p>
           <div className='col-1-of-2'>
             <h3 className='heading-tertiary u-margin-bottom-small'>
-              OUR PROVING GROUND IS THOUSANDS OF FEET ABOVE THE GROUND.
+              พื้นที่ทดสอบของเราอยู่เหนือพื้นดินหลายพันฟุต
             </h3>
             <p className='paragraph'>
-              At the core of our aviation capabilities are the pilots, engineers
-              and maintenance professionals at XP Services. They back what they
-              deliver for your helicopter or fixed wing project with extensive
-              military backgrounds, over 100 years of flight testing experience,
-              and the certifications to meet the most stringent demands of both
-              US and foreign governments.
+              หัวใจสำคัญของความสามารถด้านการบินของเราคือนักบิน วิศวกร
+              และผู้เชี่ยวชาญด้านการบำรุงรักษาที่ XPAT
+              พวกเขาสนับสนุนสิ่งที่พวกเขาส่งมอบสำหรับเฮลิคอปเตอร์หรือโครงการปีกคงที่ของคุณซึ่งมีพื้นฐานทางทหารมายาวนาน
+              ประสบการณ์การทดสอบการบินมากกว่า 100 ปี
+              และการรับรองเพื่อตอบสนองความต้องการที่เข้มงวดที่สุดของรัฐบาลทั้งสหรัฐอเมริกาและต่างประเทศ
             </p>
             <Link
               href='#about'
               className='btn btn--white btn--animated'
             >
-              Capabilities
+              ความสามารถ
             </Link>
           </div>
           <div className='col-1-of-2'>

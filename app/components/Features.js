@@ -7,7 +7,7 @@ const Features = () => {
       >
         <div className='u-center-text u-margin-bottom-small'>
           <h1 className='heading-secondary'>
-            YOU CAN’T PREDICT TOMORROW, BUT YOU CAN BE PREPARED FOR IT.
+            คุณไม่สามารถคาดเดาวันพรุ่งนี้ได้ แต่คุณสามารถเตรียมตัวให้พร้อมได้
           </h1>
         </div>
         <div className='letters__block'>
@@ -26,17 +26,18 @@ const Features = () => {
           <div className='row'>
             <div className='col-md-8 offset-md-2'>
               <p className='paragraph'>
-                Everything we do at XP Services is to ensure superior
-                situational awareness for your pilots and the unsurpassed
-                reliability of the aircraft they fly. Our FLIGHT process ensures
-                we meet your exact requirements at every phase of the project
-                along with rapid delivery. We take an agile approach to ensure
-                all barriers for success are removed.
+                ทุกสิ่งที่เราทำที่ XPAT
+                คือการรับประกันการตระหนักรู้ในสถานการณ์ที่เหนือกว่าสำหรับนักบินของคุณ
+                และความน่าเชื่อถือที่ไม่มีใครเทียบได้ของเครื่องบินที่พวกเขาบิน
+                กระบวนการ FLIGHT
+                ของเราช่วยให้มั่นใจว่าเราตอบสนองความต้องการที่แน่นอนของคุณ
+                ในทุกขั้นตอนของโครงการพร้อมกับการจัดส่งที่รวดเร็ว
+                เราใช้แนวทางที่คล่องตัวเพื่อให้แน่ใจว่าอุปสรรคทั้งหมดในการประสบความสำเร็จจะถูกขจัดออกไป
               </p>
               <p className='paragraph__bold'>
-                Through our proven FLIGHT process, we’re able to replicate
-                project success while always providing a nimble, comprehensive
-                project development experience.
+                ด้วยกระบวนการ FLIGHT ที่ได้รับการพิสูจน์แล้วของเรา
+                เราสามารถจำลองความสำเร็จของโครงการในขณะเดียวกันก็มอบประสบการณ์
+                การพัฒนาโครงการที่ครอบคลุมและว่องไวอยู่เสมอ
               </p>
             </div>
           </div>
