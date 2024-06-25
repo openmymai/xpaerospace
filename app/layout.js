@@ -1,5 +1,7 @@
-import { Montserrat, Noto_Sans_Thai } from 'next/font/google';
+import { Noto_Sans_Thai } from 'next/font/google';
 import Navigation from './components/Navigation';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './globals.css';
@@ -25,6 +27,8 @@ export default function RootLayout({ children }) {
       <body className={noto.className}>
         <Navigation />
         {children}
+        <Contact />
+        <Footer />
       </body>
     </html>
   );

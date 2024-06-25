@@ -1303,6 +1303,47 @@ p {
   transform: rotate(-135deg);
 }
 
+.aboutheader {
+  height: 140vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/about-header-small.jpg);
+  position: relative;
+}
+@supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+  .aboutheader {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    height: 95vh;
+  }
+}
+@media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
+  .aboutheader {
+    background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/about-header.jpg);
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .aboutheader {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+  }
+}
+.aboutheader__logo-box {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+.aboutheader__logo {
+  height: 3.5rem;
+}
+.aboutheader__text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .section-about {
   padding: 25rem 0;
   margin-top: -20vh;

@@ -18,43 +18,45 @@ const Navigation = () => {
         <div className='flex justify-between items-center h-full px-4'>
           <div>
             <Link href='/'>
-              <Image
-                src='/img/xpatlogo.png'
-                alt='client1'
-                width={60}
-                height={20}
-              />
+              <div className='image-wrapper'>
+                <Image
+                  src='/img/xpatlogo.png'
+                  alt='client1'
+                  width={60}
+                  height={20}
+                />
+              </div>
             </Link>
           </div>
           <div className='hidden sm:flex'>
             <ul className='hidden sm:flex'>
-              <Link href='/'>
-                <li className='ml-10 uppercase hover:border-b text-xl'>
+              <Link href='/about'>
+                <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
                   เกี่ยวกับ
                 </li>
               </Link>
               <Link href='/'>
-                <li className='ml-10 uppercase hover:border-b text-xl'>
+                <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
                   ความสามารถ
                 </li>
               </Link>
               <Link href='/'>
-                <li className='ml-10 uppercase hover:border-b text-xl'>
+                <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
                   ทำไมต้อง XP
                 </li>
               </Link>
               <Link href='/'>
-                <li className='ml-10 uppercase hover:border-b text-xl'>
+                <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
                   ผลงานที่ผ่านมา
                 </li>
               </Link>
               <Link href='/'>
-                <li className='ml-10 uppercase hover:border-b text-xl'>
+                <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
                   คู่ค้าของเรา
                 </li>
               </Link>
               <Link href='#contact'>
-                <li className='ml-10 uppercase hover:border-b text-xl'>
+                <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
                   ติดต่อเรา
                 </li>
               </Link>
@@ -87,7 +89,7 @@ const Navigation = () => {
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='ml-10 py-4 hover:border-b cursor-pointer text-2xl'
+                  className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
                 >
                   เกี่ยวกับ
                 </li>
@@ -95,7 +97,7 @@ const Navigation = () => {
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='ml-10 py-4 hover:border-b cursor-pointer text-2xl'
+                  className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
                 >
                   ความสามารถ
                 </li>
@@ -103,7 +105,7 @@ const Navigation = () => {
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='ml-10 py-4 hover:border-b cursor-pointer text-2xl'
+                  className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
                 >
                   ทำไมต้อง XP
                 </li>
@@ -111,7 +113,7 @@ const Navigation = () => {
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='ml-10 py-4 hover:border-b cursor-pointer text-2xl'
+                  className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
                 >
                   ผลงานที่ผ่านมา
                 </li>
@@ -120,7 +122,7 @@ const Navigation = () => {
               <Link href='/'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='ml-10 py-4 hover:border-b cursor-pointer text-2xl'
+                  className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
                 >
                   คู่ค้าของเรา
                 </li>
@@ -128,7 +130,7 @@ const Navigation = () => {
               <Link href='#contact'>
                 <li
                   onClick={() => setMenuOpen(false)}
-                  className='ml-10 py-4 hover:border-b cursor-pointer text-2xl'
+                  className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
                 >
                   ติดต่อเรา
                 </li>

@@ -15,13 +15,16 @@ const Footer = () => {
             <div className='container'>
               <div className='row'>
                 <div className='col'>
-                  <Image
-                    src='/img/xplogo.png'
-                    alt='client1'
-                    width={300}
-                    height={150}
-                  />
+                  <div className='image-wrapper'>
+                    <Image
+                      src='/img/xpatlogo.png'
+                      alt='xplogo'
+                      width={300}
+                      height={100}
+                    />
+                  </div>
                 </div>
+
                 <div className='col'>
                   <h3 className='heading-tertiary u-margin-bottom-small'>
                     XP Aerospace (Thailand) Co.,Ltd.

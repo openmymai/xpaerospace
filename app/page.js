@@ -15,8 +15,6 @@ export default function Home() {
         <Features />
         <Process />
         <Mission />
-        <Contact />
-        <Footer />
       </main>
     </main>
   );
