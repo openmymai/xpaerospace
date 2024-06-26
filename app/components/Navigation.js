@@ -15,7 +15,7 @@ const Navigation = () => {
   return (
     <div>
       <nav className='fixed bg-white/50 backdrop-blur-xl w-full h-24 shadow-xl z-50'>
-        <div className='flex justify-between items-center h-full px-4'>
+        <div className='flex justify-between items-center h-full px-12'>
           <div>
             <Link href='/'>
               <div className='image-wrapper'>
@@ -40,7 +40,7 @@ const Navigation = () => {
                   ความสามารถ
                 </li>
               </Link>
-              <Link href='/'>
+              <Link href='/whyxp'>
                 <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
                   ทำไมต้อง XP
                 </li>
@@ -76,7 +76,7 @@ const Navigation = () => {
               : 'fixed right-0 top-0 w-[100%] sm:hidden h-screen bg-[#fff] p-8 ease-in-out duration-700 z-80'
           }
         >
-          <div className='flex w-full items-center justify-end z-60'>
+          <div className='flex w-full px-3 items-center justify-end z-60'>
             <div
               onClick={handleNav}
               className='cursor-pointer'
@@ -86,7 +86,7 @@ const Navigation = () => {
           </div>
           <div className='flex-col py-4'>
             <ul>
-              <Link href='/'>
+              <Link href='/about'>
                 <li
                   onClick={() => setMenuOpen(false)}
                   className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
@@ -102,7 +102,7 @@ const Navigation = () => {
                   ความสามารถ
                 </li>
               </Link>
-              <Link href='/'>
+              <Link href='/whyxp'>
                 <li
                   onClick={() => setMenuOpen(false)}
                   className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'

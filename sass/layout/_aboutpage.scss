@@ -1,4 +1,4 @@
-.aboutheader {
+.aboutpage {
   height: 140vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,5 +48,47 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+  }
+}
+
+.aboutcontent {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  &__paragraph {
+    font-size: 2rem;
+
+    &:not(:last-child) {
+      margin-bottom: 3rem;
+    }
+  }
+
+  &__has-sidebar {
+    gap: 25px;
+    display: grid;
+    grid-template-columns: 1fr 400px;
+  }
+
+  &__text {
+    padding-right: 25px;
+  }
+
+  &__sidebar {
+    padding-left: 25px;
+    border-left: 1px solid $color-black;
+
+    @include respond(tab-port) {
+      padding-left: 0;
+      border-left: 0;
+    }
+  }
+
+  &__subtitle-lowercase {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 5px;
+    margin-bottom: 5rem;
   }
 }

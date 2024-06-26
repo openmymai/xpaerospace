@@ -1,0 +1,55 @@
+.section-about-features {
+  padding: 25rem 0;
+  margin-top: -20vh;
+
+  @include respond(tab-port) {
+    padding: 20rem 0;
+  }
+}
+
+.section-about-ceo {
+  padding: 10rem 0;
+  margin-top: -20vh;
+  background-color: $color-white;
+
+  &__content-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  &__text {
+    position: relative;
+  }
+
+  &__alignleft {
+    margin: 0px 25px 25px 0px;
+    float: left;
+  }
+
+  @include respond(tab-port) {
+    padding: 20rem 0;
+  }
+}
+
+.section-about-logo {
+  margin-top: 10rem;
+  padding-bottom: 10rem;
+
+  &__content-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  &__text {
+    position: relative;
+  }
+
+  &__alignleft {
+    margin: 0px 25px 25px 0px;
+    float: left;
+  }
+
+  @include respond(tab-port) {
+    padding: 10rem 0;
+  }
+}

@@ -3,7 +3,7 @@ const Features = () => {
     <div>
       <section
         id='feature'
-        className='section-features'
+        className='section-whyxp-flightprocess'
       >
         <div className='u-center-text u-margin-bottom-small'>
           <h1 className='heading-secondary'>
