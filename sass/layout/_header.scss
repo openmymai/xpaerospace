@@ -7,7 +7,7 @@
       rgba($color-primary-light, 0.1),
       rgba($color-primary-dark, 0.1)
     ),
-    url(/img/header-small.png);
+    url(/img/mainheader-small.png);
   position: relative;
 
   @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
@@ -24,7 +24,7 @@
         rgba($color-primary-light, 0.1),
         rgba($color-primary-dark, 0.1)
       ),
-      url(/img/header.png);
+      url(/img/mainheader.png);
   }
 
   @include respond(phone) {

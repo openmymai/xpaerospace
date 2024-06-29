@@ -2,6 +2,7 @@ import { Noto_Sans_Thai } from 'next/font/google';
 import Navigation from './components/Navigation';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Footer2 from './components/Footer2';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './globals.css';
@@ -28,7 +29,7 @@ export default function RootLayout({ children }) {
         <Navigation />
         {children}
         <Contact />
-        <Footer />
+        <Footer2 />
       </body>
     </html>
   );
