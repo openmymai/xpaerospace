@@ -1,88 +1,113 @@
-'use client';
-
-import Image from 'next/image';
 import Link from 'next/link';
+import Image from 'next/image';
 
-const Footer = () => {
+export default function Footer() {
   return (
-    <div>
-      <section
-        id='footer'
-        className='section-footer'
-      >
-        <footer className='footer'>
-          <div className='footer__block'>
-            <div className='footer__footer-flex'>
-              <div className='footer__top flex'>
-                <div className='footer__logo'>
-                  <div className='image-wrapper'>
-                    <Image
-                      src='/img/xpatlogo.png'
-                      alt='xplogo'
-                      width={300}
-                      height={100}
-                    />
-                  </div>
-                </div>
+    <footer>
+      <div className='mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8'>
+        <div className='md:flex md:justify-between'>
+          <div className='mb-6 md:mb-0'>
+            <Link
+              href='/'
+              className='flex items-center'
+            >
+              <div className='image-wrapper'>
+                <Image
+                  src='/img/xpatlogo.png'
+                  alt='xplogo'
+                  width={300}
+                  height={100}
+                />
               </div>
-
-              <div className='footer__single-block'>
-                <h3 className='heading-tertiary u-margin-bottom-small'>
-                  XP Aerospace (Thailand) Co.,Ltd.
-                </h3>
-                <h4>37/121 หมู่ที่ 2</h4>
-                <h4>ถ.บางศรีเมือง ต.บางกร่าง</h4>
-                <h4>อ.เมือง จ.นนทบุรี 11000</h4>
-                <h4>โทร (66) 2882 8288</h4>
-                <h4>แฟกซ์ (66) 2882 8288</h4>
-              </div>
-
-              <div className='footer__single-block'>
-                <h3 className='heading-tertiary u-margin-bottom-small'>
-                  CAPABILITIES
-                </h3>
-                <h4>
-                  การจัดซื้อจัดจ้างการบิน
-                  <br />
-                  การบำรุงรักษาและการอัพเกรดเครื่องบิน
-                  <br />
-                  การทดสอบและรับรองการบิน
-                  <br />
-                  การฝึกอบรมการบินและการบินและการบิน
-                  <br />
-                </h4>
-              </div>
-
-              <div className='footer__single-block footer__footer-links'>
-                <ul>
-                  <li>
-                    <i className='bi bi-chevron-right'></i>
-                    <Link href='#about'>เกี่ยวกับ</Link>
-                  </li>
-                  <li>
-                    <i className='bi bi-chevron-right'></i>
-                    <Link href='#feature'>ทำไมต้อง XP</Link>
-                  </li>
-                  <li>
-                    <i className='bi bi-chevron-right'></i>
-                    <Link href='#mission'>ผลงานที่ผ่านมา</Link>
-                  </li>
-                  <li>
-                    <i className='bi bi-chevron-right'></i>
-                    <Link href='#process'>คู่ค้าของเรา</Link>
-                  </li>
-                  <li>
-                    <i className='bi bi-chevron-right'></i>
-                    <Link href='#contact'>ติดต่อเรา</Link>
-                  </li>
-                </ul>
-              </div>
+            </Link>
+          </div>
+          <div className='grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3'>
+            <div>
+              <h2 className='mb-6 text-xl font-semibold text-gray-900 uppercase dark:text-white'>
+                บริษัท เอ็กซ์พี แอร์โรเสปซ (ประเทศไทย) จำกัด
+              </h2>
+              <ul className='text-gray-500 dark:text-gray-400 font-medium'>
+                <li>37/121 หมู่ที่ 9 ถนน บางศรีเมือง</li>
+                <li>ต.บางกร่าง อ.เมืองนนทบุรี</li>
+                <li>จ.นนทบุรี 11000</li>
+                <li>โทร 662 882 8288</li>
+                <li>โทร 662 882 8309</li>
+              </ul>
+            </div>
+            <div>
+              <h2 className='mb-6 text-xl font-semibold text-gray-900 uppercase dark:text-white'>
+                Capabilities
+              </h2>
+              <ul className='text-gray-500 dark:text-gray-400 font-large'>
+                <li>การจัดซื้อจัดจ้างการบิน</li>
+                <li>การบำรุงรักษาและการอัพเกรดเครื่องบิน</li>
+                <li>การทดสอบและรับรองการบิน</li>
+                <li>การฝึกอบรมการบิน</li>
+              </ul>
+            </div>
+            <div>
+              <h2 className='mb-6 text-xl font-semibold text-gray-900 uppercase dark:text-white'>
+                ลิงค์ที่สำคัญ
+              </h2>
+              <ul className='text-gray-500 dark:text-gray-400 font-large'>
+                <li>
+                  <Link
+                    href='/about'
+                    className='hover:underline'
+                  >
+                    เกี่ยวกับ
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href='/whyxp'
+                    className='hover:underline'
+                  >
+                    ทำไมต้อง XP
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href='/whyxp'
+                    className='hover:underline'
+                  >
+                    ผลงานที่ผ่านมา
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href='/whyxp'
+                    className='hover:underline'
+                  >
+                    คู่ค้า
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href='/whyxp'
+                    className='hover:underline'
+                  >
+                    ติดต่อ
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
-        </footer>
-      </section>
-    </div>
+        </div>
+        <hr className='my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8' />
+        <div className='sm:flex sm:items-center sm:justify-between'>
+          <span className='text-sm text-gray-500 sm:text-center dark:text-gray-400'>
+            © 2024{' '}
+            <a
+              href='https://flowbite.com/'
+              className='hover:underline'
+            >
+              XP Aerospace (Thailand)™
+            </a>
+            . All Rights Reserved.
+          </span>
+        </div>
+      </div>
+    </footer>
   );
-};
-
-export default Footer;
+}
