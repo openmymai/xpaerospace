@@ -1155,6 +1155,7 @@ p {
   height: 85vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/mainheader-small.png);
   position: relative;
 }
@@ -1338,6 +1339,7 @@ p {
   height: 140vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/about-header-small.jpg);
   position: relative;
 }
@@ -1416,6 +1418,7 @@ p {
   height: 140vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/whyxpheader-small.png);
   position: relative;
 }
