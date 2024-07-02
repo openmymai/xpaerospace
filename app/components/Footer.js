@@ -36,7 +36,7 @@ export default function Footer() {
             </div>
             <div>
               <h2 className='mb-6 text-xl font-semibold text-gray-900 uppercase dark:text-white'>
-                Capabilities
+                ความสามารถ
               </h2>
               <ul className='text-gray-500 dark:text-gray-400 font-large'>
                 <li>การจัดซื้อจัดจ้างการบิน</li>

@@ -8,12 +8,12 @@
       rgba($color-primary-light, 0.1),
       rgba($color-primary-dark, 0.1)
     ),
-    url(/img/about-header-small.jpg);
+    url(/img/aboutheader-small.jpg);
   position: relative;
 
   @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
     height: 95vh;
   }
 
@@ -25,12 +25,14 @@
         rgba($color-primary-light, 0.1),
         rgba($color-primary-dark, 0.1)
       ),
-      url(/img/about-header.jpg);
+      url(/img/aboutheader.jpg);
   }
 
   @include respond(phone) {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    height: 30vh;
+    margin-bottom: 120px;
   }
 
   &__logo-box {

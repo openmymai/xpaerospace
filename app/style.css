@@ -1152,6 +1152,7 @@ p {
 }
 
 .header {
+  width: 100%;
   height: 85vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1161,9 +1162,9 @@ p {
 }
 @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
   .header {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-    height: 95vh;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    height: 65vh;
   }
 }
 @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
@@ -1173,8 +1174,10 @@ p {
 }
 @media only screen and (max-width: 37.5em) {
   .header {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    height: 28vh;
+    margin-bottom: 120px;
   }
 }
 .header__logo-box {
@@ -1340,25 +1343,27 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/about-header-small.jpg);
+  background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/aboutheader-small.jpg);
   position: relative;
 }
 @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
   .aboutpage {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
     height: 95vh;
   }
 }
 @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
   .aboutpage {
-    background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/about-header.jpg);
+    background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/aboutheader.jpg);
   }
 }
 @media only screen and (max-width: 37.5em) {
   .aboutpage {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    height: 30vh;
+    margin-bottom: 120px;
   }
 }
 .aboutpage__logo-box {
@@ -1424,8 +1429,8 @@ p {
 }
 @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
   .whyxppage {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
     height: 90vh;
   }
 }
@@ -1436,8 +1441,10 @@ p {
 }
 @media only screen and (max-width: 37.5em) {
   .whyxppage {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    height: 30vh;
+    margin-bottom: 120px;
   }
 }
 .whyxppage__logo-box {
@@ -1582,6 +1589,7 @@ p {
 @media only screen and (max-width: 56.25em) {
   .section-about-features {
     padding: 20rem 0;
+    margin-bottom: 10vh;
   }
 }
 
@@ -1633,7 +1641,7 @@ p {
 }
 @media only screen and (max-width: 56.25em) {
   .section-whyxp-features {
-    padding: 20rem 0;
+    padding: 5rem 0;
   }
 }
 
