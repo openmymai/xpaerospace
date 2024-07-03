@@ -38,10 +38,10 @@
 
 .section-mission {
   position: relative;
-  margin-top: 10rem;
+  margin-top: 5rem;
 
   @include respond(tab-port) {
-    padding: 10rem 0;
+    padding: 5rem 0;
   }
 }
 
