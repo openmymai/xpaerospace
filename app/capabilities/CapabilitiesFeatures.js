@@ -2,8 +2,8 @@ export default function CapabilitiesFeatures() {
   return (
     <div>
       <section
-        id='aboutfeatures'
-        className='section-about-features'
+        id='capabilitiesfeatures'
+        className='section-capabilities-features'
       >
         <div className='u-center-text u-margin-bottom-medium'>
           <h1 className='heading-secondary'>ภารกิจของคุณ: สำเร็จแล้ว</h1>

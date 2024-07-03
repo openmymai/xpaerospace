@@ -35,7 +35,7 @@ const Navigation = () => {
                   เกี่ยวกับ
                 </li>
               </Link>
-              <Link href='/'>
+              <Link href='/capabilities'>
                 <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
                   ความสามารถ
                 </li>

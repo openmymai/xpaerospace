@@ -1422,7 +1422,7 @@ p {
 }
 
 .whyxppage {
-  height: 140vh;
+  height: 120vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1433,7 +1433,7 @@ p {
   .whyxppage {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-    height: 90vh;
+    height: 70vh;
   }
 }
 @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
@@ -1445,7 +1445,7 @@ p {
   .whyxppage {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    height: 30vh;
+    height: 25vh;
     margin-bottom: 120px;
   }
 }
@@ -1708,21 +1708,21 @@ p {
   }
 }
 
-.section-whyxp-features {
+.section-capabilities-comprehensive {
   padding: 15rem 0;
 }
 @media only screen and (max-width: 56.25em) {
-  .section-whyxp-features {
+  .section-capabilities-comprehensive {
     padding: 5rem 0;
   }
 }
 
-.section-whyxp-flightprocess {
+.section-capabilities-features {
   padding: 10rem 0;
   background-color: #fff;
 }
 @media only screen and (max-width: 56.25em) {
-  .section-whyxp-flightprocess {
+  .section-capabilities-features {
     padding: 10rem 0;
   }
 }
