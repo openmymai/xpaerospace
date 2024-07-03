@@ -30,6 +30,7 @@ p {
     @include respond(phone) {
       letter-spacing: 1rem;
       font-family: 5rem;
+      font-size: 3rem;
     }
     /*
         animation-delay: 3s;
@@ -46,6 +47,7 @@ p {
 
     @include respond(phone) {
       letter-spacing: 0.5rem;
+      font-size: 1rem;
     }
   }
 }

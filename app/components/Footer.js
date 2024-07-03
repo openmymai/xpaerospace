@@ -46,9 +46,6 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h2 className='mb-6 text-xl font-semibold text-gray-900 uppercase dark:text-white'>
-                ลิงค์ที่สำคัญ
-              </h2>
               <ul className='text-gray-500 dark:text-gray-400 font-large'>
                 <li>
                   <i className='bi bi-chevron-right'></i>
