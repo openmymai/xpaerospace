@@ -39,7 +39,7 @@ const About = () => {
               และการรับรองเพื่อตอบสนองความต้องการที่เข้มงวดที่สุดของรัฐบาลทั้งสหรัฐอเมริกาและต่างประเทศ
             </p>
             <Link
-              href='#about'
+              href='/capabilities'
               className='btn btn--white btn--animated'
             >
               ความสามารถ

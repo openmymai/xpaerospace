@@ -128,7 +128,7 @@ p {
   .heading-primary--main {
     letter-spacing: 1rem;
     font-size: 3rem;
-    margin-bottom: 1rem;
+    margin-top: 5rem;
   }
 }
 .heading-primary--sub {
@@ -1178,7 +1178,7 @@ p {
   .header {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    height: 28vh;
+    height: 25vh;
     margin-bottom: 120px;
   }
 }

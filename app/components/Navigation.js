@@ -94,7 +94,7 @@ const Navigation = () => {
                   เกี่ยวกับ
                 </li>
               </Link>
-              <Link href='/'>
+              <Link href='/capabilities'>
                 <li
                   onClick={() => setMenuOpen(false)}
                   className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
