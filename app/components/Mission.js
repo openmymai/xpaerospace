@@ -38,7 +38,7 @@ const Mission = () => {
                   นี่คือสิ่งที่จำเป็นในการก้าวข้ามขีดจำกัดในโลกการบินที่มีภารกิจสำคัญ
                 </p>
                 <Link
-                  href='#about'
+                  href='/about'
                   className='btn btn--white btn--animated'
                 >
                   เกี่ยวกับ XP

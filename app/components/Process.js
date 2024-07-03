@@ -44,7 +44,7 @@ const Process = () => {
             <div className='row'>
               <div className='col-md-6 offset-md-3'>
                 <Link
-                  href='#about'
+                  href='/whyxp'
                   className='btn btn--white btn--animated'
                 >
                   ทำไมต้อง XP

@@ -15,7 +15,7 @@ p {
   text-transform: uppercase;
 
   backface-visibility: hidden;
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
 
   &--main {
     display: block;
@@ -29,8 +29,8 @@ p {
 
     @include respond(phone) {
       letter-spacing: 1rem;
-      font-family: 5rem;
       font-size: 3rem;
+      margin-bottom: 1rem;
     }
     /*
         animation-delay: 3s;
