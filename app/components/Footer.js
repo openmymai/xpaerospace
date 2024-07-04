@@ -68,7 +68,7 @@ export default function Footer() {
                 <li>
                   <i className='bi bi-chevron-right'></i>
                   <Link
-                    href='/whyxp'
+                    href='/pastperformance'
                     className='hover:underline'
                   >
                     ผลงานที่ผ่านมา
@@ -77,7 +77,7 @@ export default function Footer() {
                 <li>
                   <i className='bi bi-chevron-right'></i>
                   <Link
-                    href='/whyxp'
+                    href='/'
                     className='hover:underline'
                   >
                     คู่ค้า
@@ -86,7 +86,7 @@ export default function Footer() {
                 <li>
                   <i className='bi bi-chevron-right'></i>
                   <Link
-                    href='/whyxp'
+                    href='/'
                     className='hover:underline'
                   >
                     ติดต่อ
