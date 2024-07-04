@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function CapabilitiesFeatures() {
   return (
     <div>
@@ -5,25 +7,139 @@ export default function CapabilitiesFeatures() {
         id='capabilitiesfeatures'
         className='section-capabilities-features'
       >
-        <div className='u-center-text u-margin-bottom-medium'>
-          <h1 className='heading-secondary'>ภารกิจของคุณ: สำเร็จแล้ว</h1>
-        </div>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-md-8 offset-md-2'>
-              <p className='paragraph'>
-                ตั้งแต่ปี 2008 XPAT
-                ได้ให้บริการทุกอย่างตั้งแต่การทดสอบการบินและการฝึกบิน
-                ไปจนถึงการปรับปรุงระบบการบินให้ทันสมัยสำหรับลูกค้าภาครัฐและเชิงพาณิชย์ที่หลากหลาย
-                ความมุ่งมั่นของเราคือการพัฒนานักบินและเทคโนโลยีการบินรุ่นต่อไป
+        <div className='row'>
+          <div className='story'>
+            <figure className='story__shape'>
+              <Image
+                src='/img/capa_procurement.png'
+                alt='procurement'
+                width={250}
+                height={250}
+                className='story__img'
+              />
+              <figcaption className='story__caption'>
+                การจัดซื้อจัดจ้าง
+              </figcaption>
+            </figure>
+            <div className='story__text'>
+              <h3 className='heading-tertiary u-margin-bottom-small'>
+                การจัดซื้อจัดจ้าง
+              </h3>
+              <p>
+                เพื่อให้เป็นไปตามข้อกำหนดด้านเที่ยวบินที่มีความต้องการมากที่สุดของคุณ
+                ให้หันไปใช้บริการ XP เพื่อค้นหาเครื่องบินที่เหมาะสม
+                พร้อมแพลตฟอร์มที่ได้รับการพิสูจน์แล้วเพื่อให้ภารกิจสำเร็จลุล่วง
               </p>
-              <p className='paragraph'>
-                ด้วย XPAT
-                ความท้าทายด้านการบินของคุณจะกลายเป็นโซลูชันที่พัฒนาโดยนักบิน
-                ช่างเทคนิค และเจ้าหน้าที่ซ่อมบำรุงระดับแนวหน้า
-                ผู้เชี่ยวชาญของเราเกือบทั้งหมดเป็นทหารผ่านศึกในกองทัพที่มีประสบการณ์มากกว่า
-                100 ปีด้านการทหารและการปฏิบัติการพิเศษ
-                นี่คือวิธีที่เราช่วยให้คุณบรรลุภารกิจของคุณ
+            </div>
+          </div>
+        </div>
+
+        <div className='row'>
+          <div className='story'>
+            <figure className='story__shape'>
+              <Image
+                src='/img/capa_avionics.png'
+                alt='procurement'
+                width={250}
+                height={250}
+                className='story__img'
+              />
+              <figcaption className='story__caption'>
+                Avionics ที่ทันสมัย
+              </figcaption>
+            </figure>
+            <div className='story__text'>
+              <h3 className='heading-tertiary u-margin-bottom-small'>
+                Avionics ที่ทันสมัย
+              </h3>
+              <p>
+                โซลูชัน Avionics ออกแบบมาโดยเฉพาะเพื่อลดภาระงานของนักบิน
+                และเพิ่มความสามารถในการปฏิบัติงานภายใต้สถานการณ์ที่เลวร้ายที่สุดระหว่างปฏิบัติการบิน
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className='row'>
+          <div className='story'>
+            <figure className='story__shape'>
+              <Image
+                src='/img/capa_aircraft.png'
+                alt='procurement'
+                width={250}
+                height={250}
+                className='story__img'
+              />
+              <figcaption className='story__caption'>
+                การบำรุงรักษาและการอัพเกรดเครื่องบิน
+              </figcaption>
+            </figure>
+            <div className='story__text'>
+              <h3 className='heading-tertiary u-margin-bottom-small'>
+                การบำรุงรักษาและการอัพเกรดเครื่องบิน
+              </h3>
+              <p>
+                วิศวกรผู้เชี่ยวชาญด้านการผลิตและช่างเครื่องของเรามีความเชี่ยวชาญ
+                ด้านเครื่องบินทางการทหารและเชิงพาณิชย์ในการดูแลรักษาเครื่องบินของคุณ
+                ตลอดจนสร้างแม้แต่การดัดแปลงที่ซับซ้อนที่สุด
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className='row'>
+          <div className='story'>
+            <figure className='story__shape'>
+              <Image
+                src='/img/capa_flighttesting.png'
+                alt='procurement'
+                width={250}
+                height={250}
+                className='story__img'
+              />
+              <figcaption className='story__caption'>
+                การทดสอบและการรับรองการบิน
+              </figcaption>
+            </figure>
+            <div className='story__text'>
+              <h3 className='heading-tertiary u-margin-bottom-small'>
+                การทดสอบและการรับรองการบิน
+              </h3>
+              <p>
+                ตรวจสอบให้แน่ใจว่าเครื่องบินทุกลำได้รับการรับรอง FAA
+                โดยผ่านการทดสอบการบินในการจัดการ ระบบทั้งหมด
+                รวมถึงระบบการบินและระบบไฟฟ้า
+                และความสมบูรณ์ของโครงสร้างของลำตัวเครื่องบิน
+                อาจารย์ผู้สอนของเรามีทั้ง FAA และ U.S.
+                ใบรับรองทางทหารที่ได้รับการรับรองว่านักบินฝึกหัด
+                จำเป็นต้องบรรลุวัตถุประสงค์การบินในทุกสภาพอากาศ ในสภาพแวดล้อมใดๆ
+                ในเครื่องบินทุกประเภท
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className='row'>
+          <div className='story'>
+            <figure className='story__shape'>
+              <Image
+                src='/img/capa_flighttraining.png'
+                alt='procurement'
+                width={250}
+                height={250}
+                className='story__img'
+              />
+              <figcaption className='story__caption'>การฝึกบิน</figcaption>
+            </figure>
+            <div className='story__text'>
+              <h3 className='heading-tertiary u-margin-bottom-small'>
+                การฝึกบิน
+              </h3>
+              <p>
+                อาจารย์ผู้สอนของเรามีทั้ง FAA และ U.S.
+                ใบรับรองทางทหารที่ได้รับการรับรองว่านักบินฝึกหัด
+                จำเป็นต้องบรรลุวัตถุประสงค์การบินในทุกสภาพอากาศ ในสภาพแวดล้อมใดๆ
+                ในเครื่องบินทุกประเภท
               </p>
             </div>
           </div>

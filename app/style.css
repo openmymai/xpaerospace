@@ -900,7 +900,7 @@ p {
 }
 .story__img {
   height: 100%;
-  transform: translateX(-4rem) scale(1.4);
+  transform: translateX(-1rem) scale(1.2);
   backface-visibility: hidden;
   transition: all 0.5s;
 }
@@ -930,7 +930,7 @@ p {
   transform: translate(-50%, -50%);
 }
 .story:hover .story__img {
-  transform: translateX(-4rem) scale(1);
+  transform: translateX(-0.5rem) scale(1);
   filter: blur(3px) brightness(80%);
 }
 
