@@ -5,12 +5,12 @@ export default function WhyxpFeatures() {
         id='whyxpfeatures'
         className='section-whyxp-features'
       >
-        <div className='u-center-text u-margin-bottom-medium'>
-          <h1 className='heading-secondary'>
-            รับประกันความคุ้มค่าทางอากาศสำหรับทุกโครงการการบิน
-          </h1>
-        </div>
         <div className='container'>
+          <div className='u-center-text u-margin-bottom-medium'>
+            <h1 className='heading-secondary'>
+              รับประกันความคุ้มค่าทางอากาศสำหรับทุกโครงการการบิน
+            </h1>
+          </div>
           <div className='row'>
             <div className='col-md-8 offset-md-2'>
               <p className='paragraph'>
