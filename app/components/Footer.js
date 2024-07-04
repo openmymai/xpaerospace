@@ -77,7 +77,7 @@ export default function Footer() {
                 <li>
                   <i className='bi bi-chevron-right'></i>
                   <Link
-                    href='/'
+                    href='/partners'
                     className='hover:underline'
                   >
                     คู่ค้า

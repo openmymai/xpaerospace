@@ -3,8 +3,7 @@ export default function PastPerformanceHeader() {
     <div className='pastperformancepage'>
       <div className='pastperformancepage__text-box'>
         <h1 className='heading-primary'>
-          <span className='heading-primary--main'>ผลงาน</span>
-          <span className='heading-primary--sub'>ที่ผ่านมา</span>
+          <span className='heading-primary--main'>ผลงานที่ผ่านมา</span>
         </h1>
       </div>
     </div>

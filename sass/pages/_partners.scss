@@ -1,0 +1,17 @@
+.section-partners-features {
+  padding: 15rem 0;
+
+  @include respond(tab-port) {
+    padding: 5rem 0;
+  }
+}
+
+.section-partners-total {
+  padding: 10rem 0;
+
+  background-color: $color-white;
+
+  @include respond(tab-port) {
+    padding: 10rem 0;
+  }
+}
