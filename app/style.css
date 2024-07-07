@@ -178,20 +178,20 @@ p {
 }
 
 .heading-tertiary {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .paragraph {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .paragraph:not(:last-child) {
   margin-bottom: 3rem;
 }
 
 .paragraph__bold {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 800;
 }
 .paragraph__bold:not(:last-child) {
@@ -273,7 +273,7 @@ p {
   border-radius: 10rem;
   transition: all 0.2s;
   position: relative;
-  font-size: 1.6rem;
+  font-size: 2rem;
   border: none;
   cursor: pointer;
 }
@@ -322,7 +322,7 @@ p {
 }
 
 .btn-text:link, .btn-text:visited {
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: #c30a23;
   display: inline-block;
   text-decoration: none;
@@ -657,7 +657,7 @@ p {
   display: none;
 }
 .form__radio-label {
-  font-size: 1.6rem;
+  font-size: 2rem;
   cursor: pointer;
   position: relative;
   padding-left: 4.5rem;
@@ -860,7 +860,7 @@ p {
   border-radius: 3px;
   padding: 6rem;
   padding-left: 9rem;
-  font-size: 1.6rem;
+  font-size: 2rem;
   transform: skewX(-12deg);
 }
 @media only screen and (max-width: 56.25em) {
@@ -1495,13 +1495,13 @@ p {
   margin-right: 5px;
 }
 .whyxpflight__paragraph {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .whyxpflight__paragraph:not(:last-child) {
   margin-bottom: 3rem;
 }
 .whyxpflight__paragraph strong {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .whyxpflight__paragraph strong:not(:last-child) {
   margin-bottom: 3rem;
@@ -1663,6 +1663,57 @@ p {
   text-align: center;
 }
 .partnerspage__subtitle-lowercase {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-top: 5px;
+  margin-bottom: 5rem;
+}
+
+.aviationprocurementpage {
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/aviation-procurementheader-small.jpg);
+  position: relative;
+}
+@supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+  .aviationprocurementpage {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    height: 65vh;
+  }
+}
+@media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
+  .aviationprocurementpage {
+    background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/aviation-procurementheader.jpg);
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .aviationprocurementpage {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    height: 25vh;
+    margin-bottom: 120px;
+  }
+}
+.aviationprocurementpage__logo-box {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+.aviationprocurementpage__logo {
+  height: 3.5rem;
+}
+.aviationprocurementpage__text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.aviationprocurementpage__subtitle-lowercase {
   text-align: center;
   font-size: 1.8rem;
   font-weight: bold;
@@ -1865,6 +1916,189 @@ p {
   .section-partners-total {
     padding: 10rem 0;
   }
+}
+
+.section-aviationprocurement-features {
+  padding: 15rem 0;
+}
+@media only screen and (max-width: 56.25em) {
+  .section-aviationprocurement-features {
+    padding: 5rem 0;
+  }
+}
+
+.section-aviationprocurement-objective {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+.section-aviationprocurement-objective__container {
+  display: grid;
+  grid-template-rows: 800px;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media only screen and (max-width: 50em) {
+  .section-aviationprocurement-objective__container {
+    grid-template-rows: repeat(2, 500px);
+  }
+}
+.section-aviationprocurement-objective__content {
+  background-color: #f7f7f7;
+  grid-column: 1/2;
+  padding: 5rem;
+  /*
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      */
+  display: grid;
+  align-content: center;
+  justify-items: start;
+}
+@media only screen and (max-width: 50em) {
+  .section-aviationprocurement-objective__content {
+    grid-column: 1/-1;
+    padding: 3rem;
+  }
+}
+.section-aviationprocurement-objective__content__paragraph {
+  font-size: 2rem;
+}
+.section-aviationprocurement-objective__pictures {
+  background-color: #c30a23;
+  background-image: url(/img/aviationprocurement-objective.png);
+  background-size: cover;
+  background-position: center;
+  grid-column: 2/2;
+}
+@media only screen and (max-width: 50em) {
+  .section-aviationprocurement-objective__pictures {
+    grid-column: 1/-1;
+    padding: 2rem;
+  }
+}
+.section-aviationprocurement-objective__text {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 4rem;
+}
+
+.section-aviationprocurement-experience {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+.section-aviationprocurement-experience__container {
+  display: grid;
+  grid-template-rows: 800px;
+  grid-template-columns: 1fr;
+}
+@media only screen and (max-width: 50em) {
+  .section-aviationprocurement-experience__container {
+    grid-template-rows: 500px;
+  }
+}
+.section-aviationprocurement-experience__pictures {
+  background-color: #c30a23;
+  background-image: url(/img/aviation-procurement-experience.png);
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+}
+@media only screen and (max-width: 50em) {
+  .section-aviationprocurement-experience__pictures {
+    grid-column: 1/-1;
+    padding: 2rem;
+  }
+}
+.section-aviationprocurement-experience__pictures__content {
+  padding: 2rem;
+  width: 100%;
+  grid-row: 2/5;
+  grid-column: 4/6;
+  background-color: #000;
+  opacity: 0.7;
+  border: 0.5rem solid #777;
+  border-radius: 10px;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+}
+@media only screen and (max-width: 62.5em) {
+  .section-aviationprocurement-experience__pictures__content {
+    grid-row: 2/5;
+    grid-column: 3/6;
+  }
+}
+@media only screen and (max-width: 50em) {
+  .section-aviationprocurement-experience__pictures__content {
+    grid-row: 1/6;
+    grid-column: 1/6;
+  }
+}
+.section-aviationprocurement-experience__pictures__text {
+  font-size: 12rem;
+  color: #c30a23;
+}
+.section-aviationprocurement-experience__pictures__paragraph {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.section-aviationprocurement-logistic {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+.section-aviationprocurement-logistic__container {
+  display: grid;
+  grid-template-rows: 800px;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media only screen and (max-width: 50em) {
+  .section-aviationprocurement-logistic__container {
+    grid-template-rows: repeat(2, 500px);
+  }
+}
+.section-aviationprocurement-logistic__content {
+  background-color: #f7f7f7;
+  grid-column: 2/2;
+  padding: 5rem;
+  /*
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      */
+  display: grid;
+  align-content: center;
+  justify-items: start;
+}
+@media only screen and (max-width: 50em) {
+  .section-aviationprocurement-logistic__content {
+    grid-column: 1/-1;
+    padding: 3rem;
+  }
+}
+.section-aviationprocurement-logistic__content__paragraph {
+  font-size: 2rem;
+}
+.section-aviationprocurement-logistic__pictures {
+  background-color: #c30a23;
+  background-image: url(/img/aviation-procurement-logistic.png);
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/2;
+}
+@media only screen and (max-width: 50em) {
+  .section-aviationprocurement-logistic__pictures {
+    grid-column: 1/-1;
+    padding: 2rem;
+  }
+}
+.section-aviationprocurement-logistic__text {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 4rem;
 }
 
 /*# sourceMappingURL=style.css.map */
