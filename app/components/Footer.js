@@ -23,10 +23,10 @@ export default function Footer() {
           </div>
           <div className='grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3'>
             <div>
-              <h2 className='mb-6 text-xl font-semibold text-gray-900 uppercase dark:text-white'>
+              <h2 className='mb-6 text-2xl font-semibold text-gray-900 uppercase dark:text-white'>
                 บริษัท เอ็กซ์พี แอร์โรเสปซ (ประเทศไทย) จำกัด
               </h2>
-              <ul className='text-gray-500 dark:text-gray-400 font-medium'>
+              <ul className='text-gray-500 dark:text-gray-400 text-2xl'>
                 <li>37/121 หมู่ที่ 9 ถนน บางศรีเมือง</li>
                 <li>ต.บางกร่าง อ.เมืองนนทบุรี</li>
                 <li>จ.นนทบุรี 11000</li>
@@ -35,18 +35,20 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h2 className='mb-6 text-xl font-semibold text-gray-900 uppercase dark:text-white'>
+              <h2 className='mb-6 text-2xl font-semibold text-gray-900 uppercase dark:text-white'>
                 ความสามารถ
               </h2>
-              <ul className='text-gray-500 dark:text-gray-400 font-large'>
-                <li>การจัดซื้อจัดจ้างการบิน</li>
+              <ul className='text-gray-500 dark:text-gray-400 text-2xl'>
+                <Link href='/aviationprocurement'>
+                  <li>การจัดซื้อจัดจ้างการบิน</li>
+                </Link>
                 <li>การบำรุงรักษาและการอัพเกรดเครื่องบิน</li>
                 <li>การทดสอบและรับรองการบิน</li>
                 <li>การฝึกอบรมการบิน</li>
               </ul>
             </div>
             <div>
-              <ul className='text-gray-500 dark:text-gray-400 font-large'>
+              <ul className='text-gray-500 dark:text-gray-400 text-2xl'>
                 <li>
                   <i className='bi bi-chevron-right'></i>
                   <Link
