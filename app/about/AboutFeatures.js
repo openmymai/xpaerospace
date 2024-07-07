@@ -5,10 +5,10 @@ export default function AboutFeatures() {
         id='aboutfeatures'
         className='section-about-features'
       >
-        <div className='u-center-text u-margin-bottom-medium'>
-          <h1 className='heading-secondary'>ภารกิจของคุณ: สำเร็จแล้ว</h1>
-        </div>
         <div className='container'>
+          <div className='u-center-text u-margin-bottom-medium'>
+            <h1 className='heading-secondary'>ภารกิจของคุณ: สำเร็จแล้ว</h1>
+          </div>
           <div className='row'>
             <div className='col-md-8 offset-md-2'>
               <p className='paragraph'>
