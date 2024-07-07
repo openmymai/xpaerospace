@@ -1394,6 +1394,12 @@ p {
 .aboutcontent__paragraph:not(:last-child) {
   margin-bottom: 3rem;
 }
+.aboutcontent__rucieparagraph {
+  font-size: 1.5rem;
+}
+.aboutcontent__rucieparagraph:not(:last-child) {
+  margin-bottom: 2rem;
+}
 .aboutcontent__has-sidebar {
   gap: 25px;
   display: grid;

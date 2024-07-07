@@ -66,6 +66,14 @@
     }
   }
 
+  &__rucieparagraph {
+    font-size: 1.5rem;
+
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+
   &__has-sidebar {
     gap: 25px;
     display: grid;

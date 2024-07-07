@@ -10,7 +10,7 @@ export default function AboutLogo() {
         <div className='container'>
           <div className='u-center-text u-margin-bottom-small'>
             <h1 className='heading-secondary'>
-              A LOGO THAT REFLECTS THE POWER OF OUR AVIATION CAPABILITIES.
+              โลโก้ที่สะท้อนถึงพลังแห่งความสามารถในการบินของเรา
             </h1>
           </div>
 
@@ -46,7 +46,7 @@ export default function AboutLogo() {
                 width={300}
                 height={200}
               />
-              <p className='paragraph'>
+              <p className='aboutcontent__rucieparagraph'>
                 เมื่อเราสูญเสีย Rucie Moore เร็วเกินไปในปี 2019 มรดกของเขาคือ
                 ความรักในการบินยังคงอยู่ในการออกแบบของเขาเพื่อเรา
                 โลโก้บริษัทเดิม มันเป็นสัญลักษณ์ของความหลงใหลในการบินและ
