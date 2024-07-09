@@ -1354,8 +1354,7 @@ p {
   display: block;
   position: absolute;
   visibility: hidden;
-  left: 14px;
-  top: 30%;
+  top: 10%;
   opacity: 0;
   transition: 0.3s;
   border-radius: 4px;
