@@ -113,7 +113,7 @@ p {
 }
 .heading-primary--main {
   display: block;
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 400;
   letter-spacing: 3.5rem;
   animation-name: moveInLeft;
@@ -126,14 +126,14 @@ p {
 }
 @media only screen and (max-width: 37.5em) {
   .heading-primary--main {
-    letter-spacing: 1rem;
-    font-size: 3rem;
+    letter-spacing: 0.8rem;
+    font-size: 2.8rem;
     margin-top: 5rem;
   }
 }
 .heading-primary--sub {
   display: block;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
   letter-spacing: 1.3rem;
   animation: moveInRight 1s ease-out;
@@ -1836,6 +1836,57 @@ p {
   margin-bottom: 5rem;
 }
 
+.flighttestingpage {
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/flighttestingheader-small.png);
+  position: relative;
+}
+@supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+  .flighttestingpage {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    height: 65vh;
+  }
+}
+@media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
+  .flighttestingpage {
+    background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/flighttestingheader.png);
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .flighttestingpage {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    height: 25vh;
+    margin-bottom: 120px;
+  }
+}
+.flighttestingpage__logo-box {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+.flighttestingpage__logo {
+  height: 3.5rem;
+}
+.flighttestingpage__text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.flighttestingpage__subtitle-lowercase {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-top: 5px;
+  margin-bottom: 5rem;
+}
+
 .section-about {
   padding: 25rem 0;
   margin-top: -20vh;
@@ -2586,6 +2637,194 @@ p {
   }
 }
 .section-aircraftmaintenance-third__text {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 4rem;
+}
+
+.section-flighttesting-features {
+  padding: 15rem 0;
+}
+@media only screen and (max-width: 56.25em) {
+  .section-flighttesting-features {
+    padding: 5rem 0;
+  }
+}
+
+.section-flighttesting-first {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+.section-flighttesting-first__container {
+  display: grid;
+  grid-template-rows: 800px;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media only screen and (max-width: 50em) {
+  .section-flighttesting-first__container {
+    grid-template-rows: repeat(2, 500px);
+  }
+}
+.section-flighttesting-first__content {
+  background-color: #f7f7f7;
+  grid-column: 1/2;
+  padding: 5rem;
+  /*
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      */
+  display: grid;
+  align-content: center;
+  justify-items: start;
+}
+@media only screen and (max-width: 50em) {
+  .section-flighttesting-first__content {
+    grid-column: 1/-1;
+    padding: 3rem;
+  }
+}
+.section-flighttesting-first__content__paragraph {
+  font-size: 2rem;
+}
+.section-flighttesting-first__pictures {
+  background-color: #c30a23;
+  background-image: url(/img/flighttestingclearcertification.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 2/2;
+}
+@media only screen and (max-width: 50em) {
+  .section-flighttesting-first__pictures {
+    grid-column: 1/-1;
+    padding: 2rem;
+  }
+}
+.section-flighttesting-first__text {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 4rem;
+}
+
+.section-flighttesting-second {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+.section-flighttesting-second__container {
+  display: grid;
+  grid-template-rows: 800px;
+  grid-template-columns: 1fr;
+}
+@media only screen and (max-width: 50em) {
+  .section-flighttesting-second__container {
+    grid-template-rows: 500px;
+  }
+}
+.section-flighttesting-second__pictures {
+  background-color: #c30a23;
+  background-image: url(/img/flighttestingexperience.png);
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+}
+@media only screen and (max-width: 50em) {
+  .section-flighttesting-second__pictures {
+    grid-column: 1/-1;
+    padding: 2rem;
+  }
+}
+.section-flighttesting-second__pictures__content {
+  padding: 2rem;
+  width: 100%;
+  grid-row: 2/5;
+  grid-column: 4/6;
+  background-color: #000;
+  opacity: 0.7;
+  border: 0.5rem solid #777;
+  border-radius: 10px;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+}
+@media only screen and (max-width: 62.5em) {
+  .section-flighttesting-second__pictures__content {
+    grid-row: 2/5;
+    grid-column: 3/6;
+  }
+}
+@media only screen and (max-width: 50em) {
+  .section-flighttesting-second__pictures__content {
+    grid-row: 1/5;
+    grid-column: 1/6;
+  }
+}
+.section-flighttesting-second__pictures__text {
+  font-size: 12rem;
+  line-height: 1;
+  color: #c30a23;
+}
+.section-flighttesting-second__pictures__text2 {
+  font-size: 5rem;
+  color: #c30a23;
+}
+.section-flighttesting-second__pictures__paragraph {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.section-flighttesting-third {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+.section-flighttesting-third__container {
+  display: grid;
+  grid-template-rows: 800px;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media only screen and (max-width: 50em) {
+  .section-flighttesting-third__container {
+    grid-template-rows: repeat(2, 500px);
+  }
+}
+.section-flighttesting-third__content {
+  background-color: #f7f7f7;
+  grid-column: 2/2;
+  padding: 5rem;
+  /*
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      */
+  display: grid;
+  align-content: center;
+  justify-items: start;
+}
+@media only screen and (max-width: 50em) {
+  .section-flighttesting-third__content {
+    grid-column: 1/-1;
+    padding: 3rem;
+  }
+}
+.section-flighttesting-third__content__paragraph {
+  font-size: 2rem;
+}
+.section-flighttesting-third__pictures {
+  background-color: #c30a23;
+  background-image: url(/img/flighttestingrealworld.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/2;
+}
+@media only screen and (max-width: 50em) {
+  .section-flighttesting-third__pictures {
+    grid-column: 1/-1;
+    padding: 2rem;
+  }
+}
+.section-flighttesting-third__text {
   font-size: 1.5rem;
   font-style: italic;
   margin-bottom: 4rem;

@@ -96,33 +96,35 @@ export default function CapabilitiesFeatures() {
 
         <div className='row'>
           <div className='story'>
-            <figure className='story__shape'>
-              <Image
-                src='/img/capa_flighttesting.png'
-                alt='procurement'
-                width={250}
-                height={250}
-                className='story__img'
-              />
-              <figcaption className='story__caption'>
-                การทดสอบและการรับรองการบิน
-              </figcaption>
-            </figure>
-            <div className='story__text'>
-              <h3 className='heading-tertiary u-margin-bottom-small'>
-                การทดสอบและการรับรองการบิน
-              </h3>
-              <p>
-                ตรวจสอบให้แน่ใจว่าเครื่องบินทุกลำได้รับการรับรอง FAA
-                โดยผ่านการทดสอบการบินในการจัดการ ระบบทั้งหมด
-                รวมถึงระบบการบินและระบบไฟฟ้า
-                และความสมบูรณ์ของโครงสร้างของลำตัวเครื่องบิน
-                อาจารย์ผู้สอนของเรามีทั้ง FAA และ U.S.
-                ใบรับรองทางทหารที่ได้รับการรับรองว่านักบินฝึกหัด
-                จำเป็นต้องบรรลุวัตถุประสงค์การบินในทุกสภาพอากาศ ในสภาพแวดล้อมใดๆ
-                ในเครื่องบินทุกประเภท
-              </p>
-            </div>
+            <Link href='/flighttesting'>
+              <figure className='story__shape'>
+                <Image
+                  src='/img/capa_flighttesting.png'
+                  alt='procurement'
+                  width={250}
+                  height={250}
+                  className='story__img'
+                />
+                <figcaption className='story__caption'>
+                  การทดสอบและการรับรองการบิน
+                </figcaption>
+              </figure>
+              <div className='story__text'>
+                <h3 className='heading-tertiary u-margin-bottom-small'>
+                  การทดสอบและการรับรองการบิน
+                </h3>
+                <p>
+                  ตรวจสอบให้แน่ใจว่าเครื่องบินทุกลำได้รับการรับรอง FAA
+                  โดยผ่านการทดสอบการบินในการจัดการ ระบบทั้งหมด
+                  รวมถึงระบบการบินและระบบไฟฟ้า
+                  และความสมบูรณ์ของโครงสร้างของลำตัวเครื่องบิน
+                  อาจารย์ผู้สอนของเรามีทั้ง FAA และ U.S.
+                  ใบรับรองทางทหารที่ได้รับการรับรองว่านักบินฝึกหัด
+                  จำเป็นต้องบรรลุวัตถุประสงค์การบินในทุกสภาพอากาศ
+                  ในสภาพแวดล้อมใดๆ ในเครื่องบินทุกประเภท
+                </p>
+              </div>
+            </Link>
           </div>
         </div>
 

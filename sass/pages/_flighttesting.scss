@@ -1,0 +1,198 @@
+.section-flighttesting-features {
+  padding: 15rem 0;
+
+  @include respond(tab-port) {
+    padding: 5rem 0;
+  }
+}
+
+.section-flighttesting-first {
+  padding: 5rem 0;
+  background-color: $color_white;
+
+  &__container {
+    display: grid;
+    grid-template-rows: 800px;
+    grid-template-columns: repeat(2, 1fr);
+    @media only screen and (max-width: $bp-medium) {
+      grid-template-rows: repeat(2, 500px);
+    }
+  }
+
+  &__content {
+    background-color: $color-grey-light-1;
+    grid-column: 1 / 2;
+    padding: 5rem;
+
+    // padding: 6rem 8vw;
+
+    /*
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        */
+
+    display: grid;
+    align-content: center;
+    justify-items: start;
+
+    @media only screen and (max-width: $bp-medium) {
+      grid-column: 1 / -1;
+      padding: 3rem;
+    }
+
+    &__paragraph {
+      font-size: 2rem;
+    }
+  }
+
+  &__pictures {
+    background-color: $color-primary;
+    background-image: url(/img/flighttestingclearcertification.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 2 / 2;
+
+    @media only screen and (max-width: $bp-medium) {
+      grid-column: 1 / -1;
+      padding: 2rem;
+    }
+  }
+
+  &__text {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 4rem;
+  }
+}
+
+.section-flighttesting-second {
+  padding: 5rem 0;
+  background-color: $color_white;
+
+  &__container {
+    display: grid;
+    grid-template-rows: 800px;
+    grid-template-columns: 1fr;
+    @media only screen and (max-width: $bp-medium) {
+      grid-template-rows: 500px;
+    }
+  }
+
+  &__pictures {
+    background-color: $color-primary;
+    background-image: url(/img/flighttestingexperience.png);
+    background-size: cover;
+    background-position: center;
+    grid-column: 1 / -1;
+
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+
+    @media only screen and (max-width: $bp-medium) {
+      grid-column: 1 / -1;
+      padding: 2rem;
+    }
+
+    &__content {
+      padding: 2rem;
+      width: 100%;
+      grid-row: 2 / 5;
+      grid-column: 4 / 6;
+      background-color: $color-black;
+      opacity: 0.7;
+      border: 0.5rem solid $color-grey-dark;
+      border-radius: 10px;
+      box-shadow: 0 2rem 5rem rgba(#000, 0.1);
+
+      @media only screen and (max-width: $bp-large) {
+        grid-row: 2 / 5;
+        grid-column: 3 / 6;
+      }
+
+      @media only screen and (max-width: $bp-medium) {
+        grid-row: 1 / 5;
+        grid-column: 1 / 6;
+      }
+    }
+
+    &__text {
+      font-size: 12rem;
+      line-height: 1;
+      color: $color-primary;
+    }
+
+    &__text2 {
+      font-size: 5rem;
+      color: $color-primary;
+    }
+
+    &__paragraph {
+      font-size: 2rem;
+      color: $color-white;
+    }
+  }
+}
+
+.section-flighttesting-third {
+  padding: 5rem 0;
+  background-color: $color_white;
+
+  &__container {
+    display: grid;
+    grid-template-rows: 800px;
+    grid-template-columns: repeat(2, 1fr);
+    @media only screen and (max-width: $bp-medium) {
+      grid-template-rows: repeat(2, 500px);
+    }
+  }
+
+  &__content {
+    background-color: $color-grey-light-1;
+    grid-column: 2 / 2;
+    padding: 5rem;
+
+    // padding: 6rem 8vw;
+
+    /*
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        */
+
+    display: grid;
+    align-content: center;
+    justify-items: start;
+
+    @media only screen and (max-width: $bp-medium) {
+      grid-column: 1 / -1;
+      padding: 3rem;
+    }
+
+    &__paragraph {
+      font-size: 2rem;
+    }
+  }
+
+  &__pictures {
+    background-color: $color-primary;
+    background-image: url(/img/flighttestingrealworld.jpg);
+    background-size: cover;
+    background-position: center;
+    grid-column: 1 / 2;
+
+    @media only screen and (max-width: $bp-medium) {
+      grid-column: 1 / -1;
+      padding: 2rem;
+    }
+  }
+
+  &__text {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 4rem;
+  }
+}
