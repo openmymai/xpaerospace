@@ -1785,6 +1785,57 @@ p {
   margin-bottom: 5rem;
 }
 
+.aircraftmaintenancepage {
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/aircraftmaintenanceheader-small.jpg);
+  position: relative;
+}
+@supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+  .aircraftmaintenancepage {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    height: 65vh;
+  }
+}
+@media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
+  .aircraftmaintenancepage {
+    background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/aircraftmaintenanceheader.jpg);
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .aircraftmaintenancepage {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    height: 25vh;
+    margin-bottom: 120px;
+  }
+}
+.aircraftmaintenancepage__logo-box {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+.aircraftmaintenancepage__logo {
+  height: 3.5rem;
+}
+.aircraftmaintenancepage__text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.aircraftmaintenancepage__subtitle-lowercase {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-top: 5px;
+  margin-bottom: 5rem;
+}
+
 .section-about {
   padding: 25rem 0;
   margin-top: -20vh;
@@ -2347,6 +2398,194 @@ p {
   }
 }
 .section-avionicsmodernization-third__text {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 4rem;
+}
+
+.section-aircraftmaintenance-features {
+  padding: 15rem 0;
+}
+@media only screen and (max-width: 56.25em) {
+  .section-aircraftmaintenance-features {
+    padding: 5rem 0;
+  }
+}
+
+.section-aircraftmaintenance-first {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+.section-aircraftmaintenance-first__container {
+  display: grid;
+  grid-template-rows: 800px;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media only screen and (max-width: 50em) {
+  .section-aircraftmaintenance-first__container {
+    grid-template-rows: repeat(2, 500px);
+  }
+}
+.section-aircraftmaintenance-first__content {
+  background-color: #f7f7f7;
+  grid-column: 1/2;
+  padding: 5rem;
+  /*
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      */
+  display: grid;
+  align-content: center;
+  justify-items: start;
+}
+@media only screen and (max-width: 50em) {
+  .section-aircraftmaintenance-first__content {
+    grid-column: 1/-1;
+    padding: 3rem;
+  }
+}
+.section-aircraftmaintenance-first__content__paragraph {
+  font-size: 2rem;
+}
+.section-aircraftmaintenance-first__pictures {
+  background-color: #c30a23;
+  background-image: url(/img/aircraftmaintenanceconfidence.png);
+  background-size: cover;
+  background-position: center;
+  grid-column: 2/2;
+}
+@media only screen and (max-width: 50em) {
+  .section-aircraftmaintenance-first__pictures {
+    grid-column: 1/-1;
+    padding: 2rem;
+  }
+}
+.section-aircraftmaintenance-first__text {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 4rem;
+}
+
+.section-aircraftmaintenance-second {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+.section-aircraftmaintenance-second__container {
+  display: grid;
+  grid-template-rows: 800px;
+  grid-template-columns: 1fr;
+}
+@media only screen and (max-width: 50em) {
+  .section-aircraftmaintenance-second__container {
+    grid-template-rows: 500px;
+  }
+}
+.section-aircraftmaintenance-second__pictures {
+  background-color: #c30a23;
+  background-image: url(/img/aircraftmaintenancefaacertified.png);
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+}
+@media only screen and (max-width: 50em) {
+  .section-aircraftmaintenance-second__pictures {
+    grid-column: 1/-1;
+    padding: 2rem;
+  }
+}
+.section-aircraftmaintenance-second__pictures__content {
+  padding: 2rem;
+  width: 100%;
+  grid-row: 2/6;
+  grid-column: 4/6;
+  background-color: #000;
+  opacity: 0.7;
+  border: 0.5rem solid #777;
+  border-radius: 10px;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+}
+@media only screen and (max-width: 62.5em) {
+  .section-aircraftmaintenance-second__pictures__content {
+    grid-row: 2/6;
+    grid-column: 3/6;
+  }
+}
+@media only screen and (max-width: 50em) {
+  .section-aircraftmaintenance-second__pictures__content {
+    grid-row: 1/6;
+    grid-column: 1/6;
+  }
+}
+.section-aircraftmaintenance-second__pictures__text {
+  font-size: 12rem;
+  line-height: 0.8;
+  color: #c30a23;
+}
+.section-aircraftmaintenance-second__pictures__text2 {
+  font-size: 5rem;
+  color: #c30a23;
+}
+.section-aircraftmaintenance-second__pictures__paragraph {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.section-aircraftmaintenance-third {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+.section-aircraftmaintenance-third__container {
+  display: grid;
+  grid-template-rows: 800px;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media only screen and (max-width: 50em) {
+  .section-aircraftmaintenance-third__container {
+    grid-template-rows: repeat(2, 500px);
+  }
+}
+.section-aircraftmaintenance-third__content {
+  background-color: #f7f7f7;
+  grid-column: 2/2;
+  padding: 5rem;
+  /*
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      */
+  display: grid;
+  align-content: center;
+  justify-items: start;
+}
+@media only screen and (max-width: 50em) {
+  .section-aircraftmaintenance-third__content {
+    grid-column: 1/-1;
+    padding: 3rem;
+  }
+}
+.section-aircraftmaintenance-third__content__paragraph {
+  font-size: 2rem;
+}
+.section-aircraftmaintenance-third__pictures {
+  background-color: #c30a23;
+  background-image: url(/img/aircraftmaintenance-innovation.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/2;
+}
+@media only screen and (max-width: 50em) {
+  .section-aircraftmaintenance-third__pictures {
+    grid-column: 1/-1;
+    padding: 2rem;
+  }
+}
+.section-aircraftmaintenance-third__text {
   font-size: 1.5rem;
   font-style: italic;
   margin-bottom: 4rem;

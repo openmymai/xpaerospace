@@ -42,7 +42,12 @@ export default function Footer() {
                 <Link href='/aviationprocurement'>
                   <li>การจัดซื้อจัดจ้างการบิน</li>
                 </Link>
-                <li>การบำรุงรักษาและการอัพเกรดเครื่องบิน</li>
+                <Link href='/avionicsmodernization'>
+                  <li>Avionics ที่ทันสมัย</li>
+                </Link>
+                <Link href='/aircraftmaintenance'>
+                  <li>การบำรุงรักษาและการอัพเกรดเครื่องบิน</li>
+                </Link>
                 <li>การทดสอบและรับรองการบิน</li>
                 <li>การฝึกอบรมการบิน</li>
               </ul>
