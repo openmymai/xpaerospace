@@ -48,8 +48,12 @@ export default function Footer() {
                 <Link href='/aircraftmaintenance'>
                   <li>การบำรุงรักษาและการอัพเกรดเครื่องบิน</li>
                 </Link>
-                <li>การทดสอบและรับรองการบิน</li>
-                <li>การฝึกอบรมการบิน</li>
+                <Link href='/flighttesting'>
+                  <li>การทดสอบและรับรองการบิน</li>
+                </Link>
+                <Link href='/flighttraining'>
+                  <li>การฝึกอบรมการบิน</li>
+                </Link>
               </ul>
             </div>
             <div>

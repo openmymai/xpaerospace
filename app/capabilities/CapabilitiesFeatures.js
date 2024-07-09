@@ -130,27 +130,29 @@ export default function CapabilitiesFeatures() {
 
         <div className='row'>
           <div className='story'>
-            <figure className='story__shape'>
-              <Image
-                src='/img/capa_flighttraining.png'
-                alt='procurement'
-                width={250}
-                height={250}
-                className='story__img'
-              />
-              <figcaption className='story__caption'>การฝึกบิน</figcaption>
-            </figure>
-            <div className='story__text'>
-              <h3 className='heading-tertiary u-margin-bottom-small'>
-                การฝึกบิน
-              </h3>
-              <p>
-                อาจารย์ผู้สอนของเรามีทั้ง FAA และ U.S.
-                ใบรับรองทางทหารที่ได้รับการรับรองว่านักบินฝึกหัด
-                จำเป็นต้องบรรลุวัตถุประสงค์การบินในทุกสภาพอากาศ ในสภาพแวดล้อมใดๆ
-                ในเครื่องบินทุกประเภท
-              </p>
-            </div>
+            <Link href='/flighttraining'>
+              <figure className='story__shape'>
+                <Image
+                  src='/img/capa_flighttraining.png'
+                  alt='procurement'
+                  width={250}
+                  height={250}
+                  className='story__img'
+                />
+                <figcaption className='story__caption'>การฝึกบิน</figcaption>
+              </figure>
+              <div className='story__text'>
+                <h3 className='heading-tertiary u-margin-bottom-small'>
+                  การฝึกบิน
+                </h3>
+                <p>
+                  อาจารย์ผู้สอนของเรามีทั้ง FAA และ U.S.
+                  ใบรับรองทางทหารที่ได้รับการรับรองว่านักบินฝึกหัด
+                  จำเป็นต้องบรรลุวัตถุประสงค์การบินในทุกสภาพอากาศ
+                  ในสภาพแวดล้อมใดๆ ในเครื่องบินทุกประเภท
+                </p>
+              </div>
+            </Link>
           </div>
         </div>
       </section>
