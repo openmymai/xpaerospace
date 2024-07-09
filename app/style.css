@@ -1347,6 +1347,50 @@ p {
   transform: rotate(-135deg);
 }
 
+.dropdown ul {
+  margin: 0;
+  padding: 5px 0;
+  background: #fff;
+  display: block;
+  position: absolute;
+  visibility: hidden;
+  left: 14px;
+  top: 30%;
+  opacity: 0;
+  transition: 0.3s;
+  border-radius: 4px;
+  z-index: 99;
+  box-shadow: 0px 0px 30px color-mix(in srgb, #c30a23, transparent 85%);
+}
+
+.dropdown ul li {
+  min-width: 200px;
+  padding-left: 10px;
+}
+
+.dropdown ul a {
+  padding: 5px 8px;
+  font-size: 12px;
+  text-transform: none;
+  color: #000;
+}
+
+.dropdown ul a i {
+  font-size: 12px;
+}
+
+.dropdown ul a:hover,
+.dropdown ul .active:hover,
+.dropdown ul li:hover > a {
+  color: #faa0a0;
+}
+
+.dropdown:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
 .aboutpage {
   height: 140vh;
   background-repeat: no-repeat;

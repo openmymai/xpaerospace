@@ -36,8 +36,25 @@ const Navigation = () => {
                 </li>
               </Link>
               <Link href='/capabilities'>
-                <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
-                  ความสามารถ
+                <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl dropdown'>
+                  ความสามารถ <i class='bi bi-chevron-down toggle-dropdown'></i>
+                  <ul>
+                    <Link href='/aviationprocurement'>
+                      <li>การจัดซื้อจัดจ้างการบิน</li>
+                    </Link>
+                    <Link href='/avionicsmodernization'>
+                      <li>Avionics Modernization</li>
+                    </Link>
+                    <Link href='/aircraftmaintenance'>
+                      <li>การบำรุงรักษาการบิน</li>
+                    </Link>
+                    <Link href='/flighttesting'>
+                      <li>การทดสอบและการรับรองการบิน</li>
+                    </Link>
+                    <Link href='/flighttraining'>
+                      <li>การอบรมการบิน</li>
+                    </Link>
+                  </ul>
                 </li>
               </Link>
               <Link href='/whyxp'>
