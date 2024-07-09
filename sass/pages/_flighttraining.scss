@@ -109,7 +109,7 @@
 
       @media only screen and (max-width: $bp-large) {
         grid-row: 2 / 5;
-        grid-column: 2 / 6;
+        grid-column: 3 / 6;
       }
 
       @media only screen and (max-width: $bp-medium) {
@@ -122,6 +122,11 @@
       font-size: 10rem;
       line-height: 1;
       color: $color-primary;
+
+      @media only screen and (max-width: $bp-superlarge) {
+        font-size: 8rem;
+        color: $color-primary;
+      }
     }
 
     &__text2 {

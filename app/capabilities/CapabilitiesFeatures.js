@@ -54,7 +54,7 @@ export default function CapabilitiesFeatures() {
               </figure>
               <div className='story__text'>
                 <h3 className='heading-tertiary u-margin-bottom-small'>
-                  Avionics ที่ทันสมัย
+                  Avionics Modernization
                 </h3>
                 <p>
                   โซลูชัน Avionics ออกแบบมาโดยเฉพาะเพื่อลดภาระงานของนักบิน
