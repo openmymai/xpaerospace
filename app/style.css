@@ -190,6 +190,13 @@ p {
   margin-bottom: 3rem;
 }
 
+.paragraph__small {
+  font-size: 1.5rem;
+}
+.paragraph__small:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
 .paragraph__bold {
   font-size: 2rem;
   font-weight: 800;
@@ -1727,6 +1734,57 @@ p {
   margin-bottom: 5rem;
 }
 
+.avionicsmodernizationpage {
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/avionicsmodernization-header-small.jpg);
+  position: relative;
+}
+@supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+  .avionicsmodernizationpage {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    height: 65vh;
+  }
+}
+@media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
+  .avionicsmodernizationpage {
+    background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/avionicsmodernization-header.jpg);
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .avionicsmodernizationpage {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    height: 25vh;
+    margin-bottom: 120px;
+  }
+}
+.avionicsmodernizationpage__logo-box {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+.avionicsmodernizationpage__logo {
+  height: 3.5rem;
+}
+.avionicsmodernizationpage__text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.avionicsmodernizationpage__subtitle-lowercase {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-top: 5px;
+  margin-bottom: 5rem;
+}
+
 .section-about {
   padding: 25rem 0;
   margin-top: -20vh;
@@ -1933,21 +1991,21 @@ p {
   }
 }
 
-.section-aviationprocurement-objective {
+.section-aviationprocurement-first {
   padding: 5rem 0;
   background-color: #fff;
 }
-.section-aviationprocurement-objective__container {
+.section-aviationprocurement-first__container {
   display: grid;
   grid-template-rows: 800px;
   grid-template-columns: repeat(2, 1fr);
 }
 @media only screen and (max-width: 50em) {
-  .section-aviationprocurement-objective__container {
+  .section-aviationprocurement-first__container {
     grid-template-rows: repeat(2, 500px);
   }
 }
-.section-aviationprocurement-objective__content {
+.section-aviationprocurement-first__content {
   background-color: #f7f7f7;
   grid-column: 1/2;
   padding: 5rem;
@@ -1962,15 +2020,15 @@ p {
   justify-items: start;
 }
 @media only screen and (max-width: 50em) {
-  .section-aviationprocurement-objective__content {
+  .section-aviationprocurement-first__content {
     grid-column: 1/-1;
     padding: 3rem;
   }
 }
-.section-aviationprocurement-objective__content__paragraph {
+.section-aviationprocurement-first__content__paragraph {
   font-size: 2rem;
 }
-.section-aviationprocurement-objective__pictures {
+.section-aviationprocurement-first__pictures {
   background-color: #c30a23;
   background-image: url(/img/aviationprocurement-objective.png);
   background-size: cover;
@@ -1978,32 +2036,32 @@ p {
   grid-column: 2/2;
 }
 @media only screen and (max-width: 50em) {
-  .section-aviationprocurement-objective__pictures {
+  .section-aviationprocurement-first__pictures {
     grid-column: 1/-1;
     padding: 2rem;
   }
 }
-.section-aviationprocurement-objective__text {
+.section-aviationprocurement-first__text {
   font-size: 1.5rem;
   font-style: italic;
   margin-bottom: 4rem;
 }
 
-.section-aviationprocurement-experience {
+.section-aviationprocurement-second {
   padding: 5rem 0;
   background-color: #fff;
 }
-.section-aviationprocurement-experience__container {
+.section-aviationprocurement-second__container {
   display: grid;
   grid-template-rows: 800px;
   grid-template-columns: 1fr;
 }
 @media only screen and (max-width: 50em) {
-  .section-aviationprocurement-experience__container {
+  .section-aviationprocurement-second__container {
     grid-template-rows: 500px;
   }
 }
-.section-aviationprocurement-experience__pictures {
+.section-aviationprocurement-second__pictures {
   background-color: #c30a23;
   background-image: url(/img/aviation-procurement-experience.png);
   background-size: cover;
@@ -2014,12 +2072,12 @@ p {
   grid-template-columns: repeat(6, 1fr);
 }
 @media only screen and (max-width: 50em) {
-  .section-aviationprocurement-experience__pictures {
+  .section-aviationprocurement-second__pictures {
     grid-column: 1/-1;
     padding: 2rem;
   }
 }
-.section-aviationprocurement-experience__pictures__content {
+.section-aviationprocurement-second__pictures__content {
   padding: 2rem;
   width: 100%;
   grid-row: 2/5;
@@ -2031,41 +2089,41 @@ p {
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
 }
 @media only screen and (max-width: 62.5em) {
-  .section-aviationprocurement-experience__pictures__content {
+  .section-aviationprocurement-second__pictures__content {
     grid-row: 2/5;
     grid-column: 3/6;
   }
 }
 @media only screen and (max-width: 50em) {
-  .section-aviationprocurement-experience__pictures__content {
+  .section-aviationprocurement-second__pictures__content {
     grid-row: 1/6;
     grid-column: 1/6;
   }
 }
-.section-aviationprocurement-experience__pictures__text {
+.section-aviationprocurement-second__pictures__text {
   font-size: 12rem;
   color: #c30a23;
 }
-.section-aviationprocurement-experience__pictures__paragraph {
+.section-aviationprocurement-second__pictures__paragraph {
   font-size: 2rem;
   color: #fff;
 }
 
-.section-aviationprocurement-logistic {
+.section-aviationprocurement-third {
   padding: 5rem 0;
   background-color: #fff;
 }
-.section-aviationprocurement-logistic__container {
+.section-aviationprocurement-third__container {
   display: grid;
   grid-template-rows: 800px;
   grid-template-columns: repeat(2, 1fr);
 }
 @media only screen and (max-width: 50em) {
-  .section-aviationprocurement-logistic__container {
+  .section-aviationprocurement-third__container {
     grid-template-rows: repeat(2, 500px);
   }
 }
-.section-aviationprocurement-logistic__content {
+.section-aviationprocurement-third__content {
   background-color: #f7f7f7;
   grid-column: 2/2;
   padding: 5rem;
@@ -2080,15 +2138,15 @@ p {
   justify-items: start;
 }
 @media only screen and (max-width: 50em) {
-  .section-aviationprocurement-logistic__content {
+  .section-aviationprocurement-third__content {
     grid-column: 1/-1;
     padding: 3rem;
   }
 }
-.section-aviationprocurement-logistic__content__paragraph {
+.section-aviationprocurement-third__content__paragraph {
   font-size: 2rem;
 }
-.section-aviationprocurement-logistic__pictures {
+.section-aviationprocurement-third__pictures {
   background-color: #c30a23;
   background-image: url(/img/aviation-procurement-logistic.png);
   background-size: cover;
@@ -2096,12 +2154,199 @@ p {
   grid-column: 1/2;
 }
 @media only screen and (max-width: 50em) {
-  .section-aviationprocurement-logistic__pictures {
+  .section-aviationprocurement-third__pictures {
     grid-column: 1/-1;
     padding: 2rem;
   }
 }
-.section-aviationprocurement-logistic__text {
+.section-aviationprocurement-third__text {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 4rem;
+}
+
+.section-avionicsmodernization-features {
+  padding: 15rem 0;
+}
+@media only screen and (max-width: 56.25em) {
+  .section-avionicsmodernization-features {
+    padding: 5rem 0;
+  }
+}
+
+.section-avionicsmodernization-first {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+.section-avionicsmodernization-first__container {
+  display: grid;
+  grid-template-rows: 800px;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media only screen and (max-width: 50em) {
+  .section-avionicsmodernization-first__container {
+    grid-template-rows: repeat(2, 500px);
+  }
+}
+.section-avionicsmodernization-first__content {
+  background-color: #f7f7f7;
+  grid-column: 1/2;
+  padding: 5rem;
+  /*
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      */
+  display: grid;
+  align-content: center;
+  justify-items: start;
+}
+@media only screen and (max-width: 50em) {
+  .section-avionicsmodernization-first__content {
+    grid-column: 1/-1;
+    padding: 3rem;
+  }
+}
+.section-avionicsmodernization-first__content__paragraph {
+  font-size: 2rem;
+}
+.section-avionicsmodernization-first__pictures {
+  background-color: #c30a23;
+  background-image: url(/img/modernizinglegacytechnology.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 2/2;
+}
+@media only screen and (max-width: 50em) {
+  .section-avionicsmodernization-first__pictures {
+    grid-column: 1/-1;
+    padding: 2rem;
+  }
+}
+.section-avionicsmodernization-first__text {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 4rem;
+}
+
+.section-avionicsmodernization-second {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+.section-avionicsmodernization-second__container {
+  display: grid;
+  grid-template-rows: 800px;
+  grid-template-columns: 1fr;
+}
+@media only screen and (max-width: 50em) {
+  .section-avionicsmodernization-second__container {
+    grid-template-rows: 500px;
+  }
+}
+.section-avionicsmodernization-second__pictures {
+  background-color: #c30a23;
+  background-image: url(/img/250plusfixedwings.png);
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+}
+@media only screen and (max-width: 50em) {
+  .section-avionicsmodernization-second__pictures {
+    grid-column: 1/-1;
+    padding: 2rem;
+  }
+}
+.section-avionicsmodernization-second__pictures__content {
+  padding: 2rem;
+  width: 100%;
+  grid-row: 2/6;
+  grid-column: 4/6;
+  background-color: #000;
+  opacity: 0.7;
+  border: 0.5rem solid #777;
+  border-radius: 10px;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+}
+@media only screen and (max-width: 62.5em) {
+  .section-avionicsmodernization-second__pictures__content {
+    grid-row: 2/6;
+    grid-column: 3/6;
+  }
+}
+@media only screen and (max-width: 50em) {
+  .section-avionicsmodernization-second__pictures__content {
+    grid-row: 1/6;
+    grid-column: 1/6;
+  }
+}
+.section-avionicsmodernization-second__pictures__text {
+  font-size: 12rem;
+  color: #c30a23;
+}
+.section-avionicsmodernization-second__pictures__text2 {
+  font-size: 5rem;
+  color: #c30a23;
+}
+.section-avionicsmodernization-second__pictures__paragraph {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.section-avionicsmodernization-third {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+.section-avionicsmodernization-third__container {
+  display: grid;
+  grid-template-rows: 800px;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media only screen and (max-width: 50em) {
+  .section-avionicsmodernization-third__container {
+    grid-template-rows: repeat(2, 500px);
+  }
+}
+.section-avionicsmodernization-third__content {
+  background-color: #f7f7f7;
+  grid-column: 2/2;
+  padding: 5rem;
+  /*
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      */
+  display: grid;
+  align-content: center;
+  justify-items: start;
+}
+@media only screen and (max-width: 50em) {
+  .section-avionicsmodernization-third__content {
+    grid-column: 1/-1;
+    padding: 3rem;
+  }
+}
+.section-avionicsmodernization-third__content__paragraph {
+  font-size: 2rem;
+}
+.section-avionicsmodernization-third__pictures {
+  background-color: #c30a23;
+  background-image: url(/img/enhancepilotmission.png);
+  background-size: cover;
+  background-position: center;
+  grid-column: 1/2;
+}
+@media only screen and (max-width: 50em) {
+  .section-avionicsmodernization-third__pictures {
+    grid-column: 1/-1;
+    padding: 2rem;
+  }
+}
+.section-avionicsmodernization-third__text {
   font-size: 1.5rem;
   font-style: italic;
   margin-bottom: 4rem;

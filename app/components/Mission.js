@@ -29,7 +29,7 @@ const Mission = () => {
           <div className='container'>
             <div className='row'>
               <div className='col-md-8'>
-                <p className='paragraph'>
+                <p className='paragraph__small'>
                   XPAT
                   สร้างโซลูชันที่มีประสิทธิภาพและประสิทธิผลสูงสุดเพื่อบรรลุเป้าหมายเฉพาะของลูกค้าทุกคน
                   ผ่านการทดสอบการบิน การพัฒนาต้นแบบ และการฝึกอบรมการบิน

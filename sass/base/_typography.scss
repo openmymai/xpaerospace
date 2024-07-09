@@ -101,6 +101,14 @@ p {
   }
 }
 
+.paragraph__small {
+  font-size: $default-small-font-size;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
 .paragraph__bold {
   font-size: $default-font-size;
   font-weight: 800;

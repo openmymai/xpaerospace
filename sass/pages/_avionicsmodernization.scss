@@ -1,4 +1,4 @@
-.section-aviationprocurement-features {
+.section-avionicsmodernization-features {
   padding: 15rem 0;
 
   @include respond(tab-port) {
@@ -6,7 +6,7 @@
   }
 }
 
-.section-aviationprocurement-first {
+.section-avionicsmodernization-first {
   padding: 5rem 0;
   background-color: $color_white;
 
@@ -49,7 +49,7 @@
 
   &__pictures {
     background-color: $color-primary;
-    background-image: url(/img/aviationprocurement-objective.png);
+    background-image: url(/img/modernizinglegacytechnology.jpg);
     background-size: cover;
     background-position: center;
     grid-column: 2 / 2;
@@ -67,7 +67,7 @@
   }
 }
 
-.section-aviationprocurement-second {
+.section-avionicsmodernization-second {
   padding: 5rem 0;
   background-color: $color_white;
 
@@ -82,7 +82,7 @@
 
   &__pictures {
     background-color: $color-primary;
-    background-image: url(/img/aviation-procurement-experience.png);
+    background-image: url(/img/250plusfixedwings.png);
     background-size: cover;
     background-position: center;
     grid-column: 1 / -1;
@@ -99,7 +99,7 @@
     &__content {
       padding: 2rem;
       width: 100%;
-      grid-row: 2 / 5;
+      grid-row: 2 / 6;
       grid-column: 4 / 6;
       background-color: $color-black;
       opacity: 0.7;
@@ -108,7 +108,7 @@
       box-shadow: 0 2rem 5rem rgba(#000, 0.1);
 
       @media only screen and (max-width: $bp-large) {
-        grid-row: 2 / 5;
+        grid-row: 2 / 6;
         grid-column: 3 / 6;
       }
 
@@ -123,6 +123,11 @@
       color: $color-primary;
     }
 
+    &__text2 {
+      font-size: 5rem;
+      color: $color-primary;
+    }
+
     &__paragraph {
       font-size: 2rem;
       color: $color-white;
@@ -130,7 +135,7 @@
   }
 }
 
-.section-aviationprocurement-third {
+.section-avionicsmodernization-third {
   padding: 5rem 0;
   background-color: $color_white;
 
@@ -173,7 +178,7 @@
 
   &__pictures {
     background-color: $color-primary;
-    background-image: url(/img/aviation-procurement-logistic.png);
+    background-image: url(/img/enhancepilotmission.png);
     background-size: cover;
     background-position: center;
     grid-column: 1 / 2;
