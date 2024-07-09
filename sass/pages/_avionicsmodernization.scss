@@ -107,13 +107,18 @@
       border-radius: 10px;
       box-shadow: 0 2rem 5rem rgba(#000, 0.1);
 
+      @media only screen and (max-width: $bp-superlarge) {
+        grid-row: 2 / 5;
+        grid-column: 3 / 6;
+      }
+
       @media only screen and (max-width: $bp-large) {
-        grid-row: 2 / 6;
+        grid-row: 2 / 5;
         grid-column: 3 / 6;
       }
 
       @media only screen and (max-width: $bp-medium) {
-        grid-row: 1 / 6;
+        grid-row: 1 / 5;
         grid-column: 1 / 6;
       }
     }
@@ -126,6 +131,11 @@
     &__text2 {
       font-size: 5rem;
       color: $color-primary;
+
+      @media only screen and (max-width: $bp-superlarge) {
+        font-size: 3rem;
+        color: $color-primary;
+      }
     }
 
     &__paragraph {
