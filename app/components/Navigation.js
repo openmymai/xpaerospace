@@ -21,7 +21,7 @@ const Navigation = () => {
               <div className='image-wrapper'>
                 <Image
                   src='/img/xpatlogo.png'
-                  alt='client1'
+                  alt='xpatlogo'
                   width={60}
                   height={20}
                 />
@@ -30,53 +30,52 @@ const Navigation = () => {
           </div>
           <div className='hidden md:flex'>
             <ul className='hidden md:flex'>
-              <Link href='/about'>
-                <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
-                  เกี่ยวกับ
-                </li>
-              </Link>
-              <Link href='/capabilities'>
-                <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl dropdown'>
-                  ความสามารถ <i class='bi bi-chevron-down toggle-dropdown'></i>
-                  <ul>
+              <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
+                <Link href='/about'>เกี่ยวกับ</Link>
+              </li>
+
+              <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl dropdown'>
+                <Link href='/capabilities'>ความสามารถ </Link>
+                <i className='bi bi-chevron-down toggle-dropdown'></i>
+                <ul>
+                  <li>
                     <Link href='/aviationprocurement'>
-                      <li>การจัดซื้อจัดจ้างการบิน</li>
+                      การจัดซื้อจัดจ้างการบิน
                     </Link>
+                  </li>
+                  <li>
                     <Link href='/avionicsmodernization'>
-                      <li>Avionics Modernization</li>
+                      Avionics Modernization
                     </Link>
-                    <Link href='/aircraftmaintenance'>
-                      <li>การบำรุงรักษาการบิน</li>
-                    </Link>
+                  </li>
+                  <li>
+                    <Link href='/aircraftmaintenance'>การบำรุงรักษาการบิน</Link>
+                  </li>
+                  <li>
                     <Link href='/flighttesting'>
-                      <li>การทดสอบและการรับรองการบิน</li>
+                      การทดสอบและการรับรองการบิน
                     </Link>
-                    <Link href='/flighttraining'>
-                      <li>การอบรมการบิน</li>
-                    </Link>
-                  </ul>
-                </li>
-              </Link>
-              <Link href='/whyxp'>
-                <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
-                  ทำไมต้อง XP
-                </li>
-              </Link>
-              <Link href='/pastperformance'>
-                <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
-                  ผลงานที่ผ่านมา
-                </li>
-              </Link>
-              <Link href='/partners'>
-                <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
-                  คู่ค้าของเรา
-                </li>
-              </Link>
-              <Link href='#contact'>
-                <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
-                  ติดต่อเรา
-                </li>
-              </Link>
+                  </li>
+                  <li>
+                    <Link href='/flighttraining'>การอบรมการบิน</Link>
+                  </li>
+                </ul>
+              </li>
+              <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
+                <Link href='/whyxp'>ทำไมต้อง XP</Link>
+              </li>
+
+              <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
+                <Link href='/pastperformance'>ผลงานที่ผ่านมา</Link>
+              </li>
+
+              <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
+                <Link href='/partners'>คู่ค้าของเรา</Link>
+              </li>
+
+              <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
+                <Link href='#contact'>ติดต่อเรา</Link>
+              </li>
             </ul>
           </div>
           <div
@@ -103,55 +102,47 @@ const Navigation = () => {
           </div>
           <div className='flex-col py-4'>
             <ul>
-              <Link href='/about'>
-                <li
-                  onClick={() => setMenuOpen(false)}
-                  className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
-                >
-                  เกี่ยวกับ
-                </li>
-              </Link>
-              <Link href='/capabilities'>
-                <li
-                  onClick={() => setMenuOpen(false)}
-                  className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
-                >
-                  ความสามารถ
-                </li>
-              </Link>
-              <Link href='/whyxp'>
-                <li
-                  onClick={() => setMenuOpen(false)}
-                  className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
-                >
-                  ทำไมต้อง XP
-                </li>
-              </Link>
-              <Link href='/pastperformance'>
-                <li
-                  onClick={() => setMenuOpen(false)}
-                  className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
-                >
-                  ผลงานที่ผ่านมา
-                </li>
-              </Link>
+              <li
+                onClick={() => setMenuOpen(false)}
+                className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
+              >
+                <Link href='/about'>เกี่ยวกับ</Link>
+              </li>
 
-              <Link href='/partners'>
-                <li
-                  onClick={() => setMenuOpen(false)}
-                  className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
-                >
-                  คู่ค้าของเรา
-                </li>
-              </Link>
-              <Link href='#contact'>
-                <li
-                  onClick={() => setMenuOpen(false)}
-                  className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
-                >
-                  ติดต่อเรา
-                </li>
-              </Link>
+              <li
+                onClick={() => setMenuOpen(false)}
+                className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
+              >
+                <Link href='/capabilities'>ความสามารถ</Link>
+              </li>
+
+              <li
+                onClick={() => setMenuOpen(false)}
+                className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
+              >
+                <Link href='/whyxp'>ทำไมต้อง XP</Link>
+              </li>
+
+              <li
+                onClick={() => setMenuOpen(false)}
+                className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
+              >
+                <Link href='/pastperformance'>ผลงานที่ผ่านมา</Link>
+              </li>
+
+              <li
+                onClick={() => setMenuOpen(false)}
+                className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
+              >
+                <Link href='/partners'>คู่ค้าของเรา</Link>
+              </li>
+
+              <li
+                onClick={() => setMenuOpen(false)}
+                className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
+              >
+                <Link href='#contact'>ติดต่อเรา</Link>
+              </li>
             </ul>
           </div>
         </div>

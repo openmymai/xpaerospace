@@ -39,21 +39,29 @@ export default function Footer() {
                 ความสามารถ
               </h2>
               <ul className='text-gray-500 dark:text-gray-400 text-2xl'>
-                <Link href='/aviationprocurement'>
-                  <li>การจัดซื้อจัดจ้างการบิน</li>
-                </Link>
-                <Link href='/avionicsmodernization'>
-                  <li>Avionics ที่ทันสมัย</li>
-                </Link>
-                <Link href='/aircraftmaintenance'>
-                  <li>การบำรุงรักษาและการอัพเกรดเครื่องบิน</li>
-                </Link>
-                <Link href='/flighttesting'>
-                  <li>การทดสอบและรับรองการบิน</li>
-                </Link>
-                <Link href='/flighttraining'>
-                  <li>การฝึกอบรมการบิน</li>
-                </Link>
+                <li>
+                  <Link href='/aviationprocurement'>
+                    การจัดซื้อจัดจ้างการบิน
+                  </Link>
+                </li>
+
+                <li>
+                  <Link href='/avionicsmodernization'>Avionics ที่ทันสมัย</Link>
+                </li>
+
+                <li>
+                  <Link href='/aircraftmaintenance'>
+                    การบำรุงรักษาและการอัพเกรดเครื่องบิน
+                  </Link>
+                </li>
+
+                <li>
+                  <Link href='/flighttesting'>การทดสอบและรับรองการบิน</Link>
+                </li>
+
+                <li>
+                  <Link href='/flighttraining'>การฝึกอบรมการบิน</Link>
+                </li>
               </ul>
             </div>
             <div>
