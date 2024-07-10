@@ -176,7 +176,7 @@
 
 .dropdown ul {
   margin: 0;
-  padding: 5px 0;
+  padding: 10px 0;
   background: $color-white;
   display: block;
   position: absolute;
@@ -190,12 +190,12 @@
 }
 
 .dropdown ul li {
-  min-width: 200px;
-  padding-left: 10px;
+  min-width: 230px;
+  padding: 10px 15px;
 }
 
 .dropdown ul a {
-  padding: 5px 8px;
+  padding: 5px 10px;
   font-size: 12px;
   text-transform: none;
   color: $color-black;
