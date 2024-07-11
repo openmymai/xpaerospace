@@ -10,7 +10,7 @@ export default function CapabilitiesComprehensive() {
         </div>
         <div className='container'>
           <div className='row'>
-            <div className='col-md-8 offset-md-2'>
+            <div className='col-3-of-3'>
               <p className='paragraph'>
                 XP Services
                 ช่วยให้ลูกค้าทั่วโลกเอาชนะความท้าทายด้านการบินที่ซับซ้อนที่สุดได้
