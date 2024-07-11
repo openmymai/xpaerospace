@@ -178,17 +178,17 @@ p {
 }
 
 .heading-tertiary {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .text {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .paragraph {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .paragraph:not(:last-child) {
   margin-bottom: 3rem;
@@ -202,7 +202,7 @@ p {
 }
 
 .paragraph__bold {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 800;
 }
 .paragraph__bold:not(:last-child) {
@@ -284,7 +284,7 @@ p {
   border-radius: 10rem;
   transition: all 0.2s;
   position: relative;
-  font-size: 2rem;
+  font-size: 1.8rem;
   border: none;
   cursor: pointer;
 }
@@ -333,7 +333,7 @@ p {
 }
 
 .btn-text:link, .btn-text:visited {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #c30a23;
   display: inline-block;
   text-decoration: none;
@@ -871,7 +871,7 @@ p {
   border-radius: 3px;
   padding: 6rem;
   padding-left: 9rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
   transform: skewX(-12deg);
 }
 @media only screen and (max-width: 56.25em) {
@@ -1449,7 +1449,7 @@ p {
   margin: 0 auto;
 }
 .aboutcontent__paragraph {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .aboutcontent__paragraph:not(:last-child) {
   margin-bottom: 3rem;
@@ -1561,13 +1561,13 @@ p {
   margin-right: 5px;
 }
 .whyxpflight__paragraph {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .whyxpflight__paragraph:not(:last-child) {
   margin-bottom: 3rem;
 }
 .whyxpflight__paragraph strong {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .whyxpflight__paragraph strong:not(:last-child) {
   margin-bottom: 3rem;
@@ -1723,7 +1723,7 @@ p {
 }
 .partnerspage__text-box {
   position: absolute;
-  top: 40%;
+  top: 33%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
