@@ -49,11 +49,11 @@
   }
 
   &__form {
-    width: 50%;
-    padding: 6rem;
+    width: 70%;
+    padding: 2rem;
 
     @include respond(tab-land) {
-      width: 65%;
+      width: 80%;
     }
 
     @include respond(tab-port) {

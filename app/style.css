@@ -3248,12 +3248,12 @@ p {
   }
 }
 .contact__form {
-  width: 50%;
-  padding: 6rem;
+  width: 70%;
+  padding: 2rem;
 }
 @media only screen and (max-width: 75em) {
   .contact__form {
-    width: 65%;
+    width: 80%;
   }
 }
 @media only screen and (max-width: 56.25em) {
