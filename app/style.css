@@ -3249,7 +3249,7 @@ p {
 }
 .contact__form {
   width: 60%;
-  padding: 2rem;
+  padding: 6rem 2rem;
 }
 @media only screen and (max-width: 75em) {
   .contact__form {
