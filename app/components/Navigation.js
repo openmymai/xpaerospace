@@ -74,7 +74,7 @@ const Navigation = () => {
               </li>
 
               <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
-                <Link href='#contact'>ติดต่อเรา</Link>
+                <Link href='/contactus'>ติดต่อเรา</Link>
               </li>
             </ul>
           </div>
@@ -141,7 +141,7 @@ const Navigation = () => {
                 onClick={() => setMenuOpen(false)}
                 className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
               >
-                <Link href='#contact'>ติดต่อเรา</Link>
+                <Link href='/contactus'>ติดต่อเรา</Link>
               </li>
             </ul>
           </div>

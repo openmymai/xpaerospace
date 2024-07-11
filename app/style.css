@@ -183,6 +183,10 @@ p {
   text-transform: uppercase;
 }
 
+.text {
+  font-size: 2rem;
+}
+
 .paragraph {
   font-size: 2rem;
 }
@@ -304,11 +308,11 @@ p {
 .btn--white::after {
   background-color: #fff;
 }
-.btn--green {
+.btn--red {
   background-color: #c30a23;
   color: #fff;
 }
-.btn--green::after {
+.btn--red::after {
   background-color: #c30a23;
 }
 .btn::after {
@@ -651,7 +655,7 @@ p {
   transform: translateY(-4rem);
 }
 .form__radio-group {
-  width: 49%;
+  width: 30%;
   display: inline-block;
 }
 @media only screen and (max-width: 56.25em) {
@@ -664,7 +668,7 @@ p {
   display: none;
 }
 .form__radio-label {
-  font-size: 2rem;
+  font-size: 1.5rem;
   cursor: pointer;
   position: relative;
   padding-left: 4.5rem;
@@ -672,8 +676,8 @@ p {
 .form__radio-button {
   height: 3rem;
   width: 3rem;
-  border: 5px solid #c30a23;
-  border-radius: 50%;
+  border: 3px solid #c30a23;
+  border-radius: 5%;
   display: inline-block;
   position: absolute;
   left: 0;
@@ -684,7 +688,7 @@ p {
   display: block;
   height: 1.3rem;
   width: 1.3rem;
-  border-radius: 50%;
+  border-radius: 5%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1981,6 +1985,57 @@ p {
   margin-bottom: 5rem;
 }
 
+.contactuspage {
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/contactusheader-small.png);
+  position: relative;
+}
+@supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+  .contactuspage {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    height: 65vh;
+  }
+}
+@media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
+  .contactuspage {
+    background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/contactusheader.png);
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .contactuspage {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    height: 25vh;
+    margin-bottom: 30px;
+  }
+}
+.contactuspage__logo-box {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+.contactuspage__logo {
+  height: 3.5rem;
+}
+.contactuspage__text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.contactuspage__subtitle-lowercase {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-top: 5px;
+  margin-bottom: 5rem;
+}
+
 .section-about {
   padding: 25rem 0;
   margin-top: -20vh;
@@ -3153,6 +3208,58 @@ p {
   font-size: 1.5rem;
   font-style: italic;
   margin-bottom: 4rem;
+}
+
+.section-contactus-features {
+  padding: 15rem 0;
+}
+@media only screen and (max-width: 56.25em) {
+  .section-contactus-features {
+    padding: 10rem 0;
+  }
+}
+
+.section-contactus-form {
+  padding: 15rem 0;
+  background-color: #fff;
+}
+@media only screen and (max-width: 56.25em) {
+  .section-contactus-form {
+    padding: 10rem 0;
+  }
+}
+
+.contact {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(98deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(/img/contactusform.jpg);
+  background-size: 100%;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+}
+@media only screen and (max-width: 75em) {
+  .contact {
+    background-image: linear-gradient(98deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 60%, transparent 65%), url(/img/contactusform.jpg);
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .contact {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(/img/contactusform.jpg);
+  }
+}
+.contact__form {
+  width: 50%;
+  padding: 6rem;
+}
+@media only screen and (max-width: 75em) {
+  .contact__form {
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .contact__form {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

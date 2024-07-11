@@ -7,9 +7,9 @@ export default function PastPerformanceTotal() {
         id='partnerstotal'
         className='section-partners-total'
       >
-        <div class='row'>
-          <div class='col-1-of-4'>
-            <div class='feature-box'>
+        <div className='row'>
+          <div className='col-1-of-4'>
+            <div className='feature-box'>
               <Image
                 src='/img/genesys.png'
                 alt='genesys'
@@ -19,8 +19,8 @@ export default function PastPerformanceTotal() {
             </div>
           </div>
 
-          <div class='col-1-of-4'>
-            <div class='feature-box'>
+          <div className='col-1-of-4'>
+            <div className='feature-box'>
               <Image
                 src='/img/bellheli.png'
                 alt='bell helicopter'
@@ -30,8 +30,8 @@ export default function PastPerformanceTotal() {
             </div>
           </div>
 
-          <div class='col-1-of-4'>
-            <div class='feature-box'>
+          <div className='col-1-of-4'>
+            <div className='feature-box'>
               <Image
                 src='/img/garmin.png'
                 alt='garmin'
@@ -41,8 +41,8 @@ export default function PastPerformanceTotal() {
             </div>
           </div>
 
-          <div class='col-1-of-4'>
-            <div class='feature-box'>
+          <div className='col-1-of-4'>
+            <div className='feature-box'>
               <Image
                 src='/img/leidos.png'
                 alt='leidos'
@@ -52,9 +52,9 @@ export default function PastPerformanceTotal() {
             </div>
           </div>
         </div>
-        <div class='row'>
-          <div class='col-1-of-4'>
-            <div class='feature-box'>
+        <div className='row'>
+          <div className='col-1-of-4'>
+            <div className='feature-box'>
               <Image
                 src='/img/airbus.png'
                 alt='airbus'
@@ -64,8 +64,8 @@ export default function PastPerformanceTotal() {
             </div>
           </div>
 
-          <div class='col-1-of-4'>
-            <div class='feature-box'>
+          <div className='col-1-of-4'>
+            <div className='feature-box'>
               <Image
                 src='/img/ses.png'
                 alt='ses'
@@ -75,8 +75,8 @@ export default function PastPerformanceTotal() {
             </div>
           </div>
 
-          <div class='col-1-of-4'>
-            <div class='feature-box'>
+          <div className='col-1-of-4'>
+            <div className='feature-box'>
               <Image
                 src='/img/generalatomics.png'
                 alt='generalatomics'
@@ -86,8 +86,8 @@ export default function PastPerformanceTotal() {
             </div>
           </div>
 
-          <div class='col-1-of-4'>
-            <div class='feature-box'>
+          <div className='col-1-of-4'>
+            <div className='feature-box'>
               <Image
                 src='/img/frasca.png'
                 alt='frasca'
@@ -98,9 +98,9 @@ export default function PastPerformanceTotal() {
           </div>
         </div>
 
-        <div class='row'>
-          <div class='col-1-of-4'>
-            <div class='feature-box'>
+        <div className='row'>
+          <div className='col-1-of-4'>
+            <div className='feature-box'>
               <Image
                 src='/img/l3harris.png'
                 alt='l3harris'
@@ -110,8 +110,8 @@ export default function PastPerformanceTotal() {
             </div>
           </div>
 
-          <div class='col-1-of-4'>
-            <div class='feature-box'>
+          <div className='col-1-of-4'>
+            <div className='feature-box'>
               <Image
                 src='/img/usairforce.png'
                 alt='usairforce'
@@ -121,8 +121,8 @@ export default function PastPerformanceTotal() {
             </div>
           </div>
 
-          <div class='col-1-of-4'>
-            <div class='feature-box'>
+          <div className='col-1-of-4'>
+            <div className='feature-box'>
               <Image
                 src='/img/usarmy.png'
                 alt='usarmy'
@@ -132,8 +132,8 @@ export default function PastPerformanceTotal() {
             </div>
           </div>
 
-          <div class='col-1-of-4'>
-            <div class='feature-box'>
+          <div className='col-1-of-4'>
+            <div className='feature-box'>
               <Image
                 src='/img/usmarine.png'
                 alt='usmarine'

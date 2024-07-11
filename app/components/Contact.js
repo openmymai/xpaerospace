@@ -16,7 +16,7 @@ const Contact = () => {
                   และนักบินต้องการเพื่อก้าวข้ามความท้าทายด้านการบินที่ซับซ้อนที่สุด
                 </p>
                 <Link
-                  href='#about'
+                  href='/contactus'
                   className='btn btn--white btn--animated'
                 >
                   ติดต่อเรา

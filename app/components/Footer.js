@@ -105,7 +105,7 @@ export default function Footer() {
                 <li>
                   <i className='bi bi-chevron-right'></i>
                   <Link
-                    href='/'
+                    href='/contactus'
                     className='hover:underline'
                   >
                     ติดต่อ
