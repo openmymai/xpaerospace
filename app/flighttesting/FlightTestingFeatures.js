@@ -12,7 +12,7 @@ export default function FlightTestingFeatures() {
             </h1>
           </div>
           <div className='row'>
-            <div className='col-md-8 offset-md-2'>
+            <div className='col-3-of-3'>
               <p className='paragraph'>
                 สภาพแวดล้อมในเที่ยวบินไม่สามารถคาดเดาได้
                 แต่สิ่งที่คุณวางใจได้คือความน่าเชื่อถือในการปฏิบัติงานของเครื่องบินทุกลำ

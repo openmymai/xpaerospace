@@ -9,7 +9,7 @@ const Contact = () => {
       >
         <div className='container'>
           <div className='row'>
-            <div className='col-md-8 offset-md-2'>
+            <div className='col-2-of-3'>
               <div className='u-margin-bottom-small'>
                 <p>
                   ด้วย XPAT คุณจะได้รับความเชี่ยวชาญและบริการที่ผู้ปฏิบัติงาน

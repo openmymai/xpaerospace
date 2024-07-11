@@ -13,7 +13,7 @@ export default function ContactUsFeatures() {
             </h1>
           </div>
           <div className='row'>
-            <div className='col-md-8 offset-md-2'>
+            <div className='col-3-of-3'>
               <p className='paragraph'>
                 XP Services มีประสบการณ์ ความสามารถ
                 และกระบวนการที่ช่วยให้ภารกิจประสบความสำเร็จสำหรับทั้งผู้ปฏิบัติงานและนักบิน

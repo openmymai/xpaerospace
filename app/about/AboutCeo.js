@@ -9,7 +9,7 @@ export default function AboutCeo() {
       >
         <div className='container'>
           <div className='row'>
-            <div className='col-md-8 offset-md-2'>
+            <div className='col-3-of-3'>
               <div className='u-center-text u-margin-bottom-small'>
                 <h1 className='heading-secondary'>มรดกแห่งความเป็นเลิศ</h1>
               </div>

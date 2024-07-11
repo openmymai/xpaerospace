@@ -12,7 +12,7 @@ export default function AvionicsModernizationFeatures() {
             </h1>
           </div>
           <div className='row'>
-            <div className='col-md-8 offset-md-2'>
+            <div className='col-3-of-3'>
               <p className='paragraph'>
                 การเพิ่มความตระหนักรู้ในสถานการณ์ของนักบินถือเป็นสิ่งสำคัญต่อความสำเร็จ
                 ของภารกิจและการรักษาความปลอดภัยในอากาศ XP Services

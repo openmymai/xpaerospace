@@ -1,8 +1,8 @@
 .section-aircraftmaintenance-features {
-  padding: 15rem 0;
+  padding: 10rem 0;
 
   @include respond(tab-port) {
-    padding: 5rem 0;
+    padding: 10rem 0;
   }
 }
 
@@ -127,7 +127,7 @@
     &__text2 {
       font-size: 4.5rem;
       color: $color-primary;
-      
+
       @media only screen and (max-width: $bp-large) {
         font-size: 3rem;
         color: $color-primary;

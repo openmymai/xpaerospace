@@ -24,7 +24,7 @@ const Features = () => {
             </div>
             <div className='letters__subtitle'>Process</div>
           </div>
-          <div className='col-md-8 offset-md-2'>
+          <div className='col-3-of-3'>
             <p className='paragraph'>
               ทุกสิ่งที่เราทำที่ XPAT
               คือการรับประกันการตระหนักรู้ในสถานการณ์ที่เหนือกว่าสำหรับนักบินของคุณ

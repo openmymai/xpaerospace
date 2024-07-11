@@ -12,7 +12,7 @@ export default function AviationProcurementFeatures() {
             </h1>
           </div>
           <div className='row'>
-            <div className='col-md-8 offset-md-2'>
+            <div className='col-3-of-3'>
               <p className='paragraph'>
                 การดับเพลิง การป้องกันประเทศ
                 การขนส่งสินค้าเชิงพาณิชย์และการขนส่งสินค้า -

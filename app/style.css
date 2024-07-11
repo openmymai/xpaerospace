@@ -2039,12 +2039,12 @@ p {
 }
 
 .section-about {
-  padding: 20rem 0;
+  padding: 10rem 0;
   margin-top: -10vh;
 }
 @media only screen and (max-width: 56.25em) {
   .section-about {
-    padding: 20rem 0;
+    padding: 10rem 0;
   }
 }
 
@@ -2098,8 +2098,9 @@ p {
 }
 
 .section-about-features {
-  padding: 25rem 0;
-  margin-top: -20vh;
+  padding: 20rem 0;
+  margin-top: -10vh;
+  margin-bottom: 10vh;
 }
 @media only screen and (max-width: 56.25em) {
   .section-about-features {
@@ -2171,11 +2172,11 @@ p {
 }
 
 .section-capabilities-comprehensive {
-  padding: 15rem 0;
+  padding: 10rem 0;
 }
 @media only screen and (max-width: 56.25em) {
   .section-capabilities-comprehensive {
-    padding: 5rem 0;
+    padding: 10rem 0;
   }
 }
 
@@ -2228,11 +2229,11 @@ p {
 }
 
 .section-aviationprocurement-features {
-  padding: 15rem 0;
+  padding: 10rem 0;
 }
 @media only screen and (max-width: 56.25em) {
   .section-aviationprocurement-features {
-    padding: 5rem 0;
+    padding: 10rem 0;
   }
 }
 
@@ -2411,11 +2412,11 @@ p {
 }
 
 .section-avionicsmodernization-features {
-  padding: 15rem 0;
+  padding: 10rem 0;
 }
 @media only screen and (max-width: 56.25em) {
   .section-avionicsmodernization-features {
-    padding: 5rem 0;
+    padding: 10rem 0;
   }
 }
 
@@ -2617,11 +2618,11 @@ p {
 }
 
 .section-aircraftmaintenance-features {
-  padding: 15rem 0;
+  padding: 10rem 0;
 }
 @media only screen and (max-width: 56.25em) {
   .section-aircraftmaintenance-features {
-    padding: 5rem 0;
+    padding: 10rem 0;
   }
 }
 
@@ -2811,11 +2812,11 @@ p {
 }
 
 .section-flighttesting-features {
-  padding: 15rem 0;
+  padding: 10rem 0;
 }
 @media only screen and (max-width: 56.25em) {
   .section-flighttesting-features {
-    padding: 5rem 0;
+    padding: 10rem 0;
   }
 }
 
@@ -2999,11 +3000,11 @@ p {
 }
 
 .section-flighttraining-features {
-  padding: 15rem 0;
+  padding: 10rem 0;
 }
 @media only screen and (max-width: 56.25em) {
   .section-flighttraining-features {
-    padding: 5rem 0;
+    padding: 10rem 0;
   }
 }
 
@@ -3205,7 +3206,7 @@ p {
 }
 
 .section-contactus-features {
-  padding: 15rem 0;
+  padding: 10rem 0;
 }
 @media only screen and (max-width: 56.25em) {
   .section-contactus-features {

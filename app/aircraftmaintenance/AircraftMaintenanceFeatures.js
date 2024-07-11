@@ -12,7 +12,7 @@ export default function AircraftMaintenanceFeatures() {
             </h1>
           </div>
           <div className='row'>
-            <div className='col-md-8 offset-md-2'>
+            <div className='col-3-of-3'>
               <p className='paragraph'>
                 หากต้องการให้เฮลิคอปเตอร์หรือเครื่องบินปีกคงที่อยู่ในอากาศ
                 ให้เริ่มต้นภาคพื้นดินด้วยการบำรุงรักษาและอัปเกรด XP Services

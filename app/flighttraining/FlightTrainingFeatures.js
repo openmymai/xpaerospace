@@ -13,7 +13,7 @@ export default function FlightTrainingFeatures() {
             </h1>
           </div>
           <div className='row'>
-            <div className='col-md-8 offset-md-2'>
+            <div className='col-3-of-3'>
               <p className='paragraph'>
                 ที่ XP Services
                 เราจัดเตรียมการฝึกอบรมนักบินที่จำเป็นเพื่อช่วยให้บรรลุวัตถุประสงค์การบินในทุกสภาพอากาศ
