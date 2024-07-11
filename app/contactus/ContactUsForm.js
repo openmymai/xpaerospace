@@ -189,50 +189,50 @@ export default function ContactUsForm() {
                 <label class='text'>ลักษณะโครงการ</label>
 
                 <div class='form__group u-margin-bottom-medium'>
-                  <div class='form__radio-group'>
+                  <div class='form__checkbox-group'>
                     <input
                       type='checkbox'
-                      class='form__radio-input'
+                      class='form__checkbox-input'
                       id='military'
                       name='size'
                     />
                     <label
                       for='military'
-                      class='form__radio-label'
+                      class='form__checkbox-label'
                     >
-                      <span class='form__radio-button'></span>
+                      <span class='form__checkbox-button'></span>
                       การทหาร
                     </label>
                   </div>
 
-                  <div class='form__radio-group'>
+                  <div class='form__checkbox-group'>
                     <input
                       type='checkbox'
-                      class='form__radio-input'
+                      class='form__checkbox-input'
                       id='commercial'
                       name='size'
                     />
                     <label
                       for='commercial'
-                      class='form__radio-label'
+                      class='form__checkbox-label'
                     >
-                      <span class='form__radio-button'></span>
+                      <span class='form__checkbox-button'></span>
                       พาณิชย์
                     </label>
                   </div>
 
-                  <div class='form__radio-group'>
+                  <div class='form__checkbox-group'>
                     <input
                       type='checkbox'
-                      class='form__radio-input'
+                      class='form__checkbox-input'
                       id='private'
                       name='size'
                     />
                     <label
                       for='private'
-                      class='form__radio-label'
+                      class='form__checkbox-label'
                     >
-                      <span class='form__radio-button'></span>
+                      <span class='form__checkbox-button'></span>
                       เอกชน
                     </label>
                   </div>

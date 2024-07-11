@@ -654,26 +654,26 @@ p {
   visibility: hidden;
   transform: translateY(-4rem);
 }
-.form__radio-group {
+.form__checkbox-group {
   width: 30%;
   display: inline-block;
 }
 @media only screen and (max-width: 56.25em) {
-  .form__radio-group {
+  .form__checkbox-group {
     width: 100%;
     margin-bottom: 2rem;
   }
 }
-.form__radio-input {
+.form__checkbox-input {
   display: none;
 }
-.form__radio-label {
+.form__checkbox-label {
   font-size: 1.5rem;
   cursor: pointer;
   position: relative;
   padding-left: 4.5rem;
 }
-.form__radio-button {
+.form__checkbox-button {
   height: 3rem;
   width: 3rem;
   border: 3px solid #c30a23;
@@ -683,7 +683,7 @@ p {
   left: 0;
   top: -0.4rem;
 }
-.form__radio-button::after {
+.form__checkbox-button::after {
   content: "";
   display: block;
   height: 1.3rem;
@@ -697,7 +697,7 @@ p {
   opacity: 0;
   transition: opacity 0.2s;
 }
-.form__radio-input:checked ~ .form__radio-label .form__radio-button::after {
+.form__checkbox-input:checked ~ .form__checkbox-label .form__checkbox-button::after {
   opacity: 1;
 }
 

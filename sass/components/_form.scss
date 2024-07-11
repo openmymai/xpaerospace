@@ -50,7 +50,7 @@
     transform: translateY(-4rem);
   }
 
-  &__radio-group {
+  &__checkbox-group {
     width: 30%;
     display: inline-block;
 
@@ -60,18 +60,18 @@
     }
   }
 
-  &__radio-input {
+  &__checkbox-input {
     display: none;
   }
 
-  &__radio-label {
+  &__checkbox-label {
     font-size: $default-small-font-size;
     cursor: pointer;
     position: relative;
     padding-left: 4.5rem;
   }
 
-  &__radio-button {
+  &__checkbox-button {
     height: 3rem;
     width: 3rem;
     border: 3px solid $color-primary;
@@ -97,7 +97,7 @@
     }
   }
 
-  &__radio-input:checked ~ &__radio-label &__radio-button::after {
+  &__checkbox-input:checked ~ &__checkbox-label &__checkbox-button::after {
     opacity: 1;
   }
 }
