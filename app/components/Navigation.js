@@ -80,7 +80,7 @@ const Navigation = () => {
           </div>
           <div
             onClick={handleNav}
-            className='md:hidden cursor-pointer pl-24'
+            className='md:hidden cursor-pointer pl-18'
           >
             <IoReorderTwoOutline size={25} />
           </div>
@@ -88,11 +88,11 @@ const Navigation = () => {
         <div
           className={
             !menuOpen
-              ? 'fixed right-[-100%] top-0 w-[100%] h-screen p-8 ease-in-out duration-700 z-80'
-              : 'fixed right-0 top-0 w-[100%] md:hidden h-screen bg-[#fff] p-8 ease-in-out duration-700 z-80'
+              ? 'fixed right-[-100%] top-0 w-[100%] h-screen p-5 ease-in-out duration-700 z-80'
+              : 'fixed right-0 top-0 w-[100%] md:hidden h-screen bg-[#fff] p-5 ease-in-out duration-700 z-80'
           }
         >
-          <div className='flex w-full px-3 items-center justify-end z-60'>
+          <div className='flex w-full px-4 items-center justify-end z-60'>
             <div
               onClick={handleNav}
               className='cursor-pointer'

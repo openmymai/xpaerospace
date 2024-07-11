@@ -3,11 +3,11 @@
   margin: 0 auto;
   box-shadow: 0 3rem 6rem rgba($color-black, 0.1);
   background-color: rgba($color-white, 0.6);
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 6rem;
   padding-left: 9rem;
   font-size: $default-font-size;
-  transform: skewX(-12deg);
+  // transform: skewX(-12deg);
 
   @include respond(tab-port) {
     width: 100%;
@@ -23,7 +23,8 @@
     width: 15rem;
     height: 15rem;
     float: left;
-    transform: translateX(-3rem) skewX(12deg);
+    // transform: translateX(-3rem) skewX(12deg);
+    transform: translateX(-3rem);
     position: relative;
     overflow: hidden;
     border-radius: 50%;
@@ -49,7 +50,7 @@
   }
 
   &__text {
-    transform: skewX(12deg);
+    // transform: skewX(12deg);
 
     @include respond(phone) {
       transform: skewX(0);

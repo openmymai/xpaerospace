@@ -40,27 +40,48 @@ export default function Footer() {
               </h2>
               <ul className='text-gray-500 dark:text-gray-400 text-2xl'>
                 <li>
-                  <Link href='/aviationprocurement'>
+                  <Link
+                    href='/aviationprocurement'
+                    className='hover:text-red-600'
+                  >
                     การจัดซื้อจัดจ้างการบิน
                   </Link>
                 </li>
 
                 <li>
-                  <Link href='/avionicsmodernization'>Avionics ที่ทันสมัย</Link>
+                  <Link
+                    href='/avionicsmodernization'
+                    className='hover:text-red-600'
+                  >
+                    Avionics ที่ทันสมัย
+                  </Link>
                 </li>
 
                 <li>
-                  <Link href='/aircraftmaintenance'>
+                  <Link
+                    href='/aircraftmaintenance'
+                    className='hover:text-red-600'
+                  >
                     การบำรุงรักษาและการอัพเกรดเครื่องบิน
                   </Link>
                 </li>
 
                 <li>
-                  <Link href='/flighttesting'>การทดสอบและรับรองการบิน</Link>
+                  <Link
+                    href='/flighttesting'
+                    className='hover:text-red-600'
+                  >
+                    การทดสอบและรับรองการบิน
+                  </Link>
                 </li>
 
                 <li>
-                  <Link href='/flighttraining'>การฝึกอบรมการบิน</Link>
+                  <Link
+                    href='/flighttraining'
+                    className='hover:text-red-600'
+                  >
+                    การฝึกอบรมการบิน
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -70,7 +91,7 @@ export default function Footer() {
                   <i className='bi bi-chevron-right'></i>
                   <Link
                     href='/about'
-                    className='hover:underline'
+                    className='hover:text-red-600'
                   >
                     เกี่ยวกับ
                   </Link>
@@ -79,7 +100,7 @@ export default function Footer() {
                   <i className='bi bi-chevron-right'></i>
                   <Link
                     href='/whyxp'
-                    className='hover:underline'
+                    className='hover:text-red-600'
                   >
                     ทำไมต้อง XP
                   </Link>
@@ -88,7 +109,7 @@ export default function Footer() {
                   <i className='bi bi-chevron-right'></i>
                   <Link
                     href='/pastperformance'
-                    className='hover:underline'
+                    className='hover:text-red-600'
                   >
                     ผลงานที่ผ่านมา
                   </Link>
@@ -97,7 +118,7 @@ export default function Footer() {
                   <i className='bi bi-chevron-right'></i>
                   <Link
                     href='/partners'
-                    className='hover:underline'
+                    className='hover:text-red-600'
                   >
                     คู่ค้า
                   </Link>
@@ -106,7 +127,7 @@ export default function Footer() {
                   <i className='bi bi-chevron-right'></i>
                   <Link
                     href='/contactus'
-                    className='hover:underline'
+                    className='hover:text-red-600'
                   >
                     ติดต่อ
                   </Link>

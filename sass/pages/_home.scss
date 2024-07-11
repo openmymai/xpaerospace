@@ -1,35 +1,18 @@
 .section-about {
-  padding: 25rem 0;
-  margin-top: -20vh;
+  padding: 20rem 0;
+  margin-top: -10vh;
 
   @include respond(tab-port) {
     padding: 20rem 0;
   }
 }
 
-.section-features {
-  padding: 20rem 0;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba($color-primary-light, 0.2),
-      rgba($color-primary-dark, 0.2)
-    ),
-    url(/img/features.png);
+.section-features-process {
+  padding: 10rem 0;
+  background-image: url(/img/features.png);
   background-size: cover;
-  transform: skewY(-7deg);
-  margin-top: -10rem;
-
-  & > * {
-    transform: skewY(7deg);
-  }
-
-  @include respond(tab-port) {
-    padding: 10rem 0;
-  }
-}
-
-.section-process {
-  margin-top: 10rem;
+  background-color: $color-white;
+  margin-top: -5rem;
 
   @include respond(tab-port) {
     padding: 10rem 0;
@@ -37,11 +20,15 @@
 }
 
 .section-mission {
-  position: relative;
-  margin-top: 5rem;
+  padding: 20rem 0;
+  background-image: url(/img/xpservicemission.jpg);
+  background-size: cover;
+  margin-top: -10rem;
+  color: $color-white;
 
   @include respond(tab-port) {
-    padding: 5rem 0;
+    padding: 20rem 0;
+    color: $color-white;
   }
 }
 
