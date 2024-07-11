@@ -1,5 +1,6 @@
 import { Noto_Sans_Thai } from 'next/font/google';
 import Navigation from './components/Navigation';
+import PreHeader from './components/PreHeader';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -25,7 +26,8 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={noto.className}>
-          <Navigation />
+        <Navigation />
+        <PreHeader />
         {children}
         <Contact />
         <Footer />
