@@ -20,12 +20,12 @@
   background-image: linear-gradient(
       98deg,
       rgba($color-white, 0.9) 0%,
-      rgba($color-white, 0.9) 50%,
-      transparent 50%
+      rgba($color-white, 0.9) 60%,
+      transparent 65%
     ),
     url(/img/contactusform.jpg);
-  background-size: 100%;
-  border-radius: 3px;
+  background-size: cover;
+  border-radius: 5px;
   box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
 
   @include respond(tab-land) {
@@ -49,11 +49,11 @@
   }
 
   &__form {
-    width: 70%;
+    width: 60%;
     padding: 2rem;
 
     @include respond(tab-land) {
-      width: 80%;
+      width: 63%;
     }
 
     @include respond(tab-port) {
