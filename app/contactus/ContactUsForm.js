@@ -13,22 +13,26 @@ export default function ContactUsForm() {
 
     try {
       const formData = new FormData(event.currentTarget);
-      const response = await fetch('/api/submit', {
+      const response = await fetch('/api/contactus', {
         method: 'POST',
         body: formData,
       });
 
       if (!response.ok) {
-        throw new Error('');
+        console.log('falling over');
+        throw new Error(`response status: ${response.status}`);
       }
 
       // Handle response if necessary
-      const data = await response.json();
+      const responseData = await response.json();
+      console.log(responseData['message']);
+      alert('การส่งข้อมูลสำเร็จ');
       // ...
     } catch (error) {
       // Capture the error message to display to the user
       setError(error.message);
       console.error(error);
+      alert('มีข้อผิดพลาด, กรุณาส่งข้อมูลอีกครั้ง');
     } finally {
       setIsLoading(false);
     }
@@ -50,6 +54,7 @@ export default function ContactUsForm() {
                     className='form__input'
                     placeholder='คำนำหน้า'
                     id='title'
+                    name='title'
                     required
                   />
                   <label
@@ -65,6 +70,7 @@ export default function ContactUsForm() {
                     className='form__input'
                     placeholder='ชื่อ'
                     id='firstname'
+                    name='firstname'
                     required
                   />
                   <label
@@ -80,6 +86,7 @@ export default function ContactUsForm() {
                     className='form__input'
                     placeholder='นามสกุล'
                     id='lastname'
+                    name='lastname'
                     required
                   />
                   <label
@@ -96,6 +103,7 @@ export default function ContactUsForm() {
                     className='form__input'
                     placeholder='บริษัท'
                     id='company'
+                    name='company'
                     required
                   />
                   <label
@@ -112,6 +120,7 @@ export default function ContactUsForm() {
                     className='form__input'
                     placeholder='ที่อยู่'
                     id='address'
+                    name='address'
                     required
                   />
                   <label
@@ -128,6 +137,7 @@ export default function ContactUsForm() {
                     className='form__input'
                     placeholder='จังหวัด'
                     id='province'
+                    name='province'
                     required
                   />
                   <label
@@ -144,6 +154,7 @@ export default function ContactUsForm() {
                     className='form__input'
                     placeholder='รหัสไปรษณีย์'
                     id='postal'
+                    name='postal'
                     required
                   />
                   <label
@@ -160,6 +171,7 @@ export default function ContactUsForm() {
                     className='form__input'
                     placeholder='โทร'
                     id='phone'
+                    name='phone'
                     required
                   />
                   <label
@@ -176,6 +188,7 @@ export default function ContactUsForm() {
                     className='form__input'
                     placeholder='อีเมล์'
                     id='email'
+                    name='email'
                     required
                   />
                   <label
@@ -194,7 +207,7 @@ export default function ContactUsForm() {
                       type='checkbox'
                       className='form__checkbox-input'
                       id='military'
-                      name='size'
+                      name='military'
                     />
                     <label
                       htmlFor='military'
@@ -210,7 +223,7 @@ export default function ContactUsForm() {
                       type='checkbox'
                       className='form__checkbox-input'
                       id='commercial'
-                      name='size'
+                      name='commercial'
                     />
                     <label
                       htmlFor='commercial'
@@ -225,11 +238,11 @@ export default function ContactUsForm() {
                     <input
                       type='checkbox'
                       className='form__checkbox-input'
-                      id='private'
-                      name='size'
+                      id='privatetype'
+                      name='privatetype'
                     />
                     <label
-                      htmlFor='private'
+                      htmlFor='privatetype'
                       className='form__checkbox-label'
                     >
                       <span className='form__checkbox-button'></span>
@@ -246,6 +259,7 @@ export default function ContactUsForm() {
                      การปรับปรุงห้องนักบิน, การสร้างต้นแบบ, การทดสอบการบิน, การฝึกนักบิน, และ/หรือ การฝึกอบรมช่างเครื่อง'
                     id='description'
                     rows='3'
+                    name='description'
                     required
                   />
                   <label
