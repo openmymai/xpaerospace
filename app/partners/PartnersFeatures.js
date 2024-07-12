@@ -12,7 +12,7 @@ export default function PartnersFeatures() {
         </div>
         <div className='container'>
           <div className='row'>
-            <div className='col-md-8 offset-md-2'>
+            <div className='col-3-of-3'>
               <p className='paragraph'>
                 พันธมิตรของเราเป็นผู้ริเริ่มนวัตกรรมชั้นนำในอุตสาหกรรมการบินสำหรับทุกสิ่ง
                 ตั้งแต่เทคโนโลยีระบบการบินไปจนถึงชิ้นส่วนทดแทนหลังการขายที่มีความแม่นยำสูงและได้รับการรับรอง

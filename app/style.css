@@ -1391,7 +1391,7 @@ p {
 }
 
 .dropdown:hover > ul {
-  opacity: 0.85;
+  opacity: 0.95;
   top: 100%;
   visibility: visible;
 }

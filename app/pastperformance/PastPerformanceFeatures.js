@@ -12,7 +12,7 @@ export default function PastPerformanceFeatures() {
         </div>
         <div className='container'>
           <div className='row'>
-            <div className='col-md-8 offset-md-2'>
+            <div className='col-3-of-3'>
               <p className='paragraph'>
                 ความสามารถของเรานำเสนอโซลูชั่นที่มีความคิดก้าวหน้าในการจัดการกับภารกิจการบินที่คุณคาดหวังและสิ่งที่ไม่คาดคิด
                 ความสำเร็จในอนาคตจะเกิดขึ้นได้เนื่องจากความตระหนักรู้ในสถานการณ์ของนักบินได้รับการปรับปรุง
