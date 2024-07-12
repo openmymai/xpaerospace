@@ -65,7 +65,7 @@ export async function POST(request) {
             `,
     });
 
-    return NextResponse.json({ message: 'Success: email was sent' });
+    return NextResponse.json({ message: 'Success: ส่งอีเมล์สำเร็จ' });
   } catch (error) {
     console.log(error);
     NextResponse.status(500).json({ message: 'COULD NOT SEND MESSAGE' });
