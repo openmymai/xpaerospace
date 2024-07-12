@@ -25,7 +25,7 @@ export default function ContactUsForm() {
 
       // Handle response if necessary
       const responseData = await response.json();
-      console.log(responseData['message']);
+      // console.log(responseData['message']);
       alert('การส่งข้อมูลสำเร็จ');
     } catch (error) {
       // Capture the error message to display to the user
