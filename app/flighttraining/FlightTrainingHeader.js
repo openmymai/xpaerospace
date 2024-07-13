@@ -3,7 +3,7 @@ export default function FlightTrainingHeader() {
     <div className='flighttrainingpage'>
       <div className='flighttrainingpage__text-box'>
         <h1 className='heading-primary'>
-          <span className='heading-primary--main'>การอบรมการบิน</span>
+          <span className='heading-primary--main'>การฝึกอบรมการบิน</span>
         </h1>
       </div>
     </div>

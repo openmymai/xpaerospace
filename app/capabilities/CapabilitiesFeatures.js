@@ -139,11 +139,13 @@ export default function CapabilitiesFeatures() {
                   height={250}
                   className='story__img'
                 />
-                <figcaption className='story__caption'>การฝึกบิน</figcaption>
+                <figcaption className='story__caption'>
+                  การฝึกอบรมการบิน
+                </figcaption>
               </figure>
               <div className='story__text'>
                 <h3 className='heading-tertiary u-margin-bottom-small'>
-                  การฝึกบิน
+                  การฝึกอบรมการบิน
                 </h3>
                 <p>
                   อาจารย์ผู้สอนของเรามีทั้ง FAA และ U.S.
