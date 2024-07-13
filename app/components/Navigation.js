@@ -51,7 +51,9 @@ const Navigation = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href='/aircraftmaintenance'>การบำรุงรักษาการบิน</Link>
+                    <Link href='/aircraftmaintenance'>
+                      การบำรุงรักษาเครื่องบิน
+                    </Link>
                   </li>
                   <li>
                     <Link href='/flighttesting'>
