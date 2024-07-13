@@ -38,7 +38,7 @@ export default function Footer() {
               <h2 className='mb-6 text-2xl font-semibold text-gray-900 uppercase dark:text-white'>
                 ความสามารถ
               </h2>
-              <ul className='text-gray-500 dark:text-gray-400 text-2xl'>
+              <ul className='text-gray-500 dark:text-gray-400 text-xl'>
                 <li>
                   <Link
                     href='/aviationprocurement'
