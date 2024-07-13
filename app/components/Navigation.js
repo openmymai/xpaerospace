@@ -32,11 +32,11 @@ const Navigation = () => {
           </div>
           <div className='hidden md:flex'>
             <ul className='hidden md:flex'>
-              <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
+              <li className='ml-10 hover:border-b border-transparent border-b hover:border-red-600 text-xl'>
                 <Link href='/about'>เกี่ยวกับ</Link>
               </li>
 
-              <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl dropdown'>
+              <li className='ml-10 hover:border-b border-transparent border-b hover:border-red-600 text-xl dropdown'>
                 <Link href='/capabilities'>ความสามารถ </Link>
                 <i className='bi bi-chevron-down toggle-dropdown'></i>
                 <ul>
@@ -63,19 +63,19 @@ const Navigation = () => {
                   </li>
                 </ul>
               </li>
-              <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
+              <li className='ml-10 hover:border-b border-transparent border-b hover:border-red-600 text-xl'>
                 <Link href='/whyxp'>ทำไมต้อง XP</Link>
               </li>
 
-              <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
+              <li className='ml-10 hover:border-b border-transparent border-b hover:border-red-600 text-xl'>
                 <Link href='/pastperformance'>ผลงานที่ผ่านมา</Link>
               </li>
 
-              <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
+              <li className='ml-10 hover:border-b border-transparent border-b hover:border-red-600 text-xl'>
                 <Link href='/partners'>คู่ค้าของเรา</Link>
               </li>
 
-              <li className='ml-10 uppercase hover:border-b border-transparent border-b hover:border-white text-xl'>
+              <li className='ml-10 hover:border-b border-transparent border-b hover:border-red-600 text-xl'>
                 <Link href='/contactus'>ติดต่อเรา</Link>
               </li>
             </ul>
@@ -119,42 +119,42 @@ const Navigation = () => {
             <ul>
               <li
                 onClick={handleNav}
-                className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
+                className='ml-10 py-4 hover:text-red-600 text-2xl'
               >
                 <Link href='/about'>เกี่ยวกับ</Link>
               </li>
 
               <li
                 onClick={handleNav}
-                className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
+                className='ml-10 py-4 hover:text-red-600 text-2xl'
               >
                 <Link href='/capabilities'>ความสามารถ</Link>
               </li>
 
               <li
                 onClick={handleNav}
-                className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
+                className='ml-10 py-4 hover:text-red-600 text-2xl'
               >
                 <Link href='/whyxp'>ทำไมต้อง XP</Link>
               </li>
 
               <li
                 onClick={handleNav}
-                className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
+                className='ml-10 py-4 hover:text-red-600 text-2xl'
               >
                 <Link href='/pastperformance'>ผลงานที่ผ่านมา</Link>
               </li>
 
               <li
                 onClick={handleNav}
-                className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
+                className='ml-10 py-4 hover:text-red-600 text-2xl'
               >
                 <Link href='/partners'>คู่ค้าของเรา</Link>
               </li>
 
               <li
                 onClick={handleNav}
-                className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
+                className='ml-10 py-4 hover:text-red-600 text-2xl'
               >
                 <Link href='/contactus'>ติดต่อเรา</Link>
               </li>
