@@ -107,7 +107,6 @@ p {
 
 .heading-primary {
   color: #fff;
-  text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 5rem;
 }
@@ -126,8 +125,8 @@ p {
 }
 @media only screen and (max-width: 37.5em) {
   .heading-primary--main {
-    letter-spacing: 0.8rem;
     font-size: 2.8rem;
+    letter-spacing: 0.8rem;
     margin-top: 5rem;
   }
 }
@@ -140,8 +139,8 @@ p {
 }
 @media only screen and (max-width: 37.5em) {
   .heading-primary--sub {
-    letter-spacing: 0.5rem;
     font-size: 1rem;
+    letter-spacing: 0.5rem;
   }
 }
 
@@ -1206,7 +1205,8 @@ p {
 .header__text-box {
   position: absolute;
   top: 40%;
-  left: 50%;
+  left: 30%;
+  white-space: nowrap;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -1440,6 +1440,7 @@ p {
   position: absolute;
   top: 40%;
   left: 50%;
+  white-space: nowrap;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -1527,6 +1528,7 @@ p {
   position: absolute;
   top: 40%;
   left: 50%;
+  white-space: nowrap;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -1623,6 +1625,7 @@ p {
   position: absolute;
   top: 40%;
   left: 50%;
+  white-space: nowrap;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -1674,6 +1677,7 @@ p {
   position: absolute;
   top: 40%;
   left: 50%;
+  white-space: nowrap;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -1725,6 +1729,7 @@ p {
   position: absolute;
   top: 33%;
   left: 50%;
+  white-space: nowrap;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -1776,6 +1781,7 @@ p {
   position: absolute;
   top: 40%;
   left: 50%;
+  white-space: nowrap;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -1827,6 +1833,7 @@ p {
   position: absolute;
   top: 40%;
   left: 50%;
+  white-space: nowrap;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -1878,6 +1885,7 @@ p {
   position: absolute;
   top: 40%;
   left: 50%;
+  white-space: nowrap;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -1929,6 +1937,7 @@ p {
   position: absolute;
   top: 40%;
   left: 50%;
+  white-space: nowrap;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -1980,6 +1989,7 @@ p {
   position: absolute;
   top: 40%;
   left: 50%;
+  white-space: nowrap;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -2031,6 +2041,7 @@ p {
   position: absolute;
   top: 40%;
   left: 50%;
+  white-space: nowrap;
   transform: translate(-50%, -50%);
   text-align: center;
 }
