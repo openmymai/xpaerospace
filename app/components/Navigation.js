@@ -88,8 +88,8 @@ const Navigation = () => {
         <div
           className={
             !menuOpen
-              ? 'fixed right-[-100%] top-0 w-[100%] h-screen p-5 ease-in-out duration-700 z-80'
-              : 'fixed right-0 top-0 w-[100%] md:hidden h-screen bg-[#fff] p-5 ease-in-out duration-700 z-80'
+              ? 'fixed right-[-100%] top-0 w-[100%] h-screen p-4 ease-in-out duration-700 z-80'
+              : 'fixed right-0 top-0 w-[100%] md:hidden h-screen bg-[#fff] p-4 ease-in-out duration-700 z-80'
           }
         >
           <div className='flex w-full px-4 items-center justify-end z-60'>
