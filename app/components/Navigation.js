@@ -37,7 +37,7 @@ const Navigation = () => {
               </li>
 
               <li className='ml-10 hover:border-b border-transparent border-b hover:border-red-600 text-xl dropdown'>
-                <Link href='/capabilities'>ความสามารถ </Link>
+                <Link href='/capabilities'>ความสามารถ</Link>
                 <i className='bi bi-chevron-down toggle-dropdown'></i>
                 <ul>
                   <li>
@@ -61,7 +61,7 @@ const Navigation = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href='/flighttraining'>การอบรมการบิน</Link>
+                    <Link href='/flighttraining'>การฝึกอบรมการบิน</Link>
                   </li>
                 </ul>
               </li>
