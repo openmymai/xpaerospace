@@ -1213,16 +1213,28 @@ p {
 
 .navigation__checkbox {
   display: none;
-  height: 7rem;
-  width: 7rem;
+  height: 4rem;
+  width: 4rem;
   position: fixed;
   top: 0.1rem;
   right: 4rem;
 }
+@media only screen and (max-width: 56.25em) {
+  .navigation__checkbox {
+    top: 0.2rem;
+    right: 1rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .navigation__checkbox {
+    top: 0.2rem;
+    right: 1rem;
+  }
+}
 .navigation__button {
-  height: 1rem;
-  width: 1rem;
-  right: 2rem;
+  height: 4rem;
+  width: 4rem;
+  right: 1rem;
   position: fixed;
   z-index: 1000;
   text-align: center;
@@ -1230,14 +1242,14 @@ p {
 }
 @media only screen and (max-width: 56.25em) {
   .navigation__button {
-    top: 0.1rem;
-    right: 4rem;
+    top: 0.2rem;
+    right: 1rem;
   }
 }
 @media only screen and (max-width: 37.5em) {
   .navigation__button {
-    top: 0.1rem;
-    right: 4rem;
+    top: 0.2rem;
+    right: 1rem;
   }
 }
 .navigation__background {
