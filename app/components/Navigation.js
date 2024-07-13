@@ -3,13 +3,15 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { IoReorderTwoOutline, IoClose } from 'react-icons/io5';
+// import { IoReorderTwoOutline, IoClose } from 'react-icons/io5';
 
 const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [checked, setChecked] = useState(false);
 
   const handleNav = () => {
     setMenuOpen(!menuOpen);
+    setChecked(!checked);
   };
 
   return (
@@ -78,12 +80,25 @@ const Navigation = () => {
               </li>
             </ul>
           </div>
-          <div
+          <input
+            type='checkbox'
+            className='navigation__checkbox'
+            id='navi-toggle'
+            checked={checked}
+            onClick={handleNav}
+          />
+          <label
+            htmlFor='navi-toggle'
+            className='md:hidden navigation__button'
+          >
+            <span className='md:hidden navigation__icon'>&nbsp;</span>
+          </label>
+          {/* <div
             onClick={handleNav}
             className='md:hidden cursor-pointer pl-18'
           >
             <IoReorderTwoOutline size={25} />
-          </div>
+          </div> */}
         </div>
         <div
           className={
@@ -92,53 +107,53 @@ const Navigation = () => {
               : 'fixed right-0 top-0 w-[100%] md:hidden h-screen bg-[#fff] p-4 ease-in-out duration-700 z-80'
           }
         >
-          <div className='flex w-full px-4 items-center justify-end z-60'>
+          {/* <div className='flex w-full px-4 items-center justify-end z-60'>
             <div
               onClick={handleNav}
               className='cursor-pointer'
             >
               <IoClose size={20} />
             </div>
-          </div>
+          </div> */}
           <div className='flex-col py-4'>
             <ul>
               <li
-                onClick={() => setMenuOpen(false)}
+                onClick={handleNav}
                 className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
               >
                 <Link href='/about'>เกี่ยวกับ</Link>
               </li>
 
               <li
-                onClick={() => setMenuOpen(false)}
+                onClick={handleNav}
                 className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
               >
                 <Link href='/capabilities'>ความสามารถ</Link>
               </li>
 
               <li
-                onClick={() => setMenuOpen(false)}
+                onClick={handleNav}
                 className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
               >
                 <Link href='/whyxp'>ทำไมต้อง XP</Link>
               </li>
 
               <li
-                onClick={() => setMenuOpen(false)}
+                onClick={handleNav}
                 className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
               >
                 <Link href='/pastperformance'>ผลงานที่ผ่านมา</Link>
               </li>
 
               <li
-                onClick={() => setMenuOpen(false)}
+                onClick={handleNav}
                 className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
               >
                 <Link href='/partners'>คู่ค้าของเรา</Link>
               </li>
 
               <li
-                onClick={() => setMenuOpen(false)}
+                onClick={handleNav}
                 className='ml-10 py-4 hover:border-b border-transparent border-b hover:border-red-700 cursor-pointer text-2xl'
               >
                 <Link href='/contactus'>ติดต่อเรา</Link>
