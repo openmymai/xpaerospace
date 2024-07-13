@@ -2,7 +2,7 @@
   padding: 10rem 0;
 
   @include respond(tab-port) {
-    padding: 10rem 0;
+    padding: 5rem 0;
   }
 }
 
@@ -71,6 +71,10 @@
   padding: 5rem 0;
   background-color: $color_white;
 
+  @include respond(tab-port) {
+    padding: 5rem 0;
+  }
+
   &__container {
     display: grid;
     grid-template-rows: 800px;
@@ -133,6 +137,10 @@
 .section-aviationprocurement-third {
   padding: 5rem 0;
   background-color: $color_white;
+
+  @include respond(tab-port) {
+    padding: 5rem 0;
+  }
 
   &__container {
     display: grid;

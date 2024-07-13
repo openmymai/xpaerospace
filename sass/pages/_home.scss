@@ -1,9 +1,8 @@
 .section-about {
   padding: 15rem 0;
-  margin-top: -10vh;
 
   @include respond(tab-port) {
-    padding: 15rem 0;
+    padding: 5rem 0;
   }
 }
 
@@ -12,7 +11,6 @@
   background-image: url(/img/features.png);
   background-size: cover;
   background-color: $color-white;
-  margin-top: -5rem;
 
   @include respond(tab-port) {
     padding: 10rem 0;
@@ -23,11 +21,10 @@
   padding: 20rem 0;
   background-image: url(/img/xpservicemission.jpg);
   background-size: cover;
-  margin-top: -10rem;
   color: $color-white;
 
   @include respond(tab-port) {
-    padding: 20rem 0;
+    padding: 5rem 0;
     color: $color-white;
   }
 }

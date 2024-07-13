@@ -2,16 +2,16 @@
   padding: 10rem 0;
 
   @include respond(tab-port) {
-    padding: 10rem 0;
+    padding: 5rem 0;
   }
 }
 
 .section-contactus-form {
-  padding: 15rem 0;
+  padding: 10rem 0;
   background-color: $color-white;
 
   @include respond(tab-port) {
-    padding: 10rem 0;
+    padding: 5rem 0;
   }
 }
 

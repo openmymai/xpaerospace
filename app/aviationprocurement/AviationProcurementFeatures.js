@@ -6,7 +6,7 @@ export default function AviationProcurementFeatures() {
         className='section-aviationprocurement-features'
       >
         <div className='container'>
-          <div className='u-center-text u-margin-bottom-medium'>
+          <div className='u-center-text u-margin-bottom-small'>
             <h1 className='heading-secondary'>
               ไอเดียที่เป็นนวัตกรรม ในการ Take Off และ Land
             </h1>
