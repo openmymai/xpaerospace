@@ -7,11 +7,11 @@ import Image from 'next/image';
 
 const Navigation = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [checked, setChecked] = useState(false);
+  const [boxchecked, setChecked] = useState(false);
 
   const handleNav = () => {
     setMenuOpen(!menuOpen);
-    setChecked(!checked);
+    setChecked(!boxchecked);
   };
 
   return (
@@ -84,8 +84,8 @@ const Navigation = () => {
             type='checkbox'
             className='navigation__checkbox'
             id='navi-toggle'
-            checked={checked}
-            onClick={handleNav}
+            checked={boxchecked}
+            onChange={handleNav}
           />
           <label
             htmlFor='navi-toggle'

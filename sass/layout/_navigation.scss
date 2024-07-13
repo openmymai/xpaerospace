@@ -4,8 +4,8 @@
     height: 7rem;
     width: 7rem;
     position: fixed;
-    top: 6rem;
-    right: 6rem;
+    top: 0.1rem;
+    right: 4rem;
   }
 
   &__button {
@@ -13,7 +13,7 @@
     width: 1rem;
     right: 2rem;
     position: fixed;
-    z-index: 80;
+    z-index: 1000;
     text-align: center;
     cursor: pointer;
 
