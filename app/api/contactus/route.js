@@ -8,7 +8,6 @@ export async function POST(request) {
   const password = process.env.NEXT_PUBLIC_EMAIL_PASSWORD;
   const myEmail = process.env.NEXT_PUBLIC_PERSONAL_EMAIL;
 
-  console.log('dealing with request');
   const formData = await request.formData();
   const title = formData.get('title');
   const firstname = formData.get('firstname');
@@ -23,7 +22,6 @@ export async function POST(request) {
   const commercial = formData.get('commercial');
   const privatetype = formData.get('privatetype');
   const description = formData.get('description');
-  console.log(formData);
 
   // create transporter object
   const transporter = nodemailer.createTransport({
