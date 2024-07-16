@@ -31,7 +31,6 @@ export async function POST(request) {
       ciphers: 'SSLv3',
       rejectUnauthorized: false,
     },
-
     auth: {
       user: username,
       pass: password,
@@ -55,7 +54,8 @@ export async function POST(request) {
             <p>เบอร์โทรศัพท์: ${phone} </p>
             <p>อีเมล์: ${email} </p>
             <p>
-                ลักษณะโครงการ: ${military ? 'การทหาร' : ''} 
+                ลักษณะโครงการ: 
+                ${military ? 'การทหาร' : ''} 
                 ${commercial ? 'พาณิชย์' : ''} 
                 ${privatetype ? 'เอกชน' : ''}
             </p>
