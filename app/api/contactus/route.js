@@ -23,16 +23,11 @@ export async function POST(request) {
   const privatetype = formData.get('privatetype');
   const description = formData.get('description');
 
-  console.log(username, password, myEmail);
-
   // create transporter object
   const transporter = nodemailer.createTransport({
     host: 'smtppro.zoho.com',
     port: 587,
-    tls: {
-      ciphers: 'SSLv3',
-      rejectUnauthorized: false,
-    },
+    secure: false,
     auth: {
       user: username,
       pass: password,
