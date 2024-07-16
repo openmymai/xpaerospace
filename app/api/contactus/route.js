@@ -29,8 +29,8 @@ export async function POST(request) {
     port: 587,
     secure: false,
     auth: {
-      user: username,
-      pass: password,
+      user: process.env.NEXT_PUBLIC_EMAIL_USERNAME,
+      pass: process.env.NEXT_PUBLIC_EMAIL_PASSWORD,
     },
   });
 
