@@ -140,13 +140,20 @@ export default function Footer() {
         <div className='sm:flex sm:items-center sm:justify-between'>
           <span className='text-sm text-gray-500 sm:text-center dark:text-gray-400'>
             © 2024{' '}
-            <a
+            <Link
               href='/'
-              className='hover:underline'
+              className='hover:text-red-600'
             >
               XP Aerospace (Thailand)™
-            </a>
+            </Link>
             . All Rights Reserved.
+            {' | '}
+            <Link
+              href='/privacy'
+              className='hover:text-red-600'
+            >
+              Privacy Policy
+            </Link>
           </span>
         </div>
       </div>

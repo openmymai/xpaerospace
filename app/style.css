@@ -3276,4 +3276,14 @@ p {
   }
 }
 
+.section-privacy {
+  padding: 10rem 0;
+  background-color: #fff;
+}
+@media only screen and (max-width: 56.25em) {
+  .section-privacy {
+    padding: 5rem 0;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
