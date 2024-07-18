@@ -544,7 +544,9 @@ export default function PrivacyPolicy() {
               contact us:
             </p>
             <ul>
-              <li>By email: sirisak.c@xpaearospace.com</li>
+              <li>
+                By email: drnutpol@xpaerospace.com or sirisak.c@xpaearospace.com
+              </li>
             </ul>
           </div>
         </div>
