@@ -6,7 +6,7 @@ export default function FlightTestingExperience() {
           <div className='section-flighttesting-second__pictures'>
             <div className='section-flighttesting-second__pictures__content'>
               <div className='u-center-text u-margin-bottom-small'>
-                <h1 className='heading-secondary'>ประสบการณ์ของ XP</h1>
+                <h1 className='heading-secondary'>ประสบการณ์ XP</h1>
               </div>
               <div className='section-flighttesting-second__pictures__text'>
                 80+

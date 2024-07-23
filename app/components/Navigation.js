@@ -74,7 +74,7 @@ const Navigation = () => {
               </li>
 
               <li className='ml-10 hover:border-b border-transparent border-b hover:border-red-600 text-xl'>
-                <Link href='/partners'>คู่ค้าของเรา</Link>
+                <Link href='/partners'>พันธมิตรของเรา</Link>
               </li>
 
               <li className='ml-10 hover:border-b border-transparent border-b hover:border-red-600 text-xl'>
@@ -151,7 +151,7 @@ const Navigation = () => {
                 onClick={handleNav}
                 className='ml-10 py-4 hover:text-red-600 text-2xl'
               >
-                <Link href='/partners'>คู่ค้าของเรา</Link>
+                <Link href='/partners'>พันธมิตรของเรา</Link>
               </li>
 
               <li

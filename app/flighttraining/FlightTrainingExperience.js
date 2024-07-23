@@ -16,7 +16,7 @@ export default function FlightTrainingExperience() {
                 10,000+
               </div>
               <div className='section-flighttraining-second__pictures__text2'>
-                ตร.ฟุต ศูนย์ฝึกอบรม
+                ตร.ฟุต ขนาดศูนย์ฝึกอบรม
               </div>
               <p className='section-flighttraining-second__pictures__paragraph'>
                 และโรงเก็บเครื่องบินขนาด 50,000 ตารางฟุต

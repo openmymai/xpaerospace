@@ -9,9 +9,9 @@ export async function POST(request) {
   const myEmail = process.env.NEXT_PUBLIC_PERSONAL_EMAIL;
 
   const formData = await request.formData();
-  const title = formData.get('title');
   const firstname = formData.get('firstname');
   const lastname = formData.get('lastname');
+  const title = formData.get('title');
   const company = formData.get('company');
   const address = formData.get('address');
   const province = formData.get('province');
@@ -45,9 +45,9 @@ export async function POST(request) {
       replyTo: email,
       subject: `การติดต่อจาก ${email}`,
       html: `
-            <p>คำนำหน้า: ${title} </p>
             <p>ชื่อ: ${firstname} </p>
             <p>นามสกุล: ${lastname} </p>
+            <p>หัวข้อ: ${title} </p>
             <p>บริษัท: ${company} </p>
             <p>ที่อยู่: ${address} </p>
             <p>จังหวัด: ${province} </p>
@@ -55,7 +55,7 @@ export async function POST(request) {
             <p>เบอร์โทรศัพท์: ${phone} </p>
             <p>อีเมล์: ${email} </p>
             <p>
-                ลักษณะโครงการ: 
+                ประเภทโครงการ: 
                 ${military ? 'การทหาร' : ''} 
                 ${commercial ? 'พาณิชย์' : ''} 
                 ${privatetype ? 'เอกชน' : ''}

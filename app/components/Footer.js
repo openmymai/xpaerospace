@@ -120,7 +120,7 @@ export default function Footer() {
                     href='/partners'
                     className='hover:text-red-600'
                   >
-                    คู่ค้า
+                    พันธมิตรของเรา
                   </Link>
                 </li>
                 <li>

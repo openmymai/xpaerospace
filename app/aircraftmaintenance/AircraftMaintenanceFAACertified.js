@@ -18,8 +18,8 @@ export default function AircraftMaintenanceFAACertified() {
                 CERTIFIED
               </div>
               <p className='section-aircraftmaintenance-second__pictures__paragraph'>
-                ด้วยทีมงานของ Federal Aviation Administration (FAA), {"DAR's"}{' '}
-                และผู้เชี่ยวชาญที่ได้รับการรับรองจาก DER
+                รับรอง ด้วยทีมของ Federal Aviation Administration (FAA), DAR
+                และผู้เชี่ยวชาญที่ผ่านการรับรองของ DER
               </p>
             </div>
           </div>

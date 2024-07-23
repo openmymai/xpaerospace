@@ -7,15 +7,14 @@ export default function AvionicsModernizationFixedWing() {
             <div className='section-avionicsmodernization-second__pictures__content'>
               <div className='u-center-text u-margin-bottom-small'>
                 <h1 className='heading-secondary'>
-                  ประสบการณ์ของ XP ประสบการณ์การทดสอบการบินรวมกันมากกว่า 100
-                  ปีใน
+                  ประสบการณ์ของ XP มีประสบการณ์การทดสอบการบินมากกว่า 100 ปี
                 </h1>
               </div>
               <div className='section-avionicsmodernization-second__pictures__text'>
                 250+
               </div>
               <div className='section-avionicsmodernization-second__pictures__text2'>
-                เครื่องบินปีกคงที่และเฮลิคอปเตอร์
+                เครื่องบินปีกตรึงและเฮลิคอปเตอร์
               </div>
             </div>
           </div>

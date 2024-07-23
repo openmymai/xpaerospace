@@ -51,22 +51,6 @@ export default function ContactUsForm() {
                   <input
                     type='text'
                     className='form__input'
-                    placeholder='คำนำหน้า'
-                    id='title'
-                    name='title'
-                    required
-                  />
-                  <label
-                    htmlFor='title'
-                    className='form__label'
-                  >
-                    คำนำหน้า
-                  </label>
-                </div>
-                <div className='form__group'>
-                  <input
-                    type='text'
-                    className='form__input'
                     placeholder='ชื่อ'
                     id='firstname'
                     name='firstname'
@@ -93,6 +77,23 @@ export default function ContactUsForm() {
                     className='form__label'
                   >
                     นามสกุล
+                  </label>
+                </div>
+
+                <div className='form__group'>
+                  <input
+                    type='text'
+                    className='form__input'
+                    placeholder='หัวข้อ'
+                    id='title'
+                    name='title'
+                    required
+                  />
+                  <label
+                    htmlFor='title'
+                    className='form__label'
+                  >
+                    หัวข้อ
                   </label>
                 </div>
 
@@ -134,7 +135,7 @@ export default function ContactUsForm() {
                   <input
                     type='text'
                     className='form__input'
-                    placeholder='จังหวัด'
+                    placeholder='เมือง'
                     id='province'
                     name='province'
                     required
@@ -143,7 +144,7 @@ export default function ContactUsForm() {
                     htmlFor='province'
                     className='form__label'
                   >
-                    จังหวัด
+                    เมือง
                   </label>
                 </div>
 
@@ -198,7 +199,7 @@ export default function ContactUsForm() {
                   </label>
                 </div>
 
-                <label className='text'>ลักษณะโครงการ</label>
+                <label className='text'>ประเภทโครงการ</label>
 
                 <div className='form__group u-margin-bottom-medium'>
                   <div className='form__checkbox-group'>
@@ -229,7 +230,7 @@ export default function ContactUsForm() {
                       className='form__checkbox-label'
                     >
                       <span className='form__checkbox-button'></span>
-                      พาณิชย์
+                      เชิงพาณิชย์
                     </label>
                   </div>
 
@@ -250,12 +251,13 @@ export default function ContactUsForm() {
                   </div>
                 </div>
 
-                <label className='text'>รายละเอียด</label>
+                <label className='text'>คำอธิบายคำขอโครงการการบิน</label>
                 <div className='form__group'>
                   <textarea
                     className='form__input'
-                    placeholder='โปรดระบุว่าคำขอนี้มีไว้สำหรับการจัดซื้อจัดจ้าง, ระบบการบิน,
-                     การปรับปรุงห้องนักบิน, การสร้างต้นแบบ, การทดสอบการบิน, การฝึกนักบิน, และ/หรือ การฝึกอบรมช่างเครื่อง'
+                    placeholder='โปรดระบุว่า คำขอนี้เป็นไปเพื่อการจัดซื้อจัดจ้าง, ระบบการบิน, 
+                      การปรับปรุงห้องนักบิน, การสร้างต้นแบบ, การทดสอบการบิน, 
+                      การฝึกนักบิน และ/หรือ การฝึกอบรบช่างเครื่อง'
                     id='description'
                     rows='3'
                     name='description'
@@ -265,7 +267,7 @@ export default function ContactUsForm() {
                     htmlFor='description'
                     className='form__label'
                   >
-                    รายละเอียด
+                    คำอธิบายคำขอโครงการการบิน
                   </label>
                 </div>
 
