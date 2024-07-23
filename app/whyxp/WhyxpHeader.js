@@ -3,10 +3,7 @@ export default function WhyxpHeader() {
     <div className='whyxppage'>
       <div className='whyxppage__text-box'>
         <h1 className='heading-primary'>
-          <span className='heading-primary--main'>ทำไม?</span>
-          <span className='heading-primary--sub'>
-            ต้องเป็นบริการจาก เอ็กซ์พี
-          </span>
+          <span className='heading-primary--main'>ทำไมต้อง XP</span>
         </h1>
       </div>
     </div>
