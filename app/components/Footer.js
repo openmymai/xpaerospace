@@ -53,7 +53,7 @@ export default function Footer() {
                     href='/avionicsmodernization'
                     className='hover:text-red-600'
                   >
-                    Avionics ที่ทันสมัย
+                    ระบบการบินที่ทันสมัย
                   </Link>
                 </li>
 

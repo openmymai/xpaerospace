@@ -47,7 +47,7 @@ const Navigation = () => {
                   </li>
                   <li>
                     <Link href='/avionicsmodernization'>
-                      Avionics Modernization
+                      ระบบการบินที่ทันสมัย
                     </Link>
                   </li>
                   <li>
