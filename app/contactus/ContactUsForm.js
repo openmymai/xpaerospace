@@ -1,15 +1,65 @@
 'use client';
 
 import React, { useState } from 'react';
+import validator from 'validator';
 
 export default function ContactUsForm() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [emailError, setEmailError] = useState('');
+  const [phoneError, setPhoneError] = useState('');
+  const [postalError, setPostalError] = useState('');
+
+  // Email Validation
+  const validateEmail = (e) => {
+    var email = e.target.value;
+
+    if (validator.isEmail(email)) {
+      setEmailError('');
+    } else {
+      setEmailError('กรุณาป้อนอีเมล์ที่ถูกต้อง');
+    }
+  };
+
+  const validatePhone = (e) => {
+    const phone = e.target.value;
+
+    if (/^\d*$/.test(phone)) {
+      // Regular expression to match exactly 10 digits
+      const regex = /^\d{10}$/;
+      if (phone.length === 0 || regex.test(phone)) {
+        setPhoneError(phone.length === 10 ? '' : '');
+      } else {
+        setPhoneError('หมายเลขโทรศัพท์ของท่านต้องมีจำนวน 10 หลัก');
+      }
+    } else {
+      setPhoneError('กรุณาป้อนตัวเลขเท่านั้น');
+    }
+  };
+
+  const validatePostal = (e) => {
+    const postal = e.target.value;
+
+    if (/^\d*$/.test(postal)) {
+      // Regular expression to match exactly 5 digits
+      const regex = /^\d{5}$/;
+      if (postal.length === 0 || regex.test(postal)) {
+        setPostalError(postal.length === 5 ? '' : '');
+      } else {
+        setPostalError('รหัสไปรษณีย์ของท่านต้องมีจำนวน 5 หลัก');
+      }
+    } else {
+      setPostalError('กรุณาป้อนตัวเลขเท่านั้น');
+    }
+  };
 
   async function onSubmit(event) {
     event.preventDefault();
     setIsLoading(true);
     setError(null); // Clear previous errors when a new request starts
+    setEmailError('');
+    setPhoneError('');
+    setPostalError('');
 
     try {
       const formData = new FormData(event.currentTarget);
@@ -156,7 +206,15 @@ export default function ContactUsForm() {
                     id='postal'
                     name='postal'
                     required
+                    onChange={(e) => validatePostal(e)}
                   />
+                  {!postalError ? (
+                    ''
+                  ) : (
+                    <span style={{ fontWeight: 'bold', color: 'red' }}>
+                      {postalError}
+                    </span>
+                  )}
                   <label
                     htmlFor='postal'
                     className='form__label'
@@ -169,16 +227,24 @@ export default function ContactUsForm() {
                   <input
                     type='text'
                     className='form__input'
-                    placeholder='โทร'
+                    placeholder='เบอร์โทรศัพท์'
                     id='phone'
                     name='phone'
                     required
+                    onChange={(e) => validatePhone(e)}
                   />
+                  {!phoneError ? (
+                    ''
+                  ) : (
+                    <span style={{ fontWeight: 'bold', color: 'red' }}>
+                      {phoneError}
+                    </span>
+                  )}
                   <label
                     htmlFor='phone'
                     className='form__label'
                   >
-                    โทร
+                    เบอร์โทรศัพท์
                   </label>
                 </div>
 
@@ -190,7 +256,15 @@ export default function ContactUsForm() {
                     id='email'
                     name='email'
                     required
+                    onChange={(e) => validateEmail(e)}
                   />
+                  {!emailError ? (
+                    ''
+                  ) : (
+                    <span style={{ fontWeight: 'bold', color: 'red' }}>
+                      {emailError}
+                    </span>
+                  )}
                   <label
                     htmlFor='email'
                     className='form__label'
