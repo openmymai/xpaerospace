@@ -50,12 +50,12 @@ export default function CapabilitiesFeatures() {
                   className='story__img'
                 />
                 <figcaption className='story__caption'>
-                  การปรับปรุงระบบการบินให้ทันสมัย
+                  ระบบการบินที่ทันสมัย
                 </figcaption>
               </figure>
               <div className='story__text'>
                 <h3 className='heading-tertiary u-margin-bottom-small'>
-                  การปรับปรุงระบบการบินให้ทันสมัย
+                  ระบบการบินที่ทันสมัย
                 </h3>
                 <p>
                   การเสริมสร้างความตระหนักรู้ในสถานการณ์ของนักบินมีความสำคัญต่อความสำเร็จ
