@@ -162,8 +162,9 @@ export default function JoinusFeatures() {
           <div className='row text'>
             <div className='col-md-8 offset-md-2'>
               หากคุณสนใจและคิดว่าคุณคือคนที่เรากำลังมองหา ส่งประวัติการทำงาน
-              (Resume) และผลงานที่ผ่านมาของคุณมาที่คุณนุช (065 292 9526)
-              wannapa.k@xpaerospace.com
+              (Resume) และผลงานที่ผ่านมาของคุณมาที่คุณวรรณภา กัญญาสันติพันธุ์
+              (065 292 9526) wannapa.k@xpaerospace.com หรือ
+              wannapa.nuch1623@gmail.com
             </div>
           </div>
         </div>
