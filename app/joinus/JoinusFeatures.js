@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function JoinusFeatures() {
@@ -159,12 +158,21 @@ export default function JoinusFeatures() {
               </div>
             </div>
           </div>
+
           <div className='row text'>
             <div className='col-md-8 offset-md-2'>
               หากคุณสนใจและคิดว่าคุณคือคนที่เรากำลังมองหา ส่งประวัติการทำงาน
-              (Resume) และผลงานที่ผ่านมาของคุณมาที่คุณวรรณภา กัญญาสันติพันธุ์
-              (065 292 9526) wannapa.k@xpaerospace.com หรือ
-              wannapa.nuch1623@gmail.com
+              (Resume) และผลงานที่ผ่านมาของคุณมาที่: <br />
+              คุณวรรณภา กัญญาสันติพันธุ์ <br />
+              โทร (065 292 9526) หรือ
+              <br />
+              <Link href='mailto: wannapa.k@xpaerospace.com'>
+                wannapa.k@xpaerospace.com
+              </Link>
+              <br />
+              <Link href='mailto: wannapa.nuch1623@gmail.com'>
+                wannapa.nuch1623@gmail.com
+              </Link>
             </div>
           </div>
         </div>
