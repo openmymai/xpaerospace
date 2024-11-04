@@ -1,4 +1,4 @@
-import { Noto_Sans_Thai } from 'next/font/google';
+import localFont from 'next/font/local';
 import Navigation from './components/Navigation';
 import PreHeader from './components/PreHeader';
 import Contact from './components/Contact';
@@ -8,7 +8,11 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import './globals.css';
 import './style.css';
 
-const noto = Noto_Sans_Thai({ subsets: ['latin'] });
+const promptRegular = localFont({
+  src: './fonts/prompt-regular-webfont.woff',
+  variable: '--font-prompt-regular',
+  display: 'swap',
+});
 
 export const metadata = {
   title: 'XP Aerospace (Thailand) Co.,Ltd.',
@@ -25,7 +29,7 @@ export default function RootLayout({ children }) {
           sizes='any'
         />
       </head>
-      <body className={noto.className}>
+      <body className={`${promptRegular.variable}`}>
         <Navigation />
         <PreHeader />
         {children}

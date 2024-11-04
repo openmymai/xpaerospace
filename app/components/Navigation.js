@@ -80,6 +80,10 @@ const Navigation = () => {
               <li className='ml-10 hover:border-b border-transparent border-b hover:border-red-600 text-xl'>
                 <Link href='/contactus'>ติดต่อเรา</Link>
               </li>
+
+              <li className='ml-10 hover:border-b border-transparent border-b hover:border-red-600 text-xl'>
+                <Link href='/joinus'>ร่วมงานกับเรา</Link>
+              </li>
             </ul>
           </div>
           <input
@@ -159,6 +163,13 @@ const Navigation = () => {
                 className='ml-10 py-4 hover:text-red-600 text-2xl'
               >
                 <Link href='/contactus'>ติดต่อเรา</Link>
+              </li>
+
+              <li
+                onClick={handleNav}
+                className='ml-10 py-4 hover:text-red-600 text-2xl'
+              >
+                <Link href='/joinus'>ร่วมงานกับเรา</Link>
               </li>
             </ul>
           </div>

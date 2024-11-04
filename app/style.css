@@ -186,6 +186,14 @@ p {
   font-size: 1.8rem;
 }
 
+.small-text {
+  font-size: 1.5rem;
+}
+
+.large-text {
+  font-size: 2.5rem;
+}
+
 .paragraph {
   font-size: 1.8rem;
 }
@@ -2055,6 +2063,58 @@ p {
   margin-bottom: 5rem;
 }
 
+.joinuspage {
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/joinus-small.jpg);
+  position: relative;
+}
+@supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+  .joinuspage {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    height: 65vh;
+  }
+}
+@media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
+  .joinuspage {
+    background-image: linear-gradient(to right bottom, rgba(250, 160, 160, 0.1), rgba(195, 10, 35, 0.1)), url(/img/joinusheader.jpg);
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .joinuspage {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    height: 25vh;
+    margin-bottom: 5rem;
+  }
+}
+.joinuspage__logo-box {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+}
+.joinuspage__logo {
+  height: 3.5rem;
+}
+.joinuspage__text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.joinuspage__subtitle-lowercase {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding-top: 5px;
+  margin-bottom: 5rem;
+}
+
 .section-about {
   padding: 15rem 0;
 }
@@ -3288,6 +3348,25 @@ p {
 }
 @media only screen and (max-width: 56.25em) {
   .section-privacy {
+    padding: 5rem 0;
+  }
+}
+
+.section-joinus-comprehensive {
+  padding: 10rem 0;
+}
+@media only screen and (max-width: 56.25em) {
+  .section-joinus-comprehensive {
+    padding: 5rem 0;
+  }
+}
+
+.section-joinus-features {
+  padding: 10rem 0;
+  background-color: #fff;
+}
+@media only screen and (max-width: 56.25em) {
+  .section-joinus-features {
     padding: 5rem 0;
   }
 }
