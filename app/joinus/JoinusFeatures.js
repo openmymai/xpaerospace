@@ -72,10 +72,6 @@ export default function JoinusFeatures() {
                     </li>
                     <li>
                       <i className='bi bi-chevron-right'></i>
-                      มีทักษะในการจัดลำดับความสำคัญและงานเร่งด่วนให้เสร็จในเวลาที่กำหนด
-                    </li>
-                    <li>
-                      <i className='bi bi-chevron-right'></i>
                       สามารถขับรถยนต์ได้ทั้งเกียร์ธรรมดาและเกียร์ออโต้ได้
                     </li>
                     <li>
